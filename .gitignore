@@ -1,17 +1,16 @@
-# Dependencies
+# Dependencies - exclude all node_modules directories
 node_modules/
-*/node_modules/
+**/node_modules/
 
-# Generated output
-dist/generated/*/node_modules/
-dist/generated/*/.next/
-dist/generated/*/out/
-
-# Build outputs
+# Generated output and build artifacts
 dist/
+**/dist/
 build/
+**/build/
 .next/
+**/.next/
 out/
+**/out/
 
 # Environment files
 .env
