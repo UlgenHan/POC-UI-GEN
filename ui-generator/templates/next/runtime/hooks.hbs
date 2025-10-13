@@ -1,0 +1,37 @@
+import { useEffect, useState, useCallback } from 'react';
+
+type DataSource = { type: 'rest'; endpoint: string; method: 'GET' | 'POST' | 'PUT' | 'PATCH' | 'DELETE' };
+
+export function useDataSource(ds?: DataSource) {
+  const [data, setData] = useState<any>(null);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<any>(null);
+
+  const load = useCallback(async () => {
+    if (!ds) return;
+    setLoading(true);
+    setError(null);
+    try {
+      // PoC: return mocked list
+      if (ds.method === 'GET') {
+        setData([
+          { id: 'p1', name: 'Product A' },
+          { id: 'p2', name: 'Product B' }
+        ]);
+      } else {
+        setData(null);
+      }
+    } catch (e) {
+      setError(e);
+    } finally {
+      setLoading(false);
+    }
+  }, [ds]);
+
+  useEffect(() => {
+    load();
+  }, [load]);
+
+  return { data, loading, error, reload: load };
+}
+

@@ -1,0 +1,8 @@
+{
+  "name": "invoice",
+  "methods": [
+    { "name": "createInvoice", "endpoint": "/api/invoices", "method": "POST", "payload": { "customerId": "string", "date": "string", "items": "any" } },
+    { "name": "getProducts", "endpoint": "/api/products", "method": "GET" }
+  ]
+}
+

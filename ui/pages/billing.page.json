@@ -1,0 +1,12 @@
+{
+  "name": "Billing",
+  "route": "/",
+  "layout": "MainLayout",
+  "components": [
+    { "id": "customer", "type": "Input", "props": { "label": "Customer", "name": "customer" } },
+    { "id": "date", "type": "Input", "props": { "label": "Date", "name": "date" } },
+    { "id": "items", "type": "LineItems", "props": {} },
+    { "id": "submit", "type": "Button", "props": { "label": "Submit Invoice", "variant": "primary" }, "events": { "onClick": { "action": "apiCall", "params": { "service": "invoice", "method": "createInvoice" } } } }
+  ]
+}
+

@@ -1,0 +1,12 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+export const {{service.name}}Service = {
+  {{#each service.methods}}
+  async {{this.name}}(payload?: any): Promise<any> {
+    // PoC stub: emulate network call
+    const url = `{{../apiBaseUrl}}{{this.endpoint}}`;
+    // TODO: replace with real fetch/axios
+    return Promise.resolve({ ok: true, url, method: '{{this.method}}', payload });
+  },
+  {{/each}}
+};
+

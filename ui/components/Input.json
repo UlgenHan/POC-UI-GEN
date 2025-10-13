@@ -1,0 +1,12 @@
+{
+  "name": "Input",
+  "importPath": "React-UI-Collection/src/components/ui/inputs/BasicInput",
+  "props": [
+    { "name": "label", "type": "string" },
+    { "name": "name", "type": "string" },
+    { "name": "placeholder", "type": "string" },
+    { "name": "value", "type": "string" }
+  ],
+  "events": ["onChange"]
+}
+

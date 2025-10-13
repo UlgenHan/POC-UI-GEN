@@ -1,0 +1,28 @@
+import React from 'react';
+import * as Lib from '{{importPath}}';
+
+export type {{name}}Props = {
+  {{#each props}}
+  {{this.name}}?: {{this.type}};
+  {{/each}}
+  onEvent?: (name: string, payload?: any) => void;
+};
+
+const Component = (Lib as any).default ?? (Lib as any)['{{exportName}}'];
+
+export default function Generated{{name}}(props: {{name}}Props) {
+  const { onEvent, ...rest } = props as any;
+  return (
+    <Component
+      {...(rest as any)}
+      {{#each events}}
+      {{this}}={(e: any) => onEvent && onEvent('{{this}}', e)}
+      {{/each}}
+    />
+  );
+}
+
+// <!-- <gen-start id="{{name}}-custom"> -->
+// Custom logic can be added here and will be preserved on regeneration
+// <!-- <gen-end id="{{name}}-custom"> -->
+

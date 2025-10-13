@@ -1,0 +1,9 @@
+{
+  "name": "GeneratedUIApp",
+  "outputDir": "dist/generated",
+  "apiBaseUrl": "/api",
+  "theme": "default",
+  "componentsPath": "React-UI-Collection/src/components/ui",
+  "preserveRegions": true
+}
+

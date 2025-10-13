@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Button",
+    "importPath": "React-UI-Collection/src/components/ui/buttons/PrimaryButton",
+    "confidence": 0.9
+  },
+  {
+    "name": "Input",
+    "importPath": "React-UI-Collection/src/components/ui/inputs/BasicInput",
+    "confidence": 0.9
+  },
+  {
+    "name": "Select",
+    "importPath": "React-UI-Collection/src/components/ui/inputs/UnderlinedInput",
+    "confidence": 0.9
+  }
+]

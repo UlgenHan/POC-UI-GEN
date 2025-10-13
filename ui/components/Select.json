@@ -1,0 +1,11 @@
+{
+  "name": "Select",
+  "importPath": "React-UI-Collection/src/components/ui/inputs/UnderlinedInput",
+  "props": [
+    { "name": "label", "type": "string" },
+    { "name": "name", "type": "string" },
+    { "name": "options", "type": "any" }
+  ],
+  "events": ["onChange"]
+}
+

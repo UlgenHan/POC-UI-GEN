@@ -1,0 +1,35 @@
+{
+  "name": "SimpleForm",
+  "route": "/",
+  "layout": "MainLayout",
+  "components": [
+    {
+      "id": "input-name",
+      "type": "Input",
+      "props": { "label": "Name", "name": "name", "placeholder": "Your name" }
+    },
+    {
+      "id": "input-email",
+      "type": "Input",
+      "props": { "label": "Email", "name": "email", "placeholder": "you@example.com" }
+    },
+    {
+      "id": "select-product",
+      "type": "Select",
+      "props": { "label": "Product", "name": "productId" },
+      "dataSource": { "type": "rest", "endpoint": "/api/products", "method": "GET" }
+    },
+    {
+      "id": "submit-btn",
+      "type": "Button",
+      "props": { "label": "Submit", "variant": "primary" },
+      "events": {
+        "onClick": {
+          "action": "apiCall",
+          "params": { "service": "product", "method": "submitOrder", "map": { "name": "name", "email": "email", "productId": "productId" } }
+        }
+      }
+    }
+  ]
+}
+

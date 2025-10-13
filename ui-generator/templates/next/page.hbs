@@ -1,0 +1,73 @@
+import React, { useMemo, useState } from 'react';
+import { EventManager } from '../runtime/EventManager';
+import { useDataSource } from '../runtime/hooks';
+import GeneratedInput from '../components/GeneratedInput';
+import GeneratedSelect from '../components/GeneratedSelect';
+import GeneratedButton from '../components/GeneratedButton';
+
+// <!-- <gen-start id="imports"> -->
+// Place for developer imports
+// <!-- <gen-end id="imports"> -->
+
+export default function Page() {
+  const [localState, setLocalState] = useState<Record<string, any>>({});
+  const eventManager = useMemo(() => new EventManager({ setLocalState }), []);
+
+  // Data sources
+  // <!-- <gen-start id="dataSources"> -->
+  // Generated data sources
+  // <!-- <gen-end id="dataSources"> -->
+
+  // Form state
+  const [form, setForm] = useState<Record<string, any>>({ customer: '', date: '', items: [] as Array<{ productId: string; quantity: number; price: number }> });
+  const setField = (name: string, value: any) => setForm(prev => ({ ...prev, [name]: value }));
+  const setItemField = (index: number, field: string, value: any) => setForm(prev => {
+    const items = [...prev.items];
+    const item = { ...(items[index] || { productId: '', quantity: 1, price: 0 }) };
+    (item as any)[field] = value;
+    items[index] = item;
+    return { ...prev, items };
+  });
+  const addItem = () => setForm(prev => ({ ...prev, items: [...prev.items, { productId: '', quantity: 1, price: 0 }] }));
+  const removeItem = (idx: number) => setForm(prev => ({ ...prev, items: prev.items.filter((_, i) => i !== idx) }));
+
+  const products = useDataSource({ type: 'rest', endpoint: '/api/products', method: 'GET' });
+
+  // Render defined components
+  return (
+    <div>
+      <h1>{{page.name}}</h1>
+      {/* <!-- <gen-start id="pageBody"> --> */}
+      <form onSubmit={async (e) => {
+        e.preventDefault();
+        const payload = { customerId: form.customer, date: form.date, items: form.items };
+        const res = await eventManager.dispatch({ type: 'apiCall', service: 'invoice', method: 'createInvoice', args: payload });
+        if (res?.ok) {
+          await eventManager.dispatch({ type: 'updateState', changes: { message: 'Invoice submitted successfully' } });
+        }
+      }}>
+        <div>
+          <GeneratedInput label="Customer" name="customer" placeholder="Customer ID" onEvent={(n, e) => n === 'onChange' && setField('customer', (e?.target?.value ?? ''))} />
+        </div>
+        <div>
+          <GeneratedInput label="Date" name="date" placeholder="YYYY-MM-DD" onEvent={(n, e) => n === 'onChange' && setField('date', (e?.target?.value ?? ''))} />
+        </div>
+        <div>
+          <h2>Line Items</h2>
+          {form.items.map((it, idx) => (
+            <div key={idx}>
+              <GeneratedSelect label="Product" name={`product-${idx}`} options={products.data} onEvent={(n, e) => n === 'onChange' && setItemField(idx, 'productId', (e?.target?.value ?? ''))} />
+              <GeneratedInput label="Quantity" name={`qty-${idx}`} onEvent={(n, e) => n === 'onChange' && setItemField(idx, 'quantity', parseInt(e?.target?.value ?? '1', 10) || 1)} />
+              <GeneratedInput label="Price" name={`price-${idx}`} onEvent={(n, e) => n === 'onChange' && setItemField(idx, 'price', parseFloat(e?.target?.value ?? '0') || 0)} />
+              <GeneratedButton label="Remove" variant="secondary" onEvent={(n) => n === 'onClick' && removeItem(idx)} />
+            </div>
+          ))}
+          <GeneratedButton label="Add Item" variant="primary" onEvent={(n) => n === 'onClick' && addItem()} />
+        </div>
+        <GeneratedButton label="Submit Invoice" variant="primary" onEvent={(n) => n === 'onClick' && undefined} />
+      </form>
+      {/* <!-- <gen-end id="pageBody"> --> */}
+    </div>
+  );
+}
+

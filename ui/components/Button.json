@@ -1,0 +1,10 @@
+{
+  "name": "Button",
+  "importPath": "React-UI-Collection/src/components/ui/buttons/PrimaryButton",
+  "props": [
+    { "name": "label", "type": "string" },
+    { "name": "variant", "type": "string" }
+  ],
+  "events": ["onClick"]
+}
+
