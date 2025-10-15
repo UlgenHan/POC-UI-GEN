@@ -1,0 +1,100 @@
+{
+  "id": "image-card",
+  "name": "ImageCard",
+  "filePath": "React-UI-Collection/src/components/ui/cards/ImageCard.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "title",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "description",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "image",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "imageAlt",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "badge",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "badgeColor",
+      "type": "unknown",
+      "default": "blue",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "shadow",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "rounded",
+      "type": "unknown",
+      "default": "lg",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onClick",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "relative",
+    "w-full",
+    "h-48",
+    "object-cover",
+    "absolute",
+    "top-4",
+    "left-4",
+    "p-6",
+    "text-xl",
+    "font-semibold",
+    "text-gray-900",
+    "mb-3",
+    "text-gray-600",
+    "leading-relaxed",
+    "mb-4"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/ImageCard.template.tsx",
+  "missingDeps": []
+}

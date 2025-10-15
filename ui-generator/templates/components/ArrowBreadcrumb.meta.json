@@ -1,0 +1,42 @@
+{
+  "id": "arrow-breadcrumb",
+  "name": "ArrowBreadcrumb",
+  "filePath": "React-UI-Collection/src/components/ui/breadcrumbs/ArrowBreadcrumb.tsx",
+  "exportName": "ArrowBreadcrumb",
+  "props": [
+    {
+      "name": "items",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "flex",
+    "items-center",
+    "block",
+    "w-full",
+    "h-full",
+    "px-3",
+    "py-2",
+    "text-sm",
+    "font-medium",
+    "${index",
+    "items.length",
+    "-",
+    "1",
+    ":"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/ArrowBreadcrumb.template.tsx",
+  "missingDeps": []
+}

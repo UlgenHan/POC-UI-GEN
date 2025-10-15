@@ -1,0 +1,91 @@
+{
+  "id": "card-list",
+  "name": "CardList",
+  "filePath": "React-UI-Collection/src/components/ui/lists/CardList.tsx",
+  "exportName": "CardList",
+  "props": [
+    {
+      "name": "items",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onItemClick",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "showImage",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "cardClassName",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "p-6",
+    "flex",
+    "items-start",
+    "space-x-4",
+    "flex-shrink-0",
+    "w-12",
+    "h-12",
+    "rounded-lg",
+    "object-cover",
+    "flex-1",
+    "min-w-0",
+    "text-lg",
+    "font-medium",
+    "text-gray-900",
+    "truncate",
+    "mt-2",
+    "text-gray-600",
+    "text-sm",
+    "mt-3",
+    "flex-wrap",
+    "gap-2",
+    "inline-flex",
+    "items-center",
+    "px-2.5",
+    "py-0.5",
+    "rounded-full",
+    "text-xs",
+    "bg-gray-100",
+    "text-gray-800",
+    "w-5",
+    "h-5",
+    "text-gray-400",
+    "text-center",
+    "py-12",
+    "text-gray-500",
+    "mx-auto",
+    "mt-1",
+    "bg-white",
+    "border",
+    "border-gray-200",
+    "shadow-sm",
+    "${onItemClick",
+    ":"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/CardList.template.tsx",
+  "missingDeps": []
+}

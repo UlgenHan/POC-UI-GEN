@@ -1,0 +1,13 @@
+{
+  "id": "use-aggregates",
+  "name": "useAggregates",
+  "filePath": "React-UI-Collection/src/components/complex-components/datagrid/useAggregates.ts",
+  "exportName": "useAggregates",
+  "props": [],
+  "variants": {},
+  "tailwindClasses": [],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/useAggregates.template.tsx",
+  "missingDeps": []
+}

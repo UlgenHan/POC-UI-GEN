@@ -1,0 +1,79 @@
+{
+  "id": "click-dropdown",
+  "name": "ClickDropdown",
+  "filePath": "React-UI-Collection/src/components/ui/menus/ClickDropdown.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "trigger",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "items",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "position",
+      "type": "unknown",
+      "default": "left",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "closeOnItemClick",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "cursor-pointer",
+    "focus:outline-none",
+    "mr-3",
+    "absolute",
+    "top-full",
+    "mt-1",
+    "w-48",
+    "bg-white",
+    "rounded-lg",
+    "shadow-lg",
+    "border",
+    "border-gray-200",
+    "py-1",
+    "z-50",
+    "transform",
+    "transition-all",
+    "duration-200",
+    "origin-top",
+    "isOpen",
+    ":",
+    "flex",
+    "items-center",
+    "px-4",
+    "py-2",
+    "text-sm",
+    "text-gray-700",
+    "hover:bg-gray-100",
+    "transition-colors",
+    "item.disabled",
+    "w-full",
+    "text-left"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/ClickDropdown.template.tsx",
+  "missingDeps": []
+}

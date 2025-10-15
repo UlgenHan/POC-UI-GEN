@@ -1,0 +1,112 @@
+{
+  "id": "overlay-drawer",
+  "name": "OverlayDrawer",
+  "filePath": "React-UI-Collection/src/components/ui/drawers/OverlayDrawer.tsx",
+  "exportName": "OverlayDrawer",
+  "props": [
+    {
+      "name": "isOpen",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onClose",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "position",
+      "type": "unknown",
+      "default": "right",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "size",
+      "type": "'h-80'",
+      "default": "position === left || position === right ? w-80 : h-80",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "title",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {
+    "size": [
+      "left"
+    ]
+  },
+  "tailwindClasses": [
+    "fixed",
+    "inset-0",
+    "bg-gradient-to-br",
+    "from-black/40",
+    "via-black/30",
+    "to-black/40",
+    "backdrop-blur-sm",
+    "transition-all",
+    "duration-300",
+    "flex",
+    "items-center",
+    "justify-between",
+    "p-4",
+    "border-b",
+    "border-gray-200/50",
+    "bg-white/50",
+    "text-lg",
+    "font-semibold",
+    "text-gray-900",
+    "p-2",
+    "rounded-full",
+    "text-gray-500",
+    "hover:text-gray-700",
+    "hover:bg-white/50",
+    "transition-colors",
+    "w-5",
+    "h-5",
+    "flex-1",
+    "overflow-y-auto",
+    "bg-white/70",
+    "rounded-lg",
+    "absolute",
+    "from-blue-50/20",
+    "to-purple-50/20",
+    "pointer-events-none",
+    "rounded-xl",
+    "top-4",
+    "right-4",
+    "w-2",
+    "h-2",
+    "bg-blue-400/30",
+    "animate-pulse",
+    "bottom-4",
+    "left-4",
+    "w-1",
+    "h-1",
+    "bg-purple-400/30",
+    "delay-1000"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/OverlayDrawer.template.tsx",
+  "missingDeps": []
+}

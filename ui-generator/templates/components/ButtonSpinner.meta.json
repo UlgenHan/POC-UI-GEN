@@ -1,0 +1,37 @@
+{
+  "id": "button-spinner",
+  "name": "ButtonSpinner",
+  "filePath": "React-UI-Collection/src/components/ui/loaders/ButtonSpinner.tsx",
+  "exportName": "ButtonSpinner",
+  "props": [
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "sm",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "color",
+      "type": "unknown",
+      "default": "border-white",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "sr-only"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/ButtonSpinner.template.tsx",
+  "missingDeps": []
+}

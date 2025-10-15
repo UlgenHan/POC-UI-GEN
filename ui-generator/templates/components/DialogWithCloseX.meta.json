@@ -1,0 +1,130 @@
+{
+  "id": "dialog-with-close-x",
+  "name": "DialogWithCloseX",
+  "filePath": "React-UI-Collection/src/components/ui/dialogs/DialogWithCloseX.tsx",
+  "exportName": "DialogWithCloseX",
+  "props": [
+    {
+      "name": "open",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onClose",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onConfirm",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "title",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "content",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "confirmText",
+      "type": "unknown",
+      "default": "Confirm",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "cancelText",
+      "type": "unknown",
+      "default": "Cancel",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "showFooter",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "showCancel",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "fixed",
+    "inset-0",
+    "z-50",
+    "flex",
+    "items-center",
+    "justify-center",
+    "p-4",
+    "bg-black",
+    "bg-opacity-50",
+    "p-6",
+    "pr-12",
+    "absolute",
+    "top-4",
+    "right-4",
+    "p-1",
+    "text-gray-400",
+    "hover:text-gray-600",
+    "hover:bg-gray-100",
+    "rounded-md",
+    "focus:outline-none",
+    "focus:ring-2",
+    "focus:ring-blue-500",
+    "transition-colors",
+    "w-5",
+    "h-5",
+    "text-lg",
+    "font-semibold",
+    "text-gray-900",
+    "mb-4",
+    "pr-8",
+    "text-gray-600",
+    "mb-6",
+    "px-6",
+    "py-4",
+    "bg-gray-50",
+    "rounded-b-lg",
+    "justify-end",
+    "space-x-3",
+    "px-4",
+    "py-2",
+    "text-sm",
+    "font-medium",
+    "text-gray-700",
+    "bg-white",
+    "border",
+    "border-gray-300",
+    "hover:bg-gray-50",
+    "text-white",
+    "bg-blue-600",
+    "hover:bg-blue-700"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/DialogWithCloseX.template.tsx",
+  "missingDeps": []
+}

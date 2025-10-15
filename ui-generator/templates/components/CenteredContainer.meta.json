@@ -1,0 +1,41 @@
+{
+  "id": "centered-container",
+  "name": "CenteredContainer",
+  "filePath": "React-UI-Collection/src/components/layout/containers/CenteredContainer.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "minHeight",
+      "type": "unknown",
+      "default": "screen",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "padding",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/CenteredContainer.template.tsx",
+  "missingDeps": []
+}

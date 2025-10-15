@@ -1,0 +1,104 @@
+{
+  "id": "logo-footer",
+  "name": "LogoFooter",
+  "filePath": "React-UI-Collection/src/components/layout/footers/LogoFooter.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "logo",
+      "type": "'Your Company'",
+      "default": "{ text: Your Company",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "companyName",
+      "type": "string",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "year",
+      "type": "number",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "links",
+      "type": "NavItem[]",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "contactInfo",
+      "type": "ContactInfo",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "bgColor",
+      "type": "string",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "string",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "max-w-7xl",
+    "mx-auto",
+    "px-4",
+    "sm:px-6",
+    "lg:px-8",
+    "grid",
+    "grid-cols-1",
+    "lg:grid-cols-3",
+    "gap-8",
+    "lg:col-span-1",
+    "flex",
+    "items-center",
+    "space-x-3",
+    "mb-4",
+    "h-10",
+    "w-auto",
+    "w-10",
+    "bg-blue-600",
+    "rounded-lg",
+    "justify-center",
+    "text-white",
+    "font-bold",
+    "text-lg",
+    "text-xl",
+    "text-gray-900",
+    "text-gray-600",
+    "text-sm",
+    "leading-relaxed",
+    "font-semibold",
+    "uppercase",
+    "tracking-wider",
+    "space-y-3",
+    "hover:text-gray-900",
+    "transition-colors",
+    "duration-200",
+    "items-start",
+    "w-5",
+    "h-5",
+    "text-gray-400",
+    "mt-0.5",
+    "flex-shrink-0",
+    "mt-8",
+    "pt-8",
+    "border-t",
+    "border-gray-200",
+    "text-center"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/LogoFooter.template.tsx",
+  "missingDeps": []
+}

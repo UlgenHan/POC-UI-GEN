@@ -1,0 +1,35 @@
+{
+  "id": "data-grid-skeleton",
+  "name": "DataGridSkeleton",
+  "filePath": "React-UI-Collection/src/components/complex-components/datagrid/DataGridSkeleton.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "columns",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "rows",
+      "type": "unknown",
+      "default": "5",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "animate-pulse",
+    "px-4",
+    "py-2",
+    "h-4",
+    "bg-gray-200",
+    "rounded",
+    "w-3/4"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/DataGridSkeleton.template.tsx",
+  "missingDeps": []
+}

@@ -1,0 +1,51 @@
+{
+  "id": "tag-group",
+  "name": "TagGroup",
+  "filePath": "React-UI-Collection/src/components/ui/tags/TagGroup.tsx",
+  "exportName": "TagGroup",
+  "props": [
+    {
+      "name": "tags",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "spacing",
+      "type": "unknown",
+      "default": "normal",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "wrap",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "w-full",
+    "h-full"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/TagGroup.template.tsx",
+  "missingDeps": []
+}

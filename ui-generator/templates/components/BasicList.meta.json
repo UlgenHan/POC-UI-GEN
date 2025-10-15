@@ -1,0 +1,34 @@
+{
+  "id": "basic-list",
+  "name": "BasicList",
+  "filePath": "React-UI-Collection/src/components/ui/lists/BasicList.tsx",
+  "exportName": "BasicList",
+  "props": [
+    {
+      "name": "items",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "itemClassName",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/BasicList.template.tsx",
+  "missingDeps": []
+}

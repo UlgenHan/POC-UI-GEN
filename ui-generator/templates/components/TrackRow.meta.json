@@ -1,0 +1,56 @@
+{
+  "id": "track-row",
+  "name": "TrackRow",
+  "filePath": "React-UI-Collection/src/components/complex-components/program-timeline/TrackRow.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "track",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "zoom",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "rowIndex",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "timelineDuration",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "relative",
+    "flex",
+    "items-center",
+    "border-b",
+    "border-gray-200",
+    "bg-gray-100",
+    "w-32",
+    "px-2",
+    "text-sm",
+    "font-semibold",
+    "text-gray-700",
+    "truncate",
+    "border-r",
+    "border-gray-300",
+    "bg-gray-200",
+    "h-full",
+    "flex-1"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/TrackRow.template.tsx",
+  "missingDeps": []
+}

@@ -1,0 +1,58 @@
+{
+  "id": "icon-badge",
+  "name": "IconBadge",
+  "filePath": "React-UI-Collection/src/components/ui/badges/IconBadge.tsx",
+  "exportName": "IconBadge",
+  "props": [
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "icon",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "variant",
+      "type": "unknown",
+      "default": "primary",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "iconPosition",
+      "type": "unknown",
+      "default": "left",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {
+    "size": [
+      "sm"
+    ]
+  },
+  "tailwindClasses": [],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/IconBadge.template.tsx",
+  "missingDeps": []
+}

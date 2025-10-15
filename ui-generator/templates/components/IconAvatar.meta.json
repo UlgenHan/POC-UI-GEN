@@ -1,0 +1,74 @@
+{
+  "id": "icon-avatar",
+  "name": "IconAvatar",
+  "filePath": "React-UI-Collection/src/components/ui/avatars/IconAvatar.tsx",
+  "exportName": "IconAvatar",
+  "props": [
+    {
+      "name": "src",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "alt",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "name",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "icon",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "backgroundColor",
+      "type": "unknown",
+      "default": "bg-gray-300",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "iconColor",
+      "type": "unknown",
+      "default": "text-gray-500",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "w-full",
+    "h-full",
+    "object-cover",
+    "flex",
+    "items-center",
+    "justify-center"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/IconAvatar.template.tsx",
+  "missingDeps": []
+}

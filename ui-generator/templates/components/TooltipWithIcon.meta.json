@@ -1,0 +1,71 @@
+{
+  "id": "tooltip-with-icon",
+  "name": "TooltipWithIcon",
+  "filePath": "React-UI-Collection/src/components/ui/tooltips/TooltipWithIcon.tsx",
+  "exportName": "TooltipWithIcon",
+  "props": [
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "content",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "icon",
+      "type": "unknown",
+      "default": "(\r\n    <svg className=w-4 h-4 fill=none stroke=currentColor viewBox=0 0 24 24>\r\n      <path strokeLinecap=round strokeLinejoin=round strokeWidth={2",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "position",
+      "type": "'top' | 'bottom' | 'left' | 'right'",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "delay",
+      "type": "number",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "string",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "tooltipClassName",
+      "type": "string",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {
+    "position": [
+      "top",
+      "bottom",
+      "left",
+      "right"
+    ]
+  },
+  "tailwindClasses": [
+    "w-4",
+    "h-4",
+    "flex",
+    "items-center",
+    "space-x-2",
+    "flex-shrink-0"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/TooltipWithIcon.template.tsx",
+  "missingDeps": []
+}

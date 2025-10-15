@@ -1,0 +1,64 @@
+{
+  "id": "clip",
+  "name": "Clip",
+  "filePath": "React-UI-Collection/src/components/complex-components/program-timeline/Clip.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "clip",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "zoom",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "rowIndex",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "timelineDuration",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "w-2",
+    "h-full",
+    "bg-gray-400",
+    "cursor-ew-resize",
+    "rounded-l",
+    "flex-1",
+    "px-2",
+    "text-xs",
+    "font-medium",
+    "text-gray-800",
+    "truncate",
+    "ml-1",
+    "text-gray-500",
+    "rounded-r",
+    "absolute",
+    "top-1",
+    "h-10",
+    "rounded",
+    "shadow",
+    "flex",
+    "items-center",
+    "cursor-move",
+    "select-none",
+    "${clip.type",
+    ":"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/Clip.template.tsx",
+  "missingDeps": []
+}

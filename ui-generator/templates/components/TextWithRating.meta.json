@@ -1,0 +1,74 @@
+{
+  "id": "text-with-rating",
+  "name": "TextWithRating",
+  "filePath": "React-UI-Collection/src/components/ui/inputs/rating/TextWithRating.tsx",
+  "exportName": "TextWithRating",
+  "props": [
+    {
+      "name": "value",
+      "type": "controlledValue",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onChange",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "max",
+      "type": "unknown",
+      "default": "5",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "readOnly",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "showText",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "textPosition",
+      "type": "unknown",
+      "default": "right",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "flex",
+    "items-center",
+    "space-x-1",
+    "w-full",
+    "h-full"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/TextWithRating.template.tsx",
+  "missingDeps": []
+}

@@ -1,0 +1,65 @@
+{
+  "id": "animated-rating",
+  "name": "AnimatedRating",
+  "filePath": "React-UI-Collection/src/components/ui/inputs/rating/AnimatedRating.tsx",
+  "exportName": "AnimatedRating",
+  "props": [
+    {
+      "name": "value",
+      "type": "controlledValue",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onChange",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "max",
+      "type": "unknown",
+      "default": "5",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "readOnly",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "animation",
+      "type": "unknown",
+      "default": "bounce",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "w-full",
+    "h-full",
+    "drop-shadow-sm"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/AnimatedRating.template.tsx",
+  "missingDeps": []
+}

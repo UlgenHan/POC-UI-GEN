@@ -1,0 +1,79 @@
+{
+  "id": "popover-menu",
+  "name": "PopoverMenu",
+  "filePath": "React-UI-Collection/src/components/ui/menus/PopoverMenu.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "trigger",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "items",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "placement",
+      "type": "unknown",
+      "default": "bottom",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "offset",
+      "type": "unknown",
+      "default": "8",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "showArrow",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "cursor-pointer",
+    "mr-3",
+    "w-5",
+    "h-5",
+    "text-gray-400",
+    "mt-0.5",
+    "flex-1",
+    "min-w-0",
+    "text-sm",
+    "font-medium",
+    "text-gray-900",
+    "text-xs",
+    "text-gray-500",
+    "mt-1",
+    "flex",
+    "items-start",
+    "px-4",
+    "py-3",
+    "hover:bg-gray-100",
+    "transition-colors",
+    "item.disabled",
+    ":",
+    "w-full",
+    "text-left"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/PopoverMenu.template.tsx",
+  "missingDeps": []
+}

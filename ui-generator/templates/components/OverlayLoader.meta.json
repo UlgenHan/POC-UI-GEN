@@ -1,0 +1,57 @@
+{
+  "id": "overlay-loader",
+  "name": "OverlayLoader",
+  "filePath": "React-UI-Collection/src/components/ui/loaders/OverlayLoader.tsx",
+  "exportName": "OverlayLoader",
+  "props": [
+    {
+      "name": "show",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "text",
+      "type": "unknown",
+      "default": "Loading...",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "spinnerSize",
+      "type": "unknown",
+      "default": "lg",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "backgroundColor",
+      "type": "unknown",
+      "default": "bg-white bg-opacity-80",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "flex",
+    "flex-col",
+    "items-center",
+    "space-y-4",
+    "text-lg",
+    "font-medium",
+    "text-gray-700"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/OverlayLoader.template.tsx",
+  "missingDeps": []
+}

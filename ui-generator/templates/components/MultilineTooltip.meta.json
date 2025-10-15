@@ -1,0 +1,75 @@
+{
+  "id": "multiline-tooltip",
+  "name": "MultilineTooltip",
+  "filePath": "React-UI-Collection/src/components/ui/tooltips/MultilineTooltip.tsx",
+  "exportName": "MultilineTooltip",
+  "props": [
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "content",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "title",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "position",
+      "type": "unknown",
+      "default": "top",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "maxWidth",
+      "type": "unknown",
+      "default": "max-w-xs",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "delay",
+      "type": "unknown",
+      "default": "300",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "tooltipClassName",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "font-semibold",
+    "mb-1",
+    "border-b",
+    "border-gray-700",
+    "pb-1",
+    "leading-relaxed",
+    "mt-1"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/MultilineTooltip.template.tsx",
+  "missingDeps": []
+}

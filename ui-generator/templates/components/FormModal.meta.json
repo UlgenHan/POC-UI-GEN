@@ -1,0 +1,141 @@
+{
+  "id": "form-modal",
+  "name": "FormModal",
+  "filePath": "React-UI-Collection/src/components/ui/modals/FormModal.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "isOpen",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onClose",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "title",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "fields",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "submitButtonText",
+      "type": "unknown",
+      "default": "Submit",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "cancelButtonText",
+      "type": "unknown",
+      "default": "Cancel",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onSubmit",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "loading",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "flex",
+    "items-center",
+    "mr-2",
+    "h-4",
+    "w-4",
+    "text-blue-600",
+    "focus:ring-blue-500",
+    "border-gray-300",
+    "rounded",
+    "text-sm",
+    "text-gray-700",
+    "fixed",
+    "inset-0",
+    "bg-black",
+    "bg-opacity-50",
+    "justify-center",
+    "p-4",
+    "z-50",
+    "justify-between",
+    "p-6",
+    "border-b",
+    "border-gray-200",
+    "text-xl",
+    "font-semibold",
+    "text-gray-900",
+    "text-gray-400",
+    "hover:text-gray-600",
+    "transition-colors",
+    "w-6",
+    "h-6",
+    "overflow-y-auto",
+    "max-h-[calc(90vh-120px)]",
+    "space-y-4",
+    "block",
+    "font-medium",
+    "mb-1",
+    "text-red-500",
+    "text-red-600",
+    "mt-1",
+    "justify-end",
+    "space-x-3",
+    "mt-6",
+    "pt-4",
+    "border-t",
+    "px-4",
+    "py-2",
+    "bg-gray-100",
+    "hover:bg-gray-200",
+    "rounded-lg",
+    "bg-blue-600",
+    "text-white",
+    "hover:bg-blue-700",
+    "disabled:opacity-50",
+    "disabled:cursor-not-allowed",
+    "w-full",
+    "px-3",
+    "border",
+    "focus:ring-2",
+    "focus:border-transparent",
+    "${error",
+    ":"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/FormModal.template.tsx",
+  "missingDeps": []
+}

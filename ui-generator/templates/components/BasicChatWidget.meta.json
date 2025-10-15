@@ -1,0 +1,70 @@
+{
+  "id": "basic-chat-widget",
+  "name": "BasicChatWidget",
+  "filePath": "React-UI-Collection/src/components/ui/chat/BasicChatWidget.tsx",
+  "exportName": "BasicChatWidget",
+  "props": [
+    {
+      "name": "title",
+      "type": "unknown",
+      "default": "Chat",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "placeholder",
+      "type": "unknown",
+      "default": "Type your message...",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onSendMessage",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "bg-blue-500",
+    "text-white",
+    "p-3",
+    "rounded-t-lg",
+    "font-semibold",
+    "flex-1",
+    "overflow-y-auto",
+    "space-y-2",
+    "border-t",
+    "border-gray-200",
+    "flex",
+    "space-x-2",
+    "px-3",
+    "py-2",
+    "border",
+    "border-gray-300",
+    "rounded-md",
+    "focus:outline-none",
+    "focus:ring-2",
+    "focus:ring-blue-500",
+    "px-4",
+    "hover:bg-blue-600",
+    "${message.sender",
+    ":",
+    "max-w-xs",
+    "rounded-lg",
+    "text-sm",
+    "message.sender"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/BasicChatWidget.template.tsx",
+  "missingDeps": []
+}

@@ -1,0 +1,109 @@
+{
+  "id": "canvas",
+  "name": "Canvas",
+  "filePath": "React-UI-Collection/src/modules/websiteBuilder/Canvas.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "components",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "selectedComponentId",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onComponentSelect",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onComponentUpdate",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onComponentAdd",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onComponentDelete",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "gridConfig",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "canvasSize",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "enabled",
+      "type": "boolean",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "snapToGrid",
+      "type": "boolean",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "relative",
+    "flex-1",
+    "bg-gray-50",
+    "overflow-auto",
+    "bg-white",
+    "shadow-inner",
+    "absolute",
+    "inset-0",
+    "pointer-events-none",
+    "z-40",
+    "border-4",
+    "border-blue-400",
+    "border-dashed",
+    "rounded-lg",
+    "animate-pulse",
+    "flex",
+    "items-center",
+    "justify-center",
+    "text-gray-400",
+    "text-center",
+    "text-4xl",
+    "mb-4",
+    "text-lg",
+    "font-medium",
+    "mb-2",
+    "text-sm",
+    "bottom-4",
+    "right-4",
+    "bg-opacity-90",
+    "px-3",
+    "py-1",
+    "shadow-sm",
+    "text-xs",
+    "text-gray-600"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/Canvas.template.tsx",
+  "missingDeps": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "column-group-header",
+  "name": "ColumnGroupHeader",
+  "filePath": "React-UI-Collection/src/components/complex-components/datagrid/ColumnGroupHeader.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "columns",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "text-center",
+    "font-bold",
+    "bg-gray-100"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/ColumnGroupHeader.template.tsx",
+  "missingDeps": []
+}

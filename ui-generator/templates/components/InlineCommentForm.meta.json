@@ -1,0 +1,90 @@
+{
+  "id": "inline-comment-form",
+  "name": "InlineCommentForm",
+  "filePath": "React-UI-Collection/src/components/ui/comments/InlineCommentForm.tsx",
+  "exportName": "InlineCommentForm",
+  "props": [
+    {
+      "name": "onSubmit",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onCancel",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "placeholder",
+      "type": "unknown",
+      "default": "Write a reply...",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "autoFocus",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "space-y-3",
+    "flex",
+    "space-x-3",
+    "flex-shrink-0",
+    "w-8",
+    "h-8",
+    "bg-gray-300",
+    "rounded-full",
+    "items-center",
+    "justify-center",
+    "w-4",
+    "h-4",
+    "text-gray-500",
+    "flex-1",
+    "w-full",
+    "px-3",
+    "py-2",
+    "border",
+    "border-gray-300",
+    "rounded-lg",
+    "resize-none",
+    "focus:ring-2",
+    "focus:ring-blue-500",
+    "focus:border-blue-500",
+    "transition-colors",
+    "justify-between",
+    "space-x-2",
+    "text-sm",
+    "py-1.5",
+    "text-gray-600",
+    "hover:text-gray-800",
+    "px-4",
+    "bg-blue-600",
+    "text-white",
+    "font-medium",
+    "hover:bg-blue-700",
+    "focus:ring-offset-2",
+    "disabled:opacity-50",
+    "disabled:cursor-not-allowed",
+    "animate-spin",
+    "opacity-25",
+    "opacity-75"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/InlineCommentForm.template.tsx",
+  "missingDeps": []
+}

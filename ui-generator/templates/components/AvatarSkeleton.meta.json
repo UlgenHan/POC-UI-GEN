@@ -1,0 +1,70 @@
+{
+  "id": "avatar-skeleton",
+  "name": "AvatarSkeleton",
+  "filePath": "React-UI-Collection/src/components/ui/avatars/AvatarSkeleton.tsx",
+  "exportName": "AvatarSkeleton",
+  "props": [
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "shape",
+      "type": "unknown",
+      "default": "circle",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "animated",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "withName",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "nameLines",
+      "type": "unknown",
+      "default": "1",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {
+    "size": [
+      "xs",
+      "sm"
+    ]
+  },
+  "tailwindClasses": [
+    "flex-1",
+    "space-y-2",
+    "bg-gray-300",
+    "rounded",
+    "w-16",
+    "${size",
+    "size",
+    ":"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/AvatarSkeleton.template.tsx",
+  "missingDeps": []
+}

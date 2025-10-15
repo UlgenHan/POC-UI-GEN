@@ -1,0 +1,127 @@
+{
+  "id": "overlay-card",
+  "name": "OverlayCard",
+  "filePath": "React-UI-Collection/src/components/ui/cards/OverlayCard.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "title",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "description",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "backgroundImage",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "overlayColor",
+      "type": "unknown",
+      "default": "black",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "overlayOpacity",
+      "type": "unknown",
+      "default": "medium",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "textPosition",
+      "type": "unknown",
+      "default": "bottom",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "textAlign",
+      "type": "unknown",
+      "default": "left",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "height",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "gradient",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onClick",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "absolute",
+    "inset-0",
+    "bg-cover",
+    "bg-center",
+    "bg-no-repeat",
+    "transition-transform",
+    "duration-500",
+    "hover:scale-105",
+    "text-2xl",
+    "font-bold",
+    "text-white",
+    "mb-3",
+    "drop-shadow-lg",
+    "text-gray-200",
+    "leading-relaxed",
+    "mb-4",
+    "drop-shadow-md",
+    "top-4",
+    "right-4",
+    "opacity-0",
+    "transform",
+    "translate-x-2",
+    "group-hover:opacity-100",
+    "group-hover:translate-x-0",
+    "transition-all",
+    "duration-300",
+    "bg-white",
+    "bg-opacity-20",
+    "backdrop-blur-sm",
+    "rounded-full",
+    "p-2",
+    "w-4",
+    "h-4"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/OverlayCard.template.tsx",
+  "missingDeps": []
+}

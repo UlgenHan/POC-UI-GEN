@@ -1,0 +1,169 @@
+{
+  "id": "checkout",
+  "name": "Checkout",
+  "filePath": "React-UI-Collection/src/modules/ecommerce/pages/Checkout.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "firstName",
+      "type": "''",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "lastName",
+      "type": "''",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "email",
+      "type": "''",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "phone",
+      "type": "''",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "address",
+      "type": "''",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "city",
+      "type": "''",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "state",
+      "type": "''",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "zipCode",
+      "type": "''",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "country",
+      "type": "''",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "deliveryMethod",
+      "type": "'standard'",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "paymentMethod",
+      "type": "'credit_card'",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "cardNumber",
+      "type": "''",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "cardExpiry",
+      "type": "''",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "cardCvv",
+      "type": "''",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "cardholderName",
+      "type": "''",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "saveInfo",
+      "type": "false",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "specialInstructions",
+      "type": "''",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "max-w-6xl",
+    "mx-auto",
+    "py-8",
+    "px-4",
+    "mb-8",
+    "text-3xl",
+    "font-bold",
+    "text-gray-900",
+    "mb-2",
+    "text-gray-600",
+    "flex",
+    "items-center",
+    "justify-between",
+    "w-full",
+    "bg-gray-200",
+    "rounded-full",
+    "h-2",
+    "bg-blue-600",
+    "transition-all",
+    "duration-300",
+    "bg-white",
+    "rounded-lg",
+    "shadow",
+    "p-8",
+    "space-x-4",
+    "text-sm",
+    "space-x-2",
+    "animate-spin",
+    "h-4",
+    "w-4",
+    "opacity-25",
+    "opacity-75",
+    "fixed",
+    "bottom-4",
+    "right-4",
+    "shadow-lg",
+    "p-4",
+    "border",
+    "mb-1",
+    "font-medium",
+    "my-2",
+    "font-semibold",
+    "text-blue-600",
+    "px-6",
+    "py-3",
+    "transition-colors",
+    "${currentStep",
+    "0",
+    ":",
+    "${isStepValid(currentStep)",
+    "px-8",
+    "!isSubmitting"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/Checkout.template.tsx",
+  "missingDeps": []
+}

@@ -1,0 +1,72 @@
+{
+  "id": "compact-rating",
+  "name": "CompactRating",
+  "filePath": "React-UI-Collection/src/components/ui/inputs/rating/CompactRating.tsx",
+  "exportName": "CompactRating",
+  "props": [
+    {
+      "name": "value",
+      "type": "controlledValue",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onChange",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "max",
+      "type": "unknown",
+      "default": "5",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "readOnly",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "showValue",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "inline",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "flex",
+    "items-center",
+    "w-full",
+    "h-full",
+    "ml-1",
+    "text-xs",
+    "text-gray-600",
+    "font-medium",
+    "${inline",
+    ":"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/CompactRating.template.tsx",
+  "missingDeps": []
+}

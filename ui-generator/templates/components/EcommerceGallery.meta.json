@@ -1,0 +1,16 @@
+{
+  "id": "ecommerce-gallery",
+  "name": "EcommerceGallery",
+  "filePath": "React-UI-Collection/src/pages/EcommerceGallery.tsx",
+  "exportName": "default",
+  "props": [],
+  "variants": {},
+  "tailwindClasses": [
+    "min-h-screen",
+    "bg-gray-50"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/EcommerceGallery.template.tsx",
+  "missingDeps": []
+}

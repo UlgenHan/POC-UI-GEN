@@ -1,0 +1,62 @@
+{
+  "id": "bordered-pagination",
+  "name": "BorderedPagination",
+  "filePath": "React-UI-Collection/src/components/ui/pagination/BorderedPagination.tsx",
+  "exportName": "BorderedPagination",
+  "props": [
+    {
+      "name": "currentPage",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "totalPages",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onPageChange",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "flex",
+    "items-center",
+    "border-2",
+    "border-gray-300",
+    "rounded-lg",
+    "overflow-hidden",
+    "w-4",
+    "h-4",
+    "px-4",
+    "py-3",
+    "text-sm",
+    "font-medium",
+    "border-r-2",
+    "transition-all",
+    "duration-200",
+    "currentPage",
+    "1",
+    ":",
+    "${index",
+    "totalPages",
+    "-",
+    "border-l-2"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/BorderedPagination.template.tsx",
+  "missingDeps": []
+}

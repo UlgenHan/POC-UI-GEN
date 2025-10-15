@@ -1,0 +1,37 @@
+{
+  "id": "basic-alert",
+  "name": "BasicAlert",
+  "filePath": "React-UI-Collection/src/components/ui/alerts/BasicAlert.tsx",
+  "exportName": "BasicAlert",
+  "props": [
+    {
+      "name": "variant",
+      "type": "unknown",
+      "default": "info",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "message",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "text-sm",
+    "font-medium"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/BasicAlert.template.tsx",
+  "missingDeps": []
+}

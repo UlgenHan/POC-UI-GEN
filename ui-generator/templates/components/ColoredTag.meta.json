@@ -1,0 +1,56 @@
+{
+  "id": "colored-tag",
+  "name": "ColoredTag",
+  "filePath": "React-UI-Collection/src/components/ui/tags/ColoredTag.tsx",
+  "exportName": "ColoredTag",
+  "props": [
+    {
+      "name": "label",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "variant",
+      "type": "unknown",
+      "default": "default",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onClick",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {
+    "variant": [
+      "primary",
+      "success",
+      "warning",
+      "error",
+      "info",
+      "default"
+    ]
+  },
+  "tailwindClasses": [],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/ColoredTag.template.tsx",
+  "missingDeps": []
+}

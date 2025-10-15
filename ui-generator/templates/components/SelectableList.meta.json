@@ -1,0 +1,75 @@
+{
+  "id": "selectable-list",
+  "name": "SelectableList",
+  "filePath": "React-UI-Collection/src/components/ui/lists/SelectableList.tsx",
+  "exportName": "SelectableList",
+  "props": [
+    {
+      "name": "items",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "selectedId",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onSelectionChange",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "multiSelect",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "selectedIds",
+      "type": "unknown",
+      "default": "[]",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "itemClassName",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "flex",
+    "items-center",
+    "justify-between",
+    "w-5",
+    "h-5",
+    "text-blue-600",
+    "px-4",
+    "py-3",
+    "rounded-lg",
+    "cursor-pointer",
+    "transition-colors",
+    "duration-150",
+    "${isSelected(item.id)",
+    ":"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/SelectableList.template.tsx",
+  "missingDeps": []
+}

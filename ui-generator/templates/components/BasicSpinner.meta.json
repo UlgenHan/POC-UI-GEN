@@ -1,0 +1,37 @@
+{
+  "id": "basic-spinner",
+  "name": "BasicSpinner",
+  "filePath": "React-UI-Collection/src/components/ui/loaders/BasicSpinner.tsx",
+  "exportName": "BasicSpinner",
+  "props": [
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "color",
+      "type": "unknown",
+      "default": "text-blue-600",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "sr-only"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/BasicSpinner.template.tsx",
+  "missingDeps": []
+}

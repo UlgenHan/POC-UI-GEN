@@ -1,0 +1,61 @@
+{
+  "id": "gradient-button",
+  "name": "GradientButton",
+  "filePath": "React-UI-Collection/src/components/ui/buttons/GradientButton.tsx",
+  "exportName": "GradientButton",
+  "props": [
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onClick",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "disabled",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "type",
+      "type": "unknown",
+      "default": "button",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "gradient",
+      "type": "unknown",
+      "default": "blue",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/GradientButton.template.tsx",
+  "missingDeps": []
+}

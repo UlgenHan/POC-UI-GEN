@@ -1,0 +1,58 @@
+{
+  "id": "styled-accordion",
+  "name": "StyledAccordion",
+  "filePath": "React-UI-Collection/src/components/ui/accordions/StyledAccordion.tsx",
+  "exportName": "StyledAccordion",
+  "props": [
+    {
+      "name": "items",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "variant",
+      "type": "unknown",
+      "default": "primary",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onToggle",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "flex",
+    "justify-between",
+    "items-center",
+    "w-6",
+    "h-6",
+    "transform",
+    "transition-transform",
+    "duration-300",
+    "isOpen",
+    ":"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/StyledAccordion.template.tsx",
+  "missingDeps": []
+}

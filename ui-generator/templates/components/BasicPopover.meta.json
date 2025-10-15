@@ -1,0 +1,49 @@
+{
+  "id": "basic-popover",
+  "name": "BasicPopover",
+  "filePath": "React-UI-Collection/src/components/ui/popovers/BasicPopover.tsx",
+  "exportName": "BasicPopover",
+  "props": [
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "content",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "trigger",
+      "type": "unknown",
+      "default": "click",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "popoverClassName",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "cursor-pointer"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/BasicPopover.template.tsx",
+  "missingDeps": []
+}

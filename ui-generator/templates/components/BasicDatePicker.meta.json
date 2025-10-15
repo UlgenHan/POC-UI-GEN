@@ -1,0 +1,81 @@
+{
+  "id": "basic-date-picker",
+  "name": "BasicDatePicker",
+  "filePath": "React-UI-Collection/src/components/ui/date-pickers/BasicDatePicker.tsx",
+  "exportName": "BasicDatePicker",
+  "props": [
+    {
+      "name": "value",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onChange",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "label",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "placeholder",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "disabled",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "required",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "block",
+    "text-sm",
+    "font-medium",
+    "text-gray-700",
+    "mb-2",
+    "text-red-500",
+    "ml-1",
+    "w-full",
+    "px-3",
+    "py-2",
+    "border",
+    "border-gray-300",
+    "rounded-md",
+    "shadow-sm",
+    "focus:outline-none",
+    "focus:ring-2",
+    "focus:ring-blue-500",
+    "focus:border-blue-500",
+    "disabled:bg-gray-100",
+    "disabled:cursor-not-allowed"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/BasicDatePicker.template.tsx",
+  "missingDeps": []
+}

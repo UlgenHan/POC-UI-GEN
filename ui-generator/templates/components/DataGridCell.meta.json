@@ -1,0 +1,74 @@
+{
+  "id": "data-grid-cell",
+  "name": "DataGridCell",
+  "filePath": "React-UI-Collection/src/components/complex-components/datagrid/DataGridCell.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "value",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "column",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "row",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "isSorted",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "editing",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onEdit",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "theme",
+      "type": "unknown",
+      "default": "light",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "w-full",
+    "px-2",
+    "py-1",
+    "border",
+    "rounded",
+    "text-gray-400",
+    "px-4",
+    "py-2",
+    "border-b",
+    "border-gray-100",
+    "${theme",
+    ":",
+    "whitespace-nowrap",
+    "text-sm",
+    "${isSorted",
+    "theme"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/DataGridCell.template.tsx",
+  "missingDeps": []
+}

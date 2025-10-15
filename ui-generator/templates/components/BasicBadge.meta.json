@@ -1,0 +1,41 @@
+{
+  "id": "basic-badge",
+  "name": "BasicBadge",
+  "filePath": "React-UI-Collection/src/components/ui/badges/BasicBadge.tsx",
+  "exportName": "BasicBadge",
+  "props": [
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "variant",
+      "type": "unknown",
+      "default": "primary",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/BasicBadge.template.tsx",
+  "missingDeps": []
+}

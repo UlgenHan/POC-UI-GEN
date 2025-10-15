@@ -1,0 +1,171 @@
+{
+  "id": "contact-section",
+  "name": "ContactSection",
+  "filePath": "React-UI-Collection/src/components/layout/sections/ContactSection.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "title",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "subtitle",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "description",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "contactInfo",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "showForm",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "showMap",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "mapEmbedUrl",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onSubmit",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "backgroundColor",
+      "type": "unknown",
+      "default": "white",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "email",
+      "type": "string",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "subject",
+      "type": "string",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "message",
+      "type": "string",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "max-w-7xl",
+    "mx-auto",
+    "px-4",
+    "sm:px-6",
+    "lg:px-8",
+    "text-center",
+    "mb-16",
+    "text-blue-600",
+    "font-semibold",
+    "text-sm",
+    "uppercase",
+    "tracking-wide",
+    "mb-4",
+    "text-3xl",
+    "md:text-4xl",
+    "font-bold",
+    "text-gray-900",
+    "text-xl",
+    "text-gray-600",
+    "max-w-3xl",
+    "grid",
+    "grid-cols-1",
+    "lg:grid-cols-2",
+    "gap-12",
+    "text-2xl",
+    "mb-6",
+    "space-y-6",
+    "sm:grid-cols-2",
+    "gap-6",
+    "block",
+    "font-medium",
+    "text-gray-700",
+    "mb-2",
+    "w-full",
+    "py-3",
+    "border",
+    "border-gray-300",
+    "rounded-lg",
+    "focus:ring-2",
+    "focus:ring-blue-500",
+    "focus:border-transparent",
+    "transition-colors",
+    "resize-vertical",
+    "bg-blue-600",
+    "text-white",
+    "px-6",
+    "hover:bg-blue-700",
+    "focus:ring-offset-2",
+    "disabled:opacity-50",
+    "disabled:cursor-not-allowed",
+    "flex",
+    "items-start",
+    "flex-shrink-0",
+    "w-6",
+    "h-6",
+    "ml-4",
+    "text-lg",
+    "not-italic",
+    "space-x-4",
+    "text-gray-400",
+    "hover:text-blue-600",
+    "sr-only",
+    "hover:text-blue-400",
+    "hover:text-blue-700",
+    "hover:text-pink-600",
+    "mt-8",
+    "aspect-video",
+    "overflow-hidden"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/ContactSection.template.tsx",
+  "missingDeps": []
+}

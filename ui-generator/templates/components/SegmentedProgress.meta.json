@@ -1,0 +1,73 @@
+{
+  "id": "segmented-progress",
+  "name": "SegmentedProgress",
+  "filePath": "React-UI-Collection/src/components/ui/progress/SegmentedProgress.tsx",
+  "exportName": "SegmentedProgress",
+  "props": [
+    {
+      "name": "value",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "max",
+      "type": "unknown",
+      "default": "100",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "segments",
+      "type": "unknown",
+      "default": "5",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "variant",
+      "type": "unknown",
+      "default": "default",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "showLabels",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "relative",
+    "bg-gray-200",
+    "border-r",
+    "border-white",
+    "last:border-r-0",
+    "flex",
+    "justify-between",
+    "mt-2",
+    "text-xs",
+    "text-gray-500"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/SegmentedProgress.template.tsx",
+  "missingDeps": []
+}

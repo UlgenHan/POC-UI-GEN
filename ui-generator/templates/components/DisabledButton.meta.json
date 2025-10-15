@@ -1,0 +1,50 @@
+{
+  "id": "disabled-button",
+  "name": "DisabledButton",
+  "filePath": "React-UI-Collection/src/components/ui/buttons/DisabledButton.tsx",
+  "exportName": "DisabledButton",
+  "props": [
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "variant",
+      "type": "unknown",
+      "default": "primary",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "reason",
+      "type": "unknown",
+      "default": "This action is currently unavailable",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "relative"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/DisabledButton.template.tsx",
+  "missingDeps": []
+}

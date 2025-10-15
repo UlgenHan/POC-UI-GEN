@@ -1,0 +1,62 @@
+{
+  "id": "card-grid",
+  "name": "CardGrid",
+  "filePath": "React-UI-Collection/src/components/layout/grid/CardGrid.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "columns",
+      "type": "unknown",
+      "default": "3",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "gap",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "cardPadding",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "cardShadow",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "cardRounded",
+      "type": "unknown",
+      "default": "lg",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/CardGrid.template.tsx",
+  "missingDeps": []
+}

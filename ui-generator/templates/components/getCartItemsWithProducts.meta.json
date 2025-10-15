@@ -1,0 +1,39 @@
+{
+  "id": "get-cart-items-with-products",
+  "name": "getCartItemsWithProducts",
+  "filePath": "React-UI-Collection/src/modules/ecommerce/store.ts",
+  "exportName": "useEcommerceStore",
+  "props": [
+    {
+      "name": "Cart",
+      "type": "[]",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "addToCart",
+      "type": "(productId",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "quantity",
+      "type": "state.cart.map((item)",
+      "default": ">\r\n        set((state) => {\r\n          const existing = state.cart.find((item) => item.productId === productId);\r\n          if (existing) {\r\n            return {\r\n              cart: state.cart.map((item) =>\r\n                item.productId === productId\r\n                  ? { ...item",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "quantity",
+      "type": "item.quantity + quantity",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/getCartItemsWithProducts.template.tsx",
+  "missingDeps": []
+}

@@ -1,0 +1,119 @@
+{
+  "id": "slider-with-label",
+  "name": "SliderWithLabel",
+  "filePath": "React-UI-Collection/src/components/ui/sliders/SliderWithLabel.tsx",
+  "exportName": "SliderWithLabel",
+  "props": [
+    {
+      "name": "value",
+      "type": "unknown",
+      "default": "50",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onChange",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "min",
+      "type": "unknown",
+      "default": "0",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "max",
+      "type": "unknown",
+      "default": "100",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "step",
+      "type": "unknown",
+      "default": "1",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "disabled",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "label",
+      "type": "unknown",
+      "default": "Value",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "unit",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "showValue",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "flex",
+    "items-center",
+    "justify-between",
+    "mb-2",
+    "text-sm",
+    "font-medium",
+    "text-gray-700",
+    "text-blue-600",
+    "w-full",
+    "h-2",
+    "bg-gray-200",
+    "rounded-lg",
+    "appearance-none",
+    "cursor-pointer",
+    "[&::-webkit-slider-thumb]:appearance-none",
+    "[&::-webkit-slider-thumb]:h-5",
+    "[&::-webkit-slider-thumb]:w-5",
+    "[&::-webkit-slider-thumb]:rounded-full",
+    "[&::-webkit-slider-thumb]:bg-blue-500",
+    "[&::-webkit-slider-thumb]:cursor-pointer",
+    "[&::-webkit-slider-thumb]:border-2",
+    "[&::-webkit-slider-thumb]:border-white",
+    "[&::-webkit-slider-thumb]:shadow-md",
+    "[&::-webkit-slider-thumb]:transition-all",
+    "[&::-webkit-slider-thumb]:duration-150",
+    "[&::-webkit-slider-thumb]:hover:scale-110",
+    "disabled:opacity-50",
+    "disabled:cursor-not-allowed",
+    "focus:outline-none",
+    "focus:ring-2",
+    "focus:ring-blue-500",
+    "focus:ring-offset-2",
+    "text-xs",
+    "text-gray-500",
+    "mt-1"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/SliderWithLabel.template.tsx",
+  "missingDeps": []
+}

@@ -1,0 +1,64 @@
+{
+  "id": "two-column-flex",
+  "name": "TwoColumnFlex",
+  "filePath": "React-UI-Collection/src/components/layout/flex/TwoColumnFlex.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "leftContent",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "rightContent",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "leftWidth",
+      "type": "unknown",
+      "default": "1/2",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "gap",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "align",
+      "type": "unknown",
+      "default": "start",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "responsive",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "${responsive",
+    ":"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/TwoColumnFlex.template.tsx",
+  "missingDeps": []
+}

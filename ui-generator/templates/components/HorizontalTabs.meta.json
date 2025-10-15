@@ -1,0 +1,67 @@
+{
+  "id": "horizontal-tabs",
+  "name": "HorizontalTabs",
+  "filePath": "React-UI-Collection/src/components/ui/tabs/HorizontalTabs.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "tabs",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "defaultActiveTab",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onTabChange",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "border-b",
+    "border-gray-200",
+    "-mb-px",
+    "flex",
+    "space-x-8",
+    "items-center",
+    "space-x-2",
+    "mt-4",
+    "py-2",
+    "px-1",
+    "border-b-2",
+    "font-medium",
+    "text-sm",
+    "transition-colors",
+    "focus:outline-none",
+    "focus:ring-2",
+    "focus:ring-blue-500",
+    "focus:ring-offset-2",
+    "activeTab",
+    "tab.id",
+    ":",
+    "tab.disabled",
+    "inline-flex",
+    "px-2.5",
+    "py-0.5",
+    "rounded-full",
+    "text-xs"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/HorizontalTabs.template.tsx",
+  "missingDeps": []
+}

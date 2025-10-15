@@ -1,0 +1,74 @@
+{
+  "id": "underline-tabs",
+  "name": "UnderlineTabs",
+  "filePath": "React-UI-Collection/src/components/ui/tabs/UnderlineTabs.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "tabs",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "defaultActiveTab",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onTabChange",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "relative",
+    "flex",
+    "space-x-8",
+    "items-center",
+    "space-x-2",
+    "absolute",
+    "bottom-0",
+    "h-0.5",
+    "bg-blue-600",
+    "transition-all",
+    "duration-300",
+    "ease-in-out",
+    "mt-6",
+    "py-4",
+    "px-1",
+    "text-sm",
+    "font-medium",
+    "transition-colors",
+    "focus:outline-none",
+    "focus:ring-2",
+    "focus:ring-blue-500",
+    "focus:ring-offset-2",
+    "activeTab",
+    "tab.id",
+    ":",
+    "tab.disabled",
+    "inline-flex",
+    "justify-center",
+    "px-2",
+    "py-1",
+    "text-xs",
+    "font-bold",
+    "leading-none",
+    "rounded-full"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/UnderlineTabs.template.tsx",
+  "missingDeps": []
+}

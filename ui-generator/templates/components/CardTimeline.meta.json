@@ -1,0 +1,58 @@
+{
+  "id": "card-timeline",
+  "name": "CardTimeline",
+  "filePath": "React-UI-Collection/src/components/ui/timelines/CardTimeline.tsx",
+  "exportName": "CardTimeline",
+  "props": [
+    {
+      "name": "events",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "absolute",
+    "left-4",
+    "top-0",
+    "bottom-0",
+    "w-0.5",
+    "bg-gray-300",
+    "space-y-6",
+    "relative",
+    "flex",
+    "items-start",
+    "w-4",
+    "h-4",
+    "text-white",
+    "w-2",
+    "h-2",
+    "bg-gray-400",
+    "rounded-full",
+    "ml-6",
+    "flex-1",
+    "items-center",
+    "justify-between",
+    "mb-2",
+    "text-lg",
+    "font-semibold",
+    "text-gray-900",
+    "text-sm",
+    "text-gray-500",
+    "text-gray-700",
+    "mb-3",
+    "mr-1"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/CardTimeline.template.tsx",
+  "missingDeps": []
+}

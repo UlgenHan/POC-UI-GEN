@@ -1,0 +1,22 @@
+{
+  "id": "use-navigation",
+  "name": "useNavigation",
+  "filePath": "React-UI-Collection/src/App.tsx",
+  "exportName": "default",
+  "props": [],
+  "variants": {},
+  "tailwindClasses": [
+    "App",
+    "p-4",
+    "bg-gray-100",
+    "border-b",
+    "flex",
+    "gap-4",
+    "text-blue-600",
+    "hover:underline"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/useNavigation.template.tsx",
+  "missingDeps": []
+}

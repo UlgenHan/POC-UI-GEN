@@ -1,0 +1,94 @@
+{
+  "id": "sticky-footer-pagination",
+  "name": "StickyFooterPagination",
+  "filePath": "React-UI-Collection/src/components/ui/pagination/StickyFooterPagination.tsx",
+  "exportName": "StickyFooterPagination",
+  "props": [
+    {
+      "name": "currentPage",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "totalPages",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onPageChange",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "showSummary",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "totalItems",
+      "type": "unknown",
+      "default": "0",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "itemsPerPage",
+      "type": "unknown",
+      "default": "10",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "max-w-7xl",
+    "mx-auto",
+    "px-4",
+    "sm:px-6",
+    "lg:px-8",
+    "flex",
+    "flex-col",
+    "sm:flex-row",
+    "items-center",
+    "justify-between",
+    "py-4",
+    "space-y-3",
+    "sm:space-y-0",
+    "text-sm",
+    "text-gray-700",
+    "font-medium",
+    "space-x-1",
+    "w-4",
+    "h-4",
+    "hidden",
+    "sm:flex",
+    "sm:hidden",
+    "px-3",
+    "py-2",
+    "text-gray-500",
+    "rounded-md",
+    "transition-colors",
+    "duration-200",
+    "currentPage",
+    "1",
+    ":",
+    "page",
+    "totalPages"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/StickyFooterPagination.template.tsx",
+  "missingDeps": []
+}

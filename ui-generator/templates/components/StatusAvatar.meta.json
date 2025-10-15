@@ -1,0 +1,87 @@
+{
+  "id": "status-avatar",
+  "name": "StatusAvatar",
+  "filePath": "React-UI-Collection/src/components/ui/avatars/StatusAvatar.tsx",
+  "exportName": "StatusAvatar",
+  "props": [
+    {
+      "name": "src",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "alt",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "name",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "status",
+      "type": "unknown",
+      "default": "offline",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "showStatus",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "backgroundColor",
+      "type": "unknown",
+      "default": "bg-blue-500",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "textColor",
+      "type": "unknown",
+      "default": "text-white",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "w-full",
+    "h-full",
+    "object-cover",
+    "flex",
+    "items-center",
+    "justify-center",
+    "font-medium",
+    "bg-gray-300",
+    "w-3/4",
+    "h-3/4",
+    "text-gray-500"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/StatusAvatar.template.tsx",
+  "missingDeps": []
+}

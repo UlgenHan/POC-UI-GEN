@@ -1,0 +1,69 @@
+{
+  "id": "content-with-sidebar",
+  "name": "ContentWithSidebar",
+  "filePath": "React-UI-Collection/src/components/layout/sections/ContentWithSidebar.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "mainContent",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "sidebarContent",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "sidebarPosition",
+      "type": "unknown",
+      "default": "right",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "sidebarWidth",
+      "type": "unknown",
+      "default": "1/3",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "gap",
+      "type": "unknown",
+      "default": "lg",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "backgroundColor",
+      "type": "unknown",
+      "default": "white",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "lg:sticky",
+    "lg:top-8",
+    "max-w-7xl",
+    "mx-auto",
+    "px-4",
+    "sm:px-6",
+    "lg:px-8"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/ContentWithSidebar.template.tsx",
+  "missingDeps": []
+}

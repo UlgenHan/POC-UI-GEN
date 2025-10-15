@@ -1,0 +1,126 @@
+{
+  "id": "autoplay-audio-player",
+  "name": "AutoplayAudioPlayer",
+  "filePath": "React-UI-Collection/src/components/ui/media/audio/AutoplayAudioPlayer.tsx",
+  "exportName": "AutoplayAudioPlayer",
+  "props": [
+    {
+      "name": "src",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "title",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "artist",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "volume",
+      "type": "unknown",
+      "default": "0.5",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "loop",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "showControls",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "muted",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onPlay",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onPause",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onEnded",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "flex",
+    "items-center",
+    "justify-between",
+    "mb-3",
+    "space-x-2",
+    "w-2",
+    "h-2",
+    "bg-green-500",
+    "rounded-full",
+    "animate-pulse",
+    "text-xs",
+    "text-gray-600",
+    "font-medium",
+    "space-x-0.5",
+    "w-1",
+    "mb-4",
+    "text-lg",
+    "font-semibold",
+    "text-gray-800",
+    "truncate",
+    "text-sm",
+    "space-x-3",
+    "w-10",
+    "h-10",
+    "hover:bg-green-600",
+    "text-white",
+    "justify-center",
+    "transition-colors",
+    "duration-200",
+    "w-4",
+    "h-4",
+    "ml-0.5",
+    "flex-1",
+    "text-gray-500",
+    "hover:text-gray-700",
+    "h-1",
+    "bg-gray-200",
+    "rounded-lg",
+    "appearance-none",
+    "cursor-pointer"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/AutoplayAudioPlayer.template.tsx",
+  "missingDeps": []
+}

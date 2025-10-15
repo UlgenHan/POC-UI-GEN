@@ -1,0 +1,94 @@
+{
+  "id": "context-menu",
+  "name": "ContextMenu",
+  "filePath": "React-UI-Collection/src/modules/websiteBuilder/ContextMenu.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "x",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "y",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onClose",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onDelete",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onDuplicate",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onCopy",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onCut",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onPaste",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "canPaste",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "fixed",
+    "z-50",
+    "bg-white",
+    "border",
+    "border-gray-200",
+    "rounded-lg",
+    "shadow-lg",
+    "py-1",
+    "min-w-48",
+    "flex",
+    "items-center",
+    "mr-2",
+    "text-xs",
+    "text-gray-400",
+    "ml-4",
+    "w-full",
+    "px-4",
+    "py-2",
+    "text-left",
+    "text-sm",
+    "justify-between",
+    "hover:bg-gray-100",
+    "transition-colors",
+    "${item.disabled",
+    ":"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/ContextMenu.template.tsx",
+  "missingDeps": []
+}

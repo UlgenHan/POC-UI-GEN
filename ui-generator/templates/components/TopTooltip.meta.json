@@ -1,0 +1,56 @@
+{
+  "id": "top-tooltip",
+  "name": "TopTooltip",
+  "filePath": "React-UI-Collection/src/components/ui/tooltips/TopTooltip.tsx",
+  "exportName": "TopTooltip",
+  "props": [
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "content",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "delay",
+      "type": "unknown",
+      "default": "300",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "tooltipClassName",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "absolute",
+    "top-full",
+    "left-1/2",
+    "transform",
+    "-translate-x-1/2",
+    "border-4",
+    "border-transparent",
+    "border-t-gray-900"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/TopTooltip.template.tsx",
+  "missingDeps": []
+}

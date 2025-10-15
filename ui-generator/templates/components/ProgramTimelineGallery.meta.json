@@ -1,0 +1,29 @@
+{
+  "id": "program-timeline-gallery",
+  "name": "ProgramTimelineGallery",
+  "filePath": "React-UI-Collection/src/pages/ProgramTimelineGallery.tsx",
+  "exportName": "default",
+  "props": [],
+  "variants": {},
+  "tailwindClasses": [
+    "p-8",
+    "max-w-6xl",
+    "mx-auto",
+    "space-y-8",
+    "text-3xl",
+    "font-bold",
+    "mb-2",
+    "text-gray-700",
+    "mb-6",
+    "max-w-2xl",
+    "bg-white",
+    "rounded",
+    "shadow",
+    "border",
+    "p-6"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/ProgramTimelineGallery.template.tsx",
+  "missingDeps": []
+}

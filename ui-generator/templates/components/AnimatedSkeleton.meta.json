@@ -1,0 +1,65 @@
+{
+  "id": "animated-skeleton",
+  "name": "AnimatedSkeleton",
+  "filePath": "React-UI-Collection/src/components/ui/skeletons/AnimatedSkeleton.tsx",
+  "exportName": "AnimatedSkeleton",
+  "props": [
+    {
+      "name": "width",
+      "type": "unknown",
+      "default": "w-full",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "height",
+      "type": "unknown",
+      "default": "h-4",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "rounded",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "variant",
+      "type": "unknown",
+      "default": "shimmer",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {
+    "variant": [
+      "shimmer",
+      "wave"
+    ]
+  },
+  "tailwindClasses": [
+    "absolute",
+    "inset-0",
+    "-translate-x-full",
+    "animate-[shimmer_2s_infinite]",
+    "bg-gradient-to-r",
+    "from-transparent",
+    "via-white",
+    "to-transparent",
+    "opacity-60",
+    "sr-only"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/AnimatedSkeleton.template.tsx",
+  "missingDeps": []
+}

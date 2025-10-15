@@ -1,0 +1,48 @@
+{
+  "id": "flex-column",
+  "name": "FlexColumn",
+  "filePath": "React-UI-Collection/src/components/layout/flex/FlexColumn.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "gap",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "justify",
+      "type": "unknown",
+      "default": "start",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "align",
+      "type": "unknown",
+      "default": "stretch",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/FlexColumn.template.tsx",
+  "missingDeps": []
+}

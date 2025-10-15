@@ -1,0 +1,15 @@
+{
+  "id": "website-builder-gallery",
+  "name": "WebsiteBuilderGallery",
+  "filePath": "React-UI-Collection/src/pages/WebsiteBuilderGallery.tsx",
+  "exportName": "default",
+  "props": [],
+  "variants": {},
+  "tailwindClasses": [
+    "h-screen"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/WebsiteBuilderGallery.template.tsx",
+  "missingDeps": []
+}

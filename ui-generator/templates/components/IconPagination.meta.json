@@ -1,0 +1,65 @@
+{
+  "id": "icon-pagination",
+  "name": "IconPagination",
+  "filePath": "React-UI-Collection/src/components/ui/pagination/IconPagination.tsx",
+  "exportName": "IconPagination",
+  "props": [
+    {
+      "name": "currentPage",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "totalPages",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onPageChange",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "showFirstLast",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "flex",
+    "items-center",
+    "space-x-1",
+    "w-5",
+    "h-5",
+    "p-2",
+    "rounded-md",
+    "transition-colors",
+    "duration-200",
+    "currentPage",
+    "1",
+    ":",
+    "w-10",
+    "h-10",
+    "text-sm",
+    "font-medium",
+    "page",
+    "totalPages"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/IconPagination.template.tsx",
+  "missingDeps": []
+}

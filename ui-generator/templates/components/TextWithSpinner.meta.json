@@ -1,0 +1,42 @@
+{
+  "id": "text-with-spinner",
+  "name": "TextWithSpinner",
+  "filePath": "React-UI-Collection/src/components/ui/loaders/TextWithSpinner.tsx",
+  "exportName": "TextWithSpinner",
+  "props": [
+    {
+      "name": "text",
+      "type": "unknown",
+      "default": "Loading...",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "color",
+      "type": "unknown",
+      "default": "text-blue-600",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/TextWithSpinner.template.tsx",
+  "missingDeps": []
+}

@@ -1,0 +1,98 @@
+{
+  "id": "floating-label-textarea",
+  "name": "FloatingLabelTextarea",
+  "filePath": "React-UI-Collection/src/components/ui/textareas/FloatingLabelTextarea.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "label",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "placeholder",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "value",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onChange",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "error",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "disabled",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "required",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "id",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "rows",
+      "type": "unknown",
+      "default": "4",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "resize",
+      "type": "unknown",
+      "default": "vertical",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "text-red-500",
+    "ml-1",
+    "mt-1",
+    "text-sm",
+    "text-red-600",
+    "absolute",
+    "left-3",
+    "transition-all",
+    "duration-200",
+    "pointer-events-none",
+    "${shouldFloat",
+    ":"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/FloatingLabelTextarea.template.tsx",
+  "missingDeps": []
+}

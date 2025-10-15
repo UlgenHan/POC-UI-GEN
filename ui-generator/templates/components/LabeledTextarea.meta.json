@@ -1,0 +1,103 @@
+{
+  "id": "labeled-textarea",
+  "name": "LabeledTextarea",
+  "filePath": "React-UI-Collection/src/components/ui/textareas/LabeledTextarea.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "label",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "placeholder",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "value",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onChange",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "error",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "disabled",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "required",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "id",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "rows",
+      "type": "unknown",
+      "default": "4",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "helperText",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "resize",
+      "type": "unknown",
+      "default": "vertical",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "block",
+    "text-sm",
+    "font-medium",
+    "text-gray-700",
+    "mb-2",
+    "text-red-500",
+    "ml-1",
+    "text-gray-500",
+    "mb-1",
+    "mt-1",
+    "text-red-600"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/LabeledTextarea.template.tsx",
+  "missingDeps": []
+}

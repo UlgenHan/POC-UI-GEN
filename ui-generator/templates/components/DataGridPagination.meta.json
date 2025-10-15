@@ -1,0 +1,51 @@
+{
+  "id": "data-grid-pagination",
+  "name": "DataGridPagination",
+  "filePath": "React-UI-Collection/src/components/complex-components/datagrid/DataGridPagination.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "currentPage",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "totalPages",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onPageChange",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "flex",
+    "justify-end",
+    "items-center",
+    "space-x-2",
+    "mt-4",
+    "px-3",
+    "py-1",
+    "rounded",
+    "border",
+    "text-sm",
+    "font-medium",
+    "transition-colors",
+    "focus:outline-none",
+    "focus:ring-2",
+    "focus:ring-blue-500",
+    "page",
+    "currentPage",
+    ":"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/DataGridPagination.template.tsx",
+  "missingDeps": []
+}

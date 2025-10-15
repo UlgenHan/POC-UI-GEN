@@ -1,0 +1,84 @@
+{
+  "id": "progress-toast",
+  "name": "ProgressToast",
+  "filePath": "React-UI-Collection/src/components/ui/toasts/ProgressToast.tsx",
+  "exportName": "ProgressToast",
+  "props": [
+    {
+      "name": "message",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "variant",
+      "type": "unknown",
+      "default": "info",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "show",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "duration",
+      "type": "unknown",
+      "default": "5000",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onClose",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "pauseOnHover",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "px-4",
+    "py-3",
+    "flex",
+    "items-center",
+    "justify-between",
+    "text-sm",
+    "font-medium",
+    "mr-4",
+    "p-1",
+    "hover:bg-white",
+    "hover:bg-opacity-20",
+    "rounded",
+    "transition-colors",
+    "focus:outline-none",
+    "focus:ring-2",
+    "focus:ring-white",
+    "focus:ring-opacity-50",
+    "w-4",
+    "h-4",
+    "h-1",
+    "bg-black",
+    "bg-opacity-20"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/ProgressToast.template.tsx",
+  "missingDeps": []
+}

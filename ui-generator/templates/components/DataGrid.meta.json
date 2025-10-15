@@ -1,0 +1,144 @@
+{
+  "id": "data-grid",
+  "name": "DataGrid",
+  "filePath": "React-UI-Collection/src/components/complex-components/datagrid/DataGrid.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "columns",
+      "type": "initialColumns",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "data",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "rowKey",
+      "type": "unknown",
+      "default": "id",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onRowClick",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "loading",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "pageSize",
+      "type": "unknown",
+      "default": "10",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "globalSearchText",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "filterEnabled",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onSortChange",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onFilterChange",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onSearchChange",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "currentPage",
+      "type": "controlledPage",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "totalPages",
+      "type": "controlledTotalPages",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onPageChange",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "emptyComponent",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "emptyMessage",
+      "type": "unknown",
+      "default": "No data available",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "flex",
+    "items-center",
+    "mb-2",
+    "w-64",
+    "px-3",
+    "py-2",
+    "border",
+    "border-gray-300",
+    "rounded",
+    "focus:outline-none",
+    "focus:ring-2",
+    "focus:ring-blue-500",
+    "text-sm",
+    "min-w-full",
+    "bg-white",
+    "border-gray-200",
+    "rounded-lg",
+    "text-center",
+    "text-gray-400",
+    "py-8"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/DataGrid.template.tsx",
+  "missingDeps": []
+}

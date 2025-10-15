@@ -1,0 +1,61 @@
+{
+  "id": "outline-button",
+  "name": "OutlineButton",
+  "filePath": "React-UI-Collection/src/components/ui/buttons/OutlineButton.tsx",
+  "exportName": "OutlineButton",
+  "props": [
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onClick",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "disabled",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "type",
+      "type": "unknown",
+      "default": "button",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "variant",
+      "type": "unknown",
+      "default": "primary",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/OutlineButton.template.tsx",
+  "missingDeps": []
+}

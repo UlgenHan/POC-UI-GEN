@@ -1,0 +1,44 @@
+{
+  "id": "design-state-manager",
+  "name": "designStateManager",
+  "filePath": "React-UI-Collection/src/modules/websiteBuilder/designStateManager.ts",
+  "exportName": "designStateManager",
+  "props": [
+    {
+      "name": "id",
+      "type": "design.id",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "name",
+      "type": "design.name",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "createdAt",
+      "type": "design.createdAt",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "updatedAt",
+      "type": "design.updatedAt",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "componentCount",
+      "type": "design.components.length",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/designStateManager.template.tsx",
+  "missingDeps": []
+}

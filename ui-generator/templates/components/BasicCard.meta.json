@@ -1,0 +1,88 @@
+{
+  "id": "basic-card",
+  "name": "BasicCard",
+  "filePath": "React-UI-Collection/src/components/ui/cards/BasicCard.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "title",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "description",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "padding",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "border",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "shadow",
+      "type": "unknown",
+      "default": "sm",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "rounded",
+      "type": "unknown",
+      "default": "lg",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "backgroundColor",
+      "type": "unknown",
+      "default": "white",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onClick",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "text-xl",
+    "font-semibold",
+    "text-gray-900",
+    "mb-3",
+    "text-gray-600",
+    "leading-relaxed",
+    "mb-4"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/BasicCard.template.tsx",
+  "missingDeps": []
+}

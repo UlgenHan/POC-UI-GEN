@@ -1,0 +1,121 @@
+{
+  "id": "statistic-card",
+  "name": "StatisticCard",
+  "filePath": "React-UI-Collection/src/components/ui/cards/StatisticCard.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "title",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "value",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "change",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "icon",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "color",
+      "type": "unknown",
+      "default": "blue",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "suffix",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "prefix",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "loading",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onClick",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "type",
+      "type": "'increase' | 'decrease'",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "period",
+      "type": "string",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {
+    "type": [
+      "increase",
+      "decrease"
+    ]
+  },
+  "tailwindClasses": [
+    "w-4",
+    "h-4",
+    "flex",
+    "items-center",
+    "justify-between",
+    "flex-1",
+    "animate-pulse",
+    "bg-gray-200",
+    "h-8",
+    "w-24",
+    "rounded",
+    "mt-2",
+    "ml-1",
+    "text-sm",
+    "text-gray-500",
+    "ml-2",
+    "font-medium",
+    "change.type",
+    ":"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/StatisticCard.template.tsx",
+  "missingDeps": []
+}

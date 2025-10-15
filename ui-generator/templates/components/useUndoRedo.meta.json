@@ -1,0 +1,32 @@
+{
+  "id": "use-undo-redo",
+  "name": "useUndoRedo",
+  "filePath": "React-UI-Collection/src/modules/websiteBuilder/useUndoRedo.ts",
+  "exportName": "useUndoRedo",
+  "props": [
+    {
+      "name": "past",
+      "type": "[]",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "present",
+      "type": "initialState",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "future",
+      "type": "[]",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/useUndoRedo.template.tsx",
+  "missingDeps": []
+}

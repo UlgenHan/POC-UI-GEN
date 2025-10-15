@@ -1,0 +1,103 @@
+{
+  "id": "hover-effect-card",
+  "name": "HoverEffectCard",
+  "filePath": "React-UI-Collection/src/components/ui/cards/HoverEffectCard.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "title",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "description",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "image",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "hoverEffect",
+      "type": "unknown",
+      "default": "lift",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "intensity",
+      "type": "unknown",
+      "default": "medium",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onClick",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "relative",
+    "overflow-hidden",
+    "w-full",
+    "h-48",
+    "object-cover",
+    "transition-transform",
+    "duration-300",
+    "group-hover:scale-105",
+    "absolute",
+    "inset-0",
+    "bg-gradient-to-t",
+    "from-black/20",
+    "to-transparent",
+    "opacity-0",
+    "group-hover:opacity-100",
+    "transition-opacity",
+    "p-6",
+    "text-xl",
+    "font-bold",
+    "text-gray-900",
+    "mb-3",
+    "transition-colors",
+    "group-hover:text-blue-600",
+    "text-gray-600",
+    "leading-relaxed",
+    "mb-4",
+    "flex",
+    "items-center",
+    "text-blue-600",
+    "font-medium",
+    "mt-4",
+    "translate-x-0",
+    "group-hover:translate-x-2",
+    "transition-all",
+    "mr-2",
+    "w-4",
+    "h-4"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/HoverEffectCard.template.tsx",
+  "missingDeps": []
+}

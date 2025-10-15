@@ -1,0 +1,31 @@
+{
+  "id": "timeline-editor",
+  "name": "TimelineEditor",
+  "filePath": "React-UI-Collection/src/components/complex-components/timeline-editor/TimelineEditor.tsx",
+  "exportName": "default",
+  "props": [],
+  "variants": {},
+  "tailwindClasses": [
+    "w-full",
+    "bg-gray-50",
+    "rounded",
+    "shadow",
+    "p-4",
+    "mb-2",
+    "flex",
+    "items-center",
+    "gap-2",
+    "px-2",
+    "py-1",
+    "bg-gray-200",
+    "ml-4",
+    "text-sm",
+    "text-gray-700",
+    "relative",
+    "overflow-x-auto"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/TimelineEditor.template.tsx",
+  "missingDeps": []
+}

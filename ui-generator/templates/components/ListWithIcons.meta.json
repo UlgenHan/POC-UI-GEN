@@ -1,0 +1,44 @@
+{
+  "id": "list-with-icons",
+  "name": "ListWithIcons",
+  "filePath": "React-UI-Collection/src/components/ui/lists/ListWithIcons.tsx",
+  "exportName": "ListWithIcons",
+  "props": [
+    {
+      "name": "items",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "defaultIcon",
+      "type": "unknown",
+      "default": "(\r\n    <svg className=w-5 h-5 fill=none stroke=currentColor viewBox=0 0 24 24>\r\n      <path strokeLinecap=round strokeLinejoin=round strokeWidth={2",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "string",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "itemClassName",
+      "type": "string",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "w-5",
+    "h-5",
+    "flex-shrink-0",
+    "text-gray-500"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/ListWithIcons.template.tsx",
+  "missingDeps": []
+}

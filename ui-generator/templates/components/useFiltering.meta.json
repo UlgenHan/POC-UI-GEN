@@ -1,0 +1,26 @@
+{
+  "id": "use-filtering",
+  "name": "useFiltering",
+  "filePath": "React-UI-Collection/src/components/complex-components/datagrid/useFiltering.ts",
+  "exportName": "useFiltering",
+  "props": [
+    {
+      "name": "f",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "key",
+      "type": "value",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/useFiltering.template.tsx",
+  "missingDeps": []
+}

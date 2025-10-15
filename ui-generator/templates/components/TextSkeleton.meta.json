@@ -1,0 +1,60 @@
+{
+  "id": "text-skeleton",
+  "name": "TextSkeleton",
+  "filePath": "React-UI-Collection/src/components/ui/skeletons/TextSkeleton.tsx",
+  "exportName": "TextSkeleton",
+  "props": [
+    {
+      "name": "lines",
+      "type": "unknown",
+      "default": "3",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "spacing",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "lastLineWidth",
+      "type": "unknown",
+      "default": "w-3/4",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "animated",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "sr-only",
+    "h-4",
+    "bg-gray-300",
+    "rounded",
+    "index",
+    "lines",
+    "-",
+    "1",
+    "lastLineWidth",
+    ":"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/TextSkeleton.template.tsx",
+  "missingDeps": []
+}

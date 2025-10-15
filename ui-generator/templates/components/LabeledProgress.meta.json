@@ -1,0 +1,65 @@
+{
+  "id": "labeled-progress",
+  "name": "LabeledProgress",
+  "filePath": "React-UI-Collection/src/components/ui/progress/LabeledProgress.tsx",
+  "exportName": "LabeledProgress",
+  "props": [
+    {
+      "name": "value",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "max",
+      "type": "unknown",
+      "default": "100",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "label",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "showPercentage",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "variant",
+      "type": "unknown",
+      "default": "default",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "font-medium",
+    "text-gray-700",
+    "text-gray-500"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/LabeledProgress.template.tsx",
+  "missingDeps": []
+}

@@ -1,0 +1,65 @@
+{
+  "id": "nested-accordion",
+  "name": "NestedAccordion",
+  "filePath": "React-UI-Collection/src/components/ui/accordions/NestedAccordion.tsx",
+  "exportName": "NestedAccordion",
+  "props": [
+    {
+      "name": "items",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "level",
+      "type": "unknown",
+      "default": "0",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onToggle",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "flex",
+    "justify-between",
+    "items-center",
+    "space-x-2",
+    "text-xs",
+    "text-gray-500",
+    "bg-gray-200",
+    "px-2",
+    "py-1",
+    "rounded",
+    "border-t",
+    "border-gray-200",
+    "px-4",
+    "py-3",
+    "text-gray-700",
+    "text-sm",
+    "p-2",
+    "w-4",
+    "h-4",
+    "transform",
+    "transition-transform",
+    "duration-200",
+    "isOpen",
+    ":"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/NestedAccordion.template.tsx",
+  "missingDeps": []
+}

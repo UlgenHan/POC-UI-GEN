@@ -1,0 +1,95 @@
+{
+  "id": "nested-drawer",
+  "name": "NestedDrawer",
+  "filePath": "React-UI-Collection/src/components/ui/drawers/NestedDrawer.tsx",
+  "exportName": "NestedDrawer",
+  "props": [
+    {
+      "name": "isOpen",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onClose",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "width",
+      "type": "unknown",
+      "default": "w-80",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "title",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "fixed",
+    "inset-0",
+    "z-50",
+    "flex",
+    "bg-black",
+    "bg-opacity-50",
+    "transition-opacity",
+    "items-center",
+    "justify-between",
+    "p-4",
+    "border-b",
+    "border-gray-200",
+    "text-lg",
+    "font-semibold",
+    "text-gray-900",
+    "p-2",
+    "rounded-md",
+    "text-gray-400",
+    "hover:text-gray-600",
+    "hover:bg-gray-100",
+    "transition-colors",
+    "w-5",
+    "h-5",
+    "flex-1",
+    "overflow-y-auto",
+    "z-30",
+    "justify-end",
+    "bg-opacity-30",
+    "relative",
+    "w-72",
+    "bg-white",
+    "shadow-2xl",
+    "transform",
+    "transition-transform",
+    "duration-300",
+    "ease-in-out",
+    "bg-gray-50",
+    "text-md",
+    "p-1",
+    "hover:bg-gray-200",
+    "w-4",
+    "h-4"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/NestedDrawer.template.tsx",
+  "missingDeps": []
+}

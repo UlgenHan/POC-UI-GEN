@@ -1,0 +1,61 @@
+{
+  "id": "inline-calendar",
+  "name": "InlineCalendar",
+  "filePath": "React-UI-Collection/src/components/ui/date-pickers/InlineCalendar.tsx",
+  "exportName": "InlineCalendar",
+  "props": [
+    {
+      "name": "value",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onChange",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "flex",
+    "items-center",
+    "justify-between",
+    "mb-4",
+    "p-1",
+    "hover:bg-gray-100",
+    "rounded",
+    "w-5",
+    "h-5",
+    "text-lg",
+    "font-semibold",
+    "grid",
+    "grid-cols-7",
+    "gap-1",
+    "mb-2",
+    "p-2",
+    "text-center",
+    "text-sm",
+    "font-medium",
+    "text-gray-500",
+    "hover:bg-blue-100",
+    "focus:outline-none",
+    "focus:bg-blue-100",
+    "!date",
+    ":",
+    "isSelected(date)"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/InlineCalendar.template.tsx",
+  "missingDeps": []
+}

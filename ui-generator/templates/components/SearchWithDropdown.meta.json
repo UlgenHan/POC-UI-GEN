@@ -1,0 +1,103 @@
+{
+  "id": "search-with-dropdown",
+  "name": "SearchWithDropdown",
+  "filePath": "React-UI-Collection/src/components/ui/inputs/search/SearchWithDropdown.tsx",
+  "exportName": "SearchWithDropdown",
+  "props": [
+    {
+      "name": "placeholder",
+      "type": "unknown",
+      "default": "Search...",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onSearch",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onChange",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onCategoryChange",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "value",
+      "type": "controlledValue",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "selectedCategory",
+      "type": "controlledCategory",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "options",
+      "type": "'all'",
+      "default": "[\r\n    { value: all",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "label",
+      "type": "'All'",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "string",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "flex",
+    "px-3",
+    "py-2",
+    "border",
+    "border-gray-300",
+    "border-r-0",
+    "rounded-l-md",
+    "bg-gray-50",
+    "text-gray-700",
+    "text-sm",
+    "focus:outline-none",
+    "focus:ring-1",
+    "focus:ring-blue-500",
+    "focus:border-blue-500",
+    "relative",
+    "flex-1",
+    "block",
+    "w-full",
+    "rounded-r-md",
+    "leading-5",
+    "bg-white",
+    "placeholder-gray-500",
+    "focus:placeholder-gray-400",
+    "absolute",
+    "inset-y-0",
+    "right-0",
+    "pr-3",
+    "items-center",
+    "pointer-events-none",
+    "h-5",
+    "w-5",
+    "text-gray-400"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/SearchWithDropdown.template.tsx",
+  "missingDeps": []
+}

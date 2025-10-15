@@ -1,0 +1,130 @@
+{
+  "id": "ctacard",
+  "name": "CTACard",
+  "filePath": "React-UI-Collection/src/components/ui/cards/CTACard.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "title",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "message",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "buttonText",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onButtonClick",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "secondaryButton",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "variant",
+      "type": "unknown",
+      "default": "primary",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "icon",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "backgroundPattern",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "text",
+      "type": "string",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onClick",
+      "type": "() => void",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "absolute",
+    "inset-0",
+    "opacity-10",
+    "relative",
+    "z-10",
+    "text-center",
+    "flex",
+    "justify-center",
+    "mb-4",
+    "w-12",
+    "h-12",
+    "text-white",
+    "text-2xl",
+    "font-bold",
+    "text-lg",
+    "opacity-90",
+    "mb-6",
+    "leading-relaxed",
+    "flex-col",
+    "sm:flex-row",
+    "gap-3",
+    "top-0",
+    "right-0",
+    "w-32",
+    "h-32",
+    "top-4",
+    "right-4",
+    "w-4",
+    "h-4",
+    "bg-white",
+    "rounded-full",
+    "top-8",
+    "right-8",
+    "w-2",
+    "h-2",
+    "top-12",
+    "right-12",
+    "w-6",
+    "h-6"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/CTACard.template.tsx",
+  "missingDeps": []
+}

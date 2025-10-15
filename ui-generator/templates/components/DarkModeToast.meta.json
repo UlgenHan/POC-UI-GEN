@@ -1,0 +1,74 @@
+{
+  "id": "dark-mode-toast",
+  "name": "DarkModeToast",
+  "filePath": "React-UI-Collection/src/components/ui/toasts/DarkModeToast.tsx",
+  "exportName": "DarkModeToast",
+  "props": [
+    {
+      "name": "message",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "variant",
+      "type": "unknown",
+      "default": "neutral",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "show",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "duration",
+      "type": "unknown",
+      "default": "4000",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onClose",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "w-5",
+    "h-5",
+    "flex",
+    "items-center",
+    "justify-between",
+    "ml-3",
+    "text-sm",
+    "font-medium",
+    "ml-4",
+    "p-1",
+    "text-gray-400",
+    "hover:text-gray-200",
+    "rounded",
+    "transition-colors",
+    "focus:outline-none",
+    "focus:ring-2",
+    "focus:ring-gray-500",
+    "w-4",
+    "h-4"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/DarkModeToast.template.tsx",
+  "missingDeps": []
+}

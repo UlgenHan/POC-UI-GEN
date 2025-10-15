@@ -1,0 +1,55 @@
+{
+  "id": "step-timeline",
+  "name": "StepTimeline",
+  "filePath": "React-UI-Collection/src/components/ui/timelines/StepTimeline.tsx",
+  "exportName": "StepTimeline",
+  "props": [
+    {
+      "name": "steps",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "orientation",
+      "type": "unknown",
+      "default": "vertical",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "flex",
+    "items-center",
+    "justify-between",
+    "flex-col",
+    "mt-2",
+    "text-center",
+    "max-w-xs",
+    "text-sm",
+    "font-medium",
+    "text-gray-900",
+    "mt-1",
+    "text-xs",
+    "text-gray-600",
+    "flex-1",
+    "mx-4",
+    "space-y-6",
+    "relative",
+    "items-start",
+    "ml-4",
+    "text-lg"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/StepTimeline.template.tsx",
+  "missingDeps": []
+}

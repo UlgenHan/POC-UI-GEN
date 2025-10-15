@@ -1,0 +1,91 @@
+{
+  "id": "feature-section",
+  "name": "FeatureSection",
+  "filePath": "React-UI-Collection/src/components/layout/sections/FeatureSection.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "title",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "subtitle",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "features",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "columns",
+      "type": "unknown",
+      "default": "3",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "layout",
+      "type": "unknown",
+      "default": "grid",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "iconPosition",
+      "type": "unknown",
+      "default": "top",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "backgroundColor",
+      "type": "unknown",
+      "default": "white",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "max-w-7xl",
+    "mx-auto",
+    "px-4",
+    "sm:px-6",
+    "lg:px-8",
+    "text-center",
+    "mb-16",
+    "text-blue-600",
+    "font-semibold",
+    "text-sm",
+    "uppercase",
+    "tracking-wide",
+    "mb-4",
+    "text-3xl",
+    "md:text-4xl",
+    "font-bold",
+    "text-gray-900",
+    "text-xl",
+    "mb-3",
+    "text-gray-600",
+    "leading-relaxed",
+    "flex-1",
+    "${layout"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/FeatureSection.template.tsx",
+  "missingDeps": []
+}

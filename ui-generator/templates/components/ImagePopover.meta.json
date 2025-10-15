@@ -1,0 +1,79 @@
+{
+  "id": "image-popover",
+  "name": "ImagePopover",
+  "filePath": "React-UI-Collection/src/components/ui/popovers/ImagePopover.tsx",
+  "exportName": "ImagePopover",
+  "props": [
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "imageSrc",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "imageAlt",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "title",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "description",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "trigger",
+      "type": "unknown",
+      "default": "click",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "popoverClassName",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "cursor-pointer",
+    "w-full",
+    "h-48",
+    "object-cover",
+    "p-4",
+    "text-lg",
+    "font-semibold",
+    "text-gray-900",
+    "mb-2",
+    "text-gray-600",
+    "text-sm",
+    "leading-relaxed"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/ImagePopover.template.tsx",
+  "missingDeps": []
+}

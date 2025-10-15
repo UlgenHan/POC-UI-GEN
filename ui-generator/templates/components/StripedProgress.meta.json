@@ -1,0 +1,55 @@
+{
+  "id": "striped-progress",
+  "name": "StripedProgress",
+  "filePath": "React-UI-Collection/src/components/ui/progress/StripedProgress.tsx",
+  "exportName": "StripedProgress",
+  "props": [
+    {
+      "name": "value",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "max",
+      "type": "unknown",
+      "default": "100",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "animated",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "variant",
+      "type": "unknown",
+      "default": "default",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/StripedProgress.template.tsx",
+  "missingDeps": []
+}

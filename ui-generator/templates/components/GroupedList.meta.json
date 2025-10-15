@@ -1,0 +1,61 @@
+{
+  "id": "grouped-list",
+  "name": "GroupedList",
+  "filePath": "React-UI-Collection/src/components/ui/lists/GroupedList.tsx",
+  "exportName": "GroupedList",
+  "props": [
+    {
+      "name": "groups",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onItemClick",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "groupClassName",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "itemClassName",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "text-sm",
+    "font-semibold",
+    "text-gray-900",
+    "uppercase",
+    "tracking-wider",
+    "mb-3",
+    "space-y-1",
+    "px-4",
+    "py-3",
+    "rounded-lg",
+    "text-gray-700",
+    "${onItemClick",
+    ":"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/GroupedList.template.tsx",
+  "missingDeps": []
+}

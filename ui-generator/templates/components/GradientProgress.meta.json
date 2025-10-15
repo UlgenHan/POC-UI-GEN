@@ -1,0 +1,48 @@
+{
+  "id": "gradient-progress",
+  "name": "GradientProgress",
+  "filePath": "React-UI-Collection/src/components/ui/progress/GradientProgress.tsx",
+  "exportName": "GradientProgress",
+  "props": [
+    {
+      "name": "value",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "max",
+      "type": "unknown",
+      "default": "100",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "gradient",
+      "type": "unknown",
+      "default": "default",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/GradientProgress.template.tsx",
+  "missingDeps": []
+}

@@ -1,0 +1,49 @@
+{
+  "id": "clickable-tooltip",
+  "name": "ClickableTooltip",
+  "filePath": "React-UI-Collection/src/components/ui/tooltips/ClickableTooltip.tsx",
+  "exportName": "ClickableTooltip",
+  "props": [
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "content",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "position",
+      "type": "unknown",
+      "default": "top",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "tooltipClassName",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "cursor-pointer"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/ClickableTooltip.template.tsx",
+  "missingDeps": []
+}

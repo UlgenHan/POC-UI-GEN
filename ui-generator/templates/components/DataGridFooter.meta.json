@@ -1,0 +1,52 @@
+{
+  "id": "data-grid-footer",
+  "name": "DataGridFooter",
+  "filePath": "React-UI-Collection/src/components/complex-components/datagrid/DataGridFooter.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "columns",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "aggregates",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "theme",
+      "type": "unknown",
+      "default": "light",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "dark",
+    "bg-gray-800",
+    "bg-gray-100",
+    "px-4",
+    "py-2",
+    "text-xs",
+    "font-semibold",
+    "border-t",
+    "border-gray-200",
+    "${theme",
+    ":"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/DataGridFooter.template.tsx",
+  "missingDeps": []
+}

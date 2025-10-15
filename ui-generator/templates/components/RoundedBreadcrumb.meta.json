@@ -1,0 +1,48 @@
+{
+  "id": "rounded-breadcrumb",
+  "name": "RoundedBreadcrumb",
+  "filePath": "React-UI-Collection/src/components/ui/breadcrumbs/RoundedBreadcrumb.tsx",
+  "exportName": "RoundedBreadcrumb",
+  "props": [
+    {
+      "name": "items",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "inline-flex",
+    "items-center",
+    "space-x-2",
+    "w-5",
+    "h-5",
+    "text-gray-400",
+    "mx-2",
+    "block",
+    "w-full",
+    "h-full",
+    "px-3",
+    "py-1.5",
+    "rounded-full",
+    "text-sm",
+    "font-medium",
+    "transition-colors",
+    "duration-200",
+    "item.isActive",
+    ":",
+    "item.href"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/RoundedBreadcrumb.template.tsx",
+  "missingDeps": []
+}

@@ -1,0 +1,126 @@
+{
+  "id": "custom-icon-checkbox",
+  "name": "CustomIconCheckbox",
+  "filePath": "React-UI-Collection/src/components/ui/checkboxes/CustomIconCheckbox.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "label",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "value",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "checked",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onChange",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "disabled",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "name",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "error",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "id",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "required",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "checkedIcon",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "uncheckedIcon",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "iconType",
+      "type": "unknown",
+      "default": "check",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "w-3",
+    "h-3",
+    "text-white",
+    "flex",
+    "items-center",
+    "h-5",
+    "sr-only",
+    "text-red-500",
+    "ml-1",
+    "mt-1",
+    "text-sm",
+    "text-red-600",
+    "w-5",
+    "rounded",
+    "border-2",
+    "justify-center",
+    "transition-all",
+    "duration-200",
+    "focus:outline-none",
+    "focus:ring-2",
+    "focus:ring-blue-500",
+    "focus:ring-offset-1",
+    "${checked",
+    ":",
+    "font-medium",
+    "leading-5",
+    "cursor-pointer",
+    "${disabled"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/CustomIconCheckbox.template.tsx",
+  "missingDeps": []
+}

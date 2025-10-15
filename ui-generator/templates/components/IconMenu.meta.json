@@ -1,0 +1,100 @@
+{
+  "id": "icon-menu",
+  "name": "IconMenu",
+  "filePath": "React-UI-Collection/src/components/ui/menus/IconMenu.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "trigger",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "items",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "columns",
+      "type": "unknown",
+      "default": "3",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "showLabels",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "position",
+      "type": "unknown",
+      "default": "center",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "cursor-pointer",
+    "focus:outline-none",
+    "focus:ring-2",
+    "focus:ring-blue-500",
+    "rounded",
+    "relative",
+    "w-8",
+    "h-8",
+    "flex",
+    "items-center",
+    "justify-center",
+    "text-gray-600",
+    "mb-2",
+    "absolute",
+    "-top-1",
+    "-right-1",
+    "bg-red-500",
+    "text-white",
+    "text-xs",
+    "rounded-full",
+    "w-5",
+    "h-5",
+    "text-gray-700",
+    "font-medium",
+    "top-full",
+    "mt-2",
+    "bg-white",
+    "rounded-lg",
+    "shadow-lg",
+    "border",
+    "border-gray-200",
+    "p-3",
+    "z-50",
+    "transform",
+    "transition-all",
+    "duration-200",
+    "origin-top",
+    "isOpen",
+    ":",
+    "flex-col",
+    "hover:bg-gray-100",
+    "transition-colors",
+    "text-center",
+    "item.disabled",
+    "w-full"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/IconMenu.template.tsx",
+  "missingDeps": []
+}

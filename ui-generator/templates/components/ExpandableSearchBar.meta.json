@@ -1,0 +1,94 @@
+{
+  "id": "expandable-search-bar",
+  "name": "ExpandableSearchBar",
+  "filePath": "React-UI-Collection/src/components/ui/inputs/search/ExpandableSearchBar.tsx",
+  "exportName": "ExpandableSearchBar",
+  "props": [
+    {
+      "name": "placeholder",
+      "type": "unknown",
+      "default": "Search...",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onSearch",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onChange",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "value",
+      "type": "controlledValue",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "collapsedWidth",
+      "type": "unknown",
+      "default": "w-12",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "expandedWidth",
+      "type": "unknown",
+      "default": "w-64",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "absolute",
+    "inset-y-0",
+    "left-0",
+    "pl-3",
+    "flex",
+    "items-center",
+    "cursor-pointer",
+    "z-10",
+    "h-5",
+    "w-5",
+    "text-gray-400",
+    "hover:text-gray-600",
+    "transition-colors",
+    "block",
+    "w-full",
+    "h-full",
+    "pl-10",
+    "pr-3",
+    "border",
+    "border-gray-300",
+    "rounded-md",
+    "leading-5",
+    "bg-white",
+    "placeholder-gray-500",
+    "focus:outline-none",
+    "focus:placeholder-gray-400",
+    "focus:ring-1",
+    "focus:ring-blue-500",
+    "focus:border-blue-500",
+    "transition-all",
+    "duration-300",
+    "!isExpanded",
+    ":"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/ExpandableSearchBar.template.tsx",
+  "missingDeps": []
+}

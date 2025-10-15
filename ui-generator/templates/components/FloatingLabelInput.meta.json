@@ -1,0 +1,108 @@
+{
+  "id": "floating-label-input",
+  "name": "FloatingLabelInput",
+  "filePath": "React-UI-Collection/src/components/ui/inputs/FloatingLabelInput.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "label",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "placeholder",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "value",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onChange",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "error",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "disabled",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "type",
+      "type": "unknown",
+      "default": "text",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "required",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "id",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "text-red-500",
+    "ml-1",
+    "mt-1",
+    "text-sm",
+    "text-red-600",
+    "w-full",
+    "px-3",
+    "pt-6",
+    "pb-2",
+    "border",
+    "border-gray-300",
+    "rounded-md",
+    "text-gray-900",
+    "placeholder-gray-400",
+    "focus:outline-none",
+    "focus:ring-2",
+    "focus:ring-blue-500",
+    "focus:border-transparent",
+    "disabled:bg-gray-50",
+    "disabled:text-gray-400",
+    "disabled:cursor-not-allowed",
+    "transition-all",
+    "duration-200",
+    "${error",
+    ":",
+    "absolute",
+    "left-3",
+    "pointer-events-none",
+    "${shouldFloat"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/FloatingLabelInput.template.tsx",
+  "missingDeps": []
+}

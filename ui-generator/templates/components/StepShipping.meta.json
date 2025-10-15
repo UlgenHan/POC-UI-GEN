@@ -1,0 +1,59 @@
+{
+  "id": "step-shipping",
+  "name": "StepShipping",
+  "filePath": "React-UI-Collection/src/modules/ecommerce/components/checkout/StepShipping.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "formData",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "setFormData",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "space-y-6",
+    "text-2xl",
+    "font-bold",
+    "text-gray-900",
+    "mb-2",
+    "text-gray-600",
+    "grid",
+    "grid-cols-1",
+    "md:grid-cols-2",
+    "gap-4",
+    "block",
+    "text-sm",
+    "font-medium",
+    "text-gray-700",
+    "mb-1",
+    "w-full",
+    "px-3",
+    "py-2",
+    "border",
+    "border-gray-300",
+    "rounded-lg",
+    "focus:ring-2",
+    "focus:ring-blue-500",
+    "focus:border-transparent",
+    "md:col-span-2",
+    "flex",
+    "items-center",
+    "h-4",
+    "w-4",
+    "text-blue-600",
+    "rounded",
+    "ml-2"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/StepShipping.template.tsx",
+  "missingDeps": []
+}

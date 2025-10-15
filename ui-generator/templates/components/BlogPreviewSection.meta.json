@@ -1,0 +1,166 @@
+{
+  "id": "blog-preview-section",
+  "name": "BlogPreviewSection",
+  "filePath": "React-UI-Collection/src/components/layout/sections/BlogPreviewSection.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "title",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "subtitle",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "posts",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "layout",
+      "type": "unknown",
+      "default": "grid",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "columns",
+      "type": "unknown",
+      "default": "3",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "showExcerpt",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "showAuthor",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "showReadTime",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "showCategory",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "showTags",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "backgroundColor",
+      "type": "unknown",
+      "default": "white",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onPostClick",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "w-full",
+    "h-full",
+    "object-cover",
+    "hover:scale-105",
+    "transition-transform",
+    "duration-300",
+    "mb-3",
+    "inline-block",
+    "px-3",
+    "py-1",
+    "text-xs",
+    "font-semibold",
+    "text-blue-600",
+    "bg-blue-100",
+    "rounded-full",
+    "text-xl",
+    "font-bold",
+    "text-gray-900",
+    "hover:text-blue-600",
+    "transition-colors",
+    "duration-200",
+    "text-gray-600",
+    "mb-4",
+    "leading-relaxed",
+    "line-clamp-3",
+    "flex",
+    "flex-wrap",
+    "gap-2",
+    "px-2",
+    "bg-gray-100",
+    "rounded",
+    "items-center",
+    "justify-between",
+    "text-sm",
+    "text-gray-500",
+    "space-x-4",
+    "w-8",
+    "h-8",
+    "mr-2",
+    "mt-4",
+    "hover:text-blue-800",
+    "font-medium",
+    "max-w-7xl",
+    "mx-auto",
+    "px-4",
+    "sm:px-6",
+    "lg:px-8",
+    "text-center",
+    "mb-16",
+    "uppercase",
+    "tracking-wide",
+    "text-3xl",
+    "md:text-4xl",
+    "bg-white",
+    "rounded-lg",
+    "shadow-md",
+    "overflow-hidden",
+    "hover:shadow-lg",
+    "transition-shadow",
+    "cursor-pointer",
+    "layout",
+    ":",
+    "${layout",
+    "p-6"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/BlogPreviewSection.template.tsx",
+  "missingDeps": []
+}

@@ -1,0 +1,44 @@
+{
+  "id": "bar-loader",
+  "name": "BarLoader",
+  "filePath": "React-UI-Collection/src/components/ui/loaders/BarLoader.tsx",
+  "exportName": "BarLoader",
+  "props": [
+    {
+      "name": "width",
+      "type": "unknown",
+      "default": "w-32",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "height",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "color",
+      "type": "unknown",
+      "default": "bg-blue-600",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "sr-only"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/BarLoader.template.tsx",
+  "missingDeps": []
+}

@@ -1,0 +1,37 @@
+{
+  "id": "dot-bounce-loader",
+  "name": "DotBounceLoader",
+  "filePath": "React-UI-Collection/src/components/ui/loaders/DotBounceLoader.tsx",
+  "exportName": "DotBounceLoader",
+  "props": [
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "color",
+      "type": "unknown",
+      "default": "bg-blue-600",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "sr-only"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/DotBounceLoader.template.tsx",
+  "missingDeps": []
+}

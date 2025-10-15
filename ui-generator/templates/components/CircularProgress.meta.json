@@ -1,0 +1,76 @@
+{
+  "id": "circular-progress",
+  "name": "CircularProgress",
+  "filePath": "React-UI-Collection/src/components/ui/progress/CircularProgress.tsx",
+  "exportName": "CircularProgress",
+  "props": [
+    {
+      "name": "value",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "max",
+      "type": "unknown",
+      "default": "100",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "120",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "strokeWidth",
+      "type": "unknown",
+      "default": "8",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "showPercentage",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "variant",
+      "type": "unknown",
+      "default": "default",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "transform",
+    "-rotate-90",
+    "transition-all",
+    "duration-300",
+    "ease-out",
+    "absolute",
+    "inset-0",
+    "flex",
+    "items-center",
+    "justify-center",
+    "text-sm",
+    "font-semibold",
+    "text-gray-700"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/CircularProgress.template.tsx",
+  "missingDeps": []
+}

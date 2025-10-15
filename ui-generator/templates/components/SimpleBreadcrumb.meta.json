@@ -1,0 +1,44 @@
+{
+  "id": "simple-breadcrumb",
+  "name": "SimpleBreadcrumb",
+  "filePath": "React-UI-Collection/src/components/ui/breadcrumbs/SimpleBreadcrumb.tsx",
+  "exportName": "SimpleBreadcrumb",
+  "props": [
+    {
+      "name": "items",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "inline-flex",
+    "items-center",
+    "space-x-1",
+    "md:space-x-3",
+    "mx-2",
+    "text-gray-400",
+    "ml-1",
+    "text-sm",
+    "font-medium",
+    "text-gray-700",
+    "hover:text-blue-600",
+    "md:ml-2",
+    "transition-colors",
+    "duration-200",
+    "item.isActive",
+    ":"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/SimpleBreadcrumb.template.tsx",
+  "missingDeps": []
+}

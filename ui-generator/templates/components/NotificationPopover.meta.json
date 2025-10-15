@@ -1,0 +1,99 @@
+{
+  "id": "notification-popover",
+  "name": "NotificationPopover",
+  "filePath": "React-UI-Collection/src/components/ui/popovers/NotificationPopover.tsx",
+  "exportName": "NotificationPopover",
+  "props": [
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "notifications",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onNotificationClick",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onMarkAllRead",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "popoverClassName",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "cursor-pointer",
+    "relative",
+    "absolute",
+    "-top-2",
+    "-right-2",
+    "bg-red-500",
+    "text-white",
+    "text-xs",
+    "rounded-full",
+    "h-5",
+    "w-5",
+    "flex",
+    "items-center",
+    "justify-center",
+    "justify-between",
+    "p-4",
+    "border-b",
+    "border-gray-200",
+    "text-lg",
+    "font-semibold",
+    "text-gray-900",
+    "text-sm",
+    "text-blue-600",
+    "hover:text-blue-800",
+    "focus:outline-none",
+    "focus:underline",
+    "max-h-80",
+    "overflow-y-auto",
+    "text-center",
+    "text-gray-500",
+    "items-start",
+    "space-x-3",
+    "flex-1",
+    "min-w-0",
+    "font-medium",
+    "truncate",
+    "text-gray-600",
+    "mt-1",
+    "text-gray-400",
+    "border-gray-100",
+    "hover:bg-gray-50",
+    "${!notification.read",
+    ":",
+    "w-2",
+    "h-2",
+    "mt-2"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/NotificationPopover.template.tsx",
+  "missingDeps": []
+}

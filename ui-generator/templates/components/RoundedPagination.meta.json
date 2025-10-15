@@ -1,0 +1,58 @@
+{
+  "id": "rounded-pagination",
+  "name": "RoundedPagination",
+  "filePath": "React-UI-Collection/src/components/ui/pagination/RoundedPagination.tsx",
+  "exportName": "RoundedPagination",
+  "props": [
+    {
+      "name": "currentPage",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "totalPages",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onPageChange",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "flex",
+    "items-center",
+    "space-x-2",
+    "w-5",
+    "h-5",
+    "w-10",
+    "h-10",
+    "rounded-full",
+    "justify-center",
+    "transition-all",
+    "duration-200",
+    "currentPage",
+    "1",
+    ":",
+    "text-sm",
+    "font-medium",
+    "page",
+    "totalPages"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/RoundedPagination.template.tsx",
+  "missingDeps": []
+}

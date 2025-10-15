@@ -1,0 +1,38 @@
+{
+  "id": "ring-dash-loader",
+  "name": "RingDashLoader",
+  "filePath": "React-UI-Collection/src/components/ui/loaders/RingDashLoader.tsx",
+  "exportName": "RingDashLoader",
+  "props": [
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "color",
+      "type": "unknown",
+      "default": "stroke-blue-600",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "animate-spin",
+    "sr-only"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/RingDashLoader.template.tsx",
+  "missingDeps": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": "minimal-chat-widget",
+  "name": "MinimalChatWidget",
+  "filePath": "React-UI-Collection/src/components/ui/chat/MinimalChatWidget.tsx",
+  "exportName": "MinimalChatWidget",
+  "props": [
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "h-60",
+    "overflow-y-auto",
+    "p-3",
+    "space-y-2",
+    "border-t",
+    "flex",
+    "flex-1",
+    "px-2",
+    "py-1",
+    "border",
+    "rounded",
+    "mr-2",
+    "px-3",
+    "bg-blue-500",
+    "text-white",
+    "text-sm",
+    "p-2",
+    "msg.sender",
+    ":"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/MinimalChatWidget.template.tsx",
+  "missingDeps": []
+}

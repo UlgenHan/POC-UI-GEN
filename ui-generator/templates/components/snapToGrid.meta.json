@@ -1,0 +1,13 @@
+{
+  "id": "snap-to-grid",
+  "name": "snapToGrid",
+  "filePath": "React-UI-Collection/src/modules/websiteBuilder/utils/gridUtils.ts",
+  "exportName": "snapToGrid",
+  "props": [],
+  "variants": {},
+  "tailwindClasses": [],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/snapToGrid.template.tsx",
+  "missingDeps": []
+}

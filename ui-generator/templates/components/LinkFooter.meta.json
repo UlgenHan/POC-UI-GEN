@@ -1,0 +1,75 @@
+{
+  "id": "link-footer",
+  "name": "LinkFooter",
+  "filePath": "React-UI-Collection/src/components/layout/footers/LinkFooter.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "columns",
+      "type": "unknown",
+      "default": "[]",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "companyName",
+      "type": "unknown",
+      "default": "Your Company",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "year",
+      "type": "unknown",
+      "default": "new Date().getFullYear()",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "bgColor",
+      "type": "unknown",
+      "default": "bg-white",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "max-w-7xl",
+    "mx-auto",
+    "px-4",
+    "sm:px-6",
+    "lg:px-8",
+    "grid",
+    "grid-cols-2",
+    "md:grid-cols-4",
+    "gap-8",
+    "text-sm",
+    "font-semibold",
+    "text-gray-900",
+    "uppercase",
+    "tracking-wider",
+    "mb-4",
+    "space-y-3",
+    "text-gray-600",
+    "hover:text-gray-900",
+    "transition-colors",
+    "duration-200",
+    "mt-8",
+    "pt-8",
+    "border-t",
+    "border-gray-200",
+    "text-center"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/LinkFooter.template.tsx",
+  "missingDeps": []
+}

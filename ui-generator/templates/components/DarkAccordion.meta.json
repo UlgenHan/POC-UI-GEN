@@ -1,0 +1,63 @@
+{
+  "id": "dark-accordion",
+  "name": "DarkAccordion",
+  "filePath": "React-UI-Collection/src/components/ui/accordions/DarkAccordion.tsx",
+  "exportName": "DarkAccordion",
+  "props": [
+    {
+      "name": "items",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onToggle",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "border",
+    "border-gray-700",
+    "rounded-lg",
+    "bg-gray-800",
+    "w-full",
+    "px-4",
+    "py-3",
+    "text-left",
+    "font-medium",
+    "text-white",
+    "hover:bg-gray-700",
+    "focus:outline-none",
+    "focus:ring-2",
+    "focus:ring-blue-400",
+    "focus:ring-inset",
+    "transition-colors",
+    "duration-200",
+    "flex",
+    "justify-between",
+    "items-center",
+    "text-gray-300",
+    "border-t",
+    "bg-gray-900",
+    "w-5",
+    "h-5",
+    "transform",
+    "transition-transform",
+    "isOpen",
+    ":"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/DarkAccordion.template.tsx",
+  "missingDeps": []
+}

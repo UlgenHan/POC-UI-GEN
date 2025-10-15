@@ -1,0 +1,63 @@
+{
+  "id": "popover-with-header",
+  "name": "PopoverWithHeader",
+  "filePath": "React-UI-Collection/src/components/ui/popovers/PopoverWithHeader.tsx",
+  "exportName": "PopoverWithHeader",
+  "props": [
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "title",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "content",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "trigger",
+      "type": "unknown",
+      "default": "click",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "popoverClassName",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "cursor-pointer",
+    "px-4",
+    "py-3",
+    "border-b",
+    "border-gray-200",
+    "text-lg",
+    "font-semibold",
+    "text-gray-900",
+    "p-4"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/PopoverWithHeader.template.tsx",
+  "missingDeps": []
+}

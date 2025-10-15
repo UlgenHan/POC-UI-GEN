@@ -1,0 +1,37 @@
+{
+  "id": "pulse-circle-loader",
+  "name": "PulseCircleLoader",
+  "filePath": "React-UI-Collection/src/components/ui/loaders/PulseCircleLoader.tsx",
+  "exportName": "PulseCircleLoader",
+  "props": [
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "color",
+      "type": "unknown",
+      "default": "bg-blue-600",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "sr-only"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/PulseCircleLoader.template.tsx",
+  "missingDeps": []
+}

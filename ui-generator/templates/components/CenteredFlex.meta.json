@@ -1,0 +1,48 @@
+{
+  "id": "centered-flex",
+  "name": "CenteredFlex",
+  "filePath": "React-UI-Collection/src/components/layout/flex/CenteredFlex.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "direction",
+      "type": "unknown",
+      "default": "column",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "gap",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "minHeight",
+      "type": "unknown",
+      "default": "auto",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/CenteredFlex.template.tsx",
+  "missingDeps": []
+}

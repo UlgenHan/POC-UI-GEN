@@ -1,0 +1,84 @@
+{
+  "id": "card-tabs",
+  "name": "CardTabs",
+  "filePath": "React-UI-Collection/src/components/ui/tabs/CardTabs.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "tabs",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "defaultActiveTab",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onTabChange",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "cardBorder",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "cardShadow",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "flex",
+    "flex-wrap",
+    "gap-2",
+    "mb-6",
+    "items-center",
+    "space-x-2",
+    "text-left",
+    "px-4",
+    "py-3",
+    "rounded-lg",
+    "text-sm",
+    "font-medium",
+    "transition-all",
+    "duration-200",
+    "focus:outline-none",
+    "focus:ring-2",
+    "focus:ring-blue-500",
+    "focus:ring-offset-2",
+    "activeTab",
+    "tab.id",
+    "border",
+    "border-blue-200",
+    "w-5",
+    "h-5",
+    ":",
+    "text-xs",
+    "mt-1",
+    "bg-white",
+    "p-6",
+    "cardBorder"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/CardTabs.template.tsx",
+  "missingDeps": []
+}

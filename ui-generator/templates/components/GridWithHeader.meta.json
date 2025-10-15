@@ -1,0 +1,54 @@
+{
+  "id": "grid-with-header",
+  "name": "GridWithHeader",
+  "filePath": "React-UI-Collection/src/components/layout/grid/GridWithHeader.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "header",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "columns",
+      "type": "unknown",
+      "default": "3",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "gap",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "headerGap",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/GridWithHeader.template.tsx",
+  "missingDeps": []
+}

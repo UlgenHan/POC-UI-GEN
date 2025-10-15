@@ -1,0 +1,91 @@
+{
+  "id": "action-toast",
+  "name": "ActionToast",
+  "filePath": "React-UI-Collection/src/components/ui/toasts/ActionToast.tsx",
+  "exportName": "ActionToast",
+  "props": [
+    {
+      "name": "message",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "variant",
+      "type": "unknown",
+      "default": "info",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "actionLabel",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onAction",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "show",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "duration",
+      "type": "unknown",
+      "default": "6000",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onClose",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "flex",
+    "items-center",
+    "justify-between",
+    "text-sm",
+    "font-medium",
+    "mr-4",
+    "space-x-2",
+    "px-3",
+    "py-1",
+    "text-xs",
+    "bg-white",
+    "bg-opacity-20",
+    "hover:bg-opacity-30",
+    "rounded",
+    "transition-colors",
+    "focus:outline-none",
+    "focus:ring-2",
+    "focus:ring-white",
+    "focus:ring-opacity-50",
+    "p-1",
+    "hover:bg-white",
+    "hover:bg-opacity-20",
+    "w-4",
+    "h-4"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/ActionToast.template.tsx",
+  "missingDeps": []
+}

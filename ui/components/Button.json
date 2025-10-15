@@ -2,8 +2,12 @@
   "name": "Button",
   "importPath": "React-UI-Collection/src/components/ui/buttons/PrimaryButton",
   "props": [
-    { "name": "label", "type": "string" },
-    { "name": "variant", "type": "string" }
+    { "name": "children", "type": "any", "required": true },
+    { "name": "onClick", "type": "any", "required": false },
+    { "name": "disabled", "type": "boolean", "required": false, "default": false },
+    { "name": "type", "type": "string", "required": false, "default": "button" },
+    { "name": "size", "type": "string", "required": false, "default": "md" },
+    { "name": "className", "type": "string", "required": false, "default": "" }
   ],
   "events": ["onClick"]
 }

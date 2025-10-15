@@ -1,0 +1,65 @@
+{
+  "id": "topbar-breadcrumb",
+  "name": "TopbarBreadcrumb",
+  "filePath": "React-UI-Collection/src/components/ui/breadcrumbs/TopbarBreadcrumb.tsx",
+  "exportName": "TopbarBreadcrumb",
+  "props": [
+    {
+      "name": "items",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "sticky",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "max-w-7xl",
+    "mx-auto",
+    "px-4",
+    "sm:px-6",
+    "lg:px-8",
+    "flex",
+    "py-3",
+    "inline-flex",
+    "items-center",
+    "space-x-1",
+    "md:space-x-3",
+    "w-6",
+    "h-6",
+    "text-gray-400",
+    "ml-1",
+    "text-sm",
+    "font-medium",
+    "text-gray-700",
+    "hover:text-blue-600",
+    "md:ml-2",
+    "transition-colors",
+    "duration-200",
+    "w-full",
+    "bg-white",
+    "border-b",
+    "border-gray-200",
+    "shadow-sm",
+    "${sticky",
+    ":",
+    "item.isActive"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/TopbarBreadcrumb.template.tsx",
+  "missingDeps": []
+}

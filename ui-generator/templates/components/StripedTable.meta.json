@@ -1,0 +1,51 @@
+{
+  "id": "striped-table",
+  "name": "StripedTable",
+  "filePath": "React-UI-Collection/src/components/ui/tables/StripedTable.tsx",
+  "exportName": "StripedTable",
+  "props": [
+    {
+      "name": "data",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "columns",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "min-w-full",
+    "divide-y",
+    "divide-gray-200",
+    "bg-gray-50",
+    "px-6",
+    "py-3",
+    "text-left",
+    "text-xs",
+    "font-medium",
+    "text-gray-500",
+    "uppercase",
+    "tracking-wider",
+    "bg-white",
+    "py-4",
+    "whitespace-nowrap",
+    "text-sm",
+    "text-gray-900"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/StripedTable.template.tsx",
+  "missingDeps": []
+}

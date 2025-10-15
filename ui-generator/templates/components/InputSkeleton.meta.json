@@ -1,0 +1,58 @@
+{
+  "id": "input-skeleton",
+  "name": "InputSkeleton",
+  "filePath": "React-UI-Collection/src/components/ui/skeletons/InputSkeleton.tsx",
+  "exportName": "InputSkeleton",
+  "props": [
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "width",
+      "type": "unknown",
+      "default": "w-full",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "showLabel",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "showHelperText",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "animated",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "sr-only"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/InputSkeleton.template.tsx",
+  "missingDeps": []
+}

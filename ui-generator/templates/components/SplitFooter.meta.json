@@ -1,0 +1,102 @@
+{
+  "id": "split-footer",
+  "name": "SplitFooter",
+  "filePath": "React-UI-Collection/src/components/layout/footers/SplitFooter.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "mainLinks",
+      "type": "unknown",
+      "default": "[]",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "legalLinks",
+      "type": "unknown",
+      "default": "[]",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "companyName",
+      "type": "unknown",
+      "default": "Your Company",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "year",
+      "type": "unknown",
+      "default": "new Date().getFullYear()",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "bgColor",
+      "type": "unknown",
+      "default": "bg-white",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "py-12",
+    "max-w-7xl",
+    "mx-auto",
+    "px-4",
+    "sm:px-6",
+    "lg:px-8",
+    "grid",
+    "grid-cols-1",
+    "md:grid-cols-2",
+    "lg:grid-cols-4",
+    "gap-8",
+    "lg:col-span-2",
+    "text-lg",
+    "font-bold",
+    "text-gray-900",
+    "mb-4",
+    "text-gray-600",
+    "text-sm",
+    "leading-relaxed",
+    "flex",
+    "space-x-4",
+    "text-gray-400",
+    "hover:text-gray-600",
+    "transition-colors",
+    "duration-200",
+    "w-5",
+    "h-5",
+    "font-semibold",
+    "uppercase",
+    "tracking-wider",
+    "space-y-3",
+    "hover:text-gray-900",
+    "border-t",
+    "border-gray-200",
+    "bg-gray-50",
+    "py-6",
+    "flex-col",
+    "md:flex-row",
+    "justify-between",
+    "items-center",
+    "md:mb-0",
+    "flex-wrap",
+    "justify-center",
+    "md:justify-end",
+    "space-x-6"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/SplitFooter.template.tsx",
+  "missingDeps": []
+}

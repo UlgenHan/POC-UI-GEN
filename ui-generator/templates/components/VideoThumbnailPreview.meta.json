@@ -1,0 +1,116 @@
+{
+  "id": "video-thumbnail-preview",
+  "name": "VideoThumbnailPreview",
+  "filePath": "React-UI-Collection/src/components/ui/media/video/VideoThumbnailPreview.tsx",
+  "exportName": "VideoThumbnailPreview",
+  "props": [
+    {
+      "name": "src",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "poster",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "title",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "duration",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "width",
+      "type": "unknown",
+      "default": "100%",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "height",
+      "type": "unknown",
+      "default": "auto",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onClick",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "absolute",
+    "inset-0",
+    "flex",
+    "items-center",
+    "justify-center",
+    "bg-black",
+    "bg-opacity-30",
+    "group-hover:bg-opacity-50",
+    "transition-all",
+    "duration-200",
+    "rounded-lg",
+    "w-12",
+    "h-12",
+    "bg-white",
+    "bg-opacity-90",
+    "rounded-full",
+    "shadow-lg",
+    "group-hover:scale-110",
+    "transition-transform",
+    "w-6",
+    "h-6",
+    "text-gray-800",
+    "ml-0.5",
+    "bottom-2",
+    "right-2",
+    "bg-opacity-70",
+    "text-white",
+    "text-xs",
+    "px-2",
+    "py-1",
+    "rounded",
+    "bottom-0",
+    "left-0",
+    "right-0",
+    "p-3",
+    "bg-gradient-to-t",
+    "from-black",
+    "to-transparent",
+    "rounded-b-lg",
+    "text-sm",
+    "font-medium",
+    "truncate",
+    "w-full",
+    "h-full",
+    "object-cover",
+    "shadow-md",
+    "transition-opacity",
+    "duration-300",
+    "isHovered",
+    ":"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/VideoThumbnailPreview.template.tsx",
+  "missingDeps": []
+}

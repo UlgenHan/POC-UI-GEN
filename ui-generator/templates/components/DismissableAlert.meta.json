@@ -1,0 +1,70 @@
+{
+  "id": "dismissable-alert",
+  "name": "DismissableAlert",
+  "filePath": "React-UI-Collection/src/components/ui/alerts/DismissableAlert.tsx",
+  "exportName": "DismissableAlert",
+  "props": [
+    {
+      "name": "variant",
+      "type": "unknown",
+      "default": "info",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "message",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "show",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "autoClose",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "duration",
+      "type": "unknown",
+      "default": "5000",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onClose",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "flex",
+    "items-start",
+    "justify-between",
+    "text-sm",
+    "font-medium",
+    "pr-8",
+    "w-4",
+    "h-4"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/DismissableAlert.template.tsx",
+  "missingDeps": []
+}

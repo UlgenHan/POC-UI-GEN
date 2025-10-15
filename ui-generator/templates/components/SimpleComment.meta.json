@@ -1,0 +1,50 @@
+{
+  "id": "simple-comment",
+  "name": "SimpleComment",
+  "filePath": "React-UI-Collection/src/components/ui/comments/SimpleComment.tsx",
+  "exportName": "SimpleComment",
+  "props": [
+    {
+      "name": "username",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "comment",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "timestamp",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "flex",
+    "items-center",
+    "space-x-2",
+    "mb-2",
+    "font-semibold",
+    "text-gray-900",
+    "text-sm",
+    "text-gray-500",
+    "text-gray-700",
+    "leading-relaxed"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/SimpleComment.template.tsx",
+  "missingDeps": []
+}

@@ -1,0 +1,33 @@
+{
+  "id": "data-grid-body",
+  "name": "DataGridBody",
+  "filePath": "React-UI-Collection/src/components/complex-components/datagrid/DataGridBody.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "data",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "columns",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "theme",
+      "type": "unknown",
+      "default": "light",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/DataGridBody.template.tsx",
+  "missingDeps": []
+}

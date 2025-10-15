@@ -1,0 +1,73 @@
+{
+  "id": "basic-accordion",
+  "name": "BasicAccordion",
+  "filePath": "React-UI-Collection/src/components/ui/accordions/BasicAccordion.tsx",
+  "exportName": "BasicAccordion",
+  "props": [
+    {
+      "name": "title",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "content",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "defaultOpen",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onToggle",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "w-full",
+    "px-4",
+    "py-3",
+    "text-left",
+    "font-medium",
+    "text-gray-900",
+    "bg-gray-50",
+    "hover:bg-gray-100",
+    "focus:outline-none",
+    "focus:ring-2",
+    "focus:ring-blue-500",
+    "focus:ring-inset",
+    "rounded-t-lg",
+    "flex",
+    "justify-between",
+    "items-center",
+    "text-gray-700",
+    "border-t",
+    "border-gray-200",
+    "w-5",
+    "h-5",
+    "transform",
+    "transition-transform",
+    "duration-200",
+    "isOpen",
+    ":"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/BasicAccordion.template.tsx",
+  "missingDeps": []
+}

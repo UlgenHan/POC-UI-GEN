@@ -1,0 +1,76 @@
+{
+  "id": "loading-button",
+  "name": "LoadingButton",
+  "filePath": "React-UI-Collection/src/components/ui/buttons/LoadingButton.tsx",
+  "exportName": "LoadingButton",
+  "props": [
+    {
+      "name": "size",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "children",
+      "type": "React.ReactNode",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onClick",
+      "type": "() => void",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "disabled",
+      "type": "boolean",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "loading",
+      "type": "boolean",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "type",
+      "type": "'button' | 'submit' | 'reset'",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "variant",
+      "type": "'primary' | 'secondary'",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "string",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {
+    "type": [
+      "button",
+      "submit",
+      "reset"
+    ],
+    "variant": [
+      "primary",
+      "secondary"
+    ]
+  },
+  "tailwindClasses": [
+    "opacity-25",
+    "opacity-75",
+    "mr-2"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/LoadingButton.template.tsx",
+  "missingDeps": []
+}

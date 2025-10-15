@@ -2,10 +2,16 @@
   "name": "Input",
   "importPath": "React-UI-Collection/src/components/ui/inputs/BasicInput",
   "props": [
-    { "name": "label", "type": "string" },
-    { "name": "name", "type": "string" },
-    { "name": "placeholder", "type": "string" },
-    { "name": "value", "type": "string" }
+    { "name": "label", "type": "string", "required": false },
+    { "name": "placeholder", "type": "string", "required": false },
+    { "name": "value", "type": "string", "required": false },
+    { "name": "onChange", "type": "any", "required": false },
+    { "name": "error", "type": "string", "required": false },
+    { "name": "disabled", "type": "boolean", "required": false, "default": false },
+    { "name": "type", "type": "string", "required": false, "default": "text" },
+    { "name": "className", "type": "string", "required": false, "default": "" },
+    { "name": "required", "type": "boolean", "required": false, "default": false },
+    { "name": "id", "type": "string", "required": false }
   ],
   "events": ["onChange"]
 }

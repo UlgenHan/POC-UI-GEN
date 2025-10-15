@@ -1,0 +1,64 @@
+{
+  "id": "ellipsis-pagination",
+  "name": "EllipsisPagination",
+  "filePath": "React-UI-Collection/src/components/ui/pagination/EllipsisPagination.tsx",
+  "exportName": "EllipsisPagination",
+  "props": [
+    {
+      "name": "currentPage",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "totalPages",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onPageChange",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "maxVisiblePages",
+      "type": "unknown",
+      "default": "7",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "flex",
+    "items-center",
+    "space-x-1",
+    "px-3",
+    "py-2",
+    "text-sm",
+    "text-gray-500",
+    "font-medium",
+    "rounded-md",
+    "border",
+    "transition-colors",
+    "duration-200",
+    "currentPage",
+    "1",
+    ":",
+    "page",
+    "totalPages"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/EllipsisPagination.template.tsx",
+  "missingDeps": []
+}

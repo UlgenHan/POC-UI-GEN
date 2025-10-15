@@ -1,0 +1,57 @@
+{
+  "id": "responsive-grid",
+  "name": "ResponsiveGrid",
+  "filePath": "React-UI-Collection/src/components/layout/grid/ResponsiveGrid.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "columns",
+      "type": "1",
+      "default": "{ base: 1",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "sm",
+      "type": "2",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "md",
+      "type": "2",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "lg",
+      "type": "3",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "xl",
+      "type": "4",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "base",
+      "type": "1 | 2 | 3 | 4",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/ResponsiveGrid.template.tsx",
+  "missingDeps": []
+}

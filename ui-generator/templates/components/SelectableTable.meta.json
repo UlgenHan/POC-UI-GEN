@@ -1,0 +1,78 @@
+{
+  "id": "selectable-table",
+  "name": "SelectableTable",
+  "filePath": "React-UI-Collection/src/components/ui/tables/SelectableTable.tsx",
+  "exportName": "SelectableTable",
+  "props": [
+    {
+      "name": "data",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "columns",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "selectedIds",
+      "type": "unknown",
+      "default": "[]",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onSelectionChange",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "idField",
+      "type": "unknown",
+      "default": "id",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "min-w-full",
+    "divide-y",
+    "divide-gray-200",
+    "bg-gray-50",
+    "px-6",
+    "py-3",
+    "text-left",
+    "h-4",
+    "w-4",
+    "text-blue-600",
+    "focus:ring-blue-500",
+    "border-gray-300",
+    "rounded",
+    "text-xs",
+    "font-medium",
+    "text-gray-500",
+    "uppercase",
+    "tracking-wider",
+    "bg-white",
+    "py-4",
+    "whitespace-nowrap",
+    "text-sm",
+    "text-gray-900",
+    "bg-blue-50"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/SelectableTable.template.tsx",
+  "missingDeps": []
+}

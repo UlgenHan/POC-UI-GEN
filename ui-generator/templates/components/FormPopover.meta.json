@@ -1,0 +1,87 @@
+{
+  "id": "form-popover",
+  "name": "FormPopover",
+  "filePath": "React-UI-Collection/src/components/ui/popovers/FormPopover.tsx",
+  "exportName": "FormPopover",
+  "props": [
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "title",
+      "type": "unknown",
+      "default": "Enter Information",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "placeholder",
+      "type": "unknown",
+      "default": "Type here...",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "buttonText",
+      "type": "unknown",
+      "default": "Submit",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onSubmit",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "popoverClassName",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "cursor-pointer",
+    "text-lg",
+    "font-semibold",
+    "text-gray-900",
+    "mb-3",
+    "space-y-3",
+    "w-full",
+    "px-3",
+    "py-2",
+    "border",
+    "border-gray-300",
+    "rounded-md",
+    "focus:outline-none",
+    "focus:ring-2",
+    "focus:ring-blue-500",
+    "focus:border-blue-500",
+    "flex",
+    "space-x-2",
+    "flex-1",
+    "bg-blue-600",
+    "text-white",
+    "hover:bg-blue-700",
+    "focus:ring-offset-2",
+    "hover:bg-gray-50",
+    "focus:ring-gray-500"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/FormPopover.template.tsx",
+  "missingDeps": []
+}

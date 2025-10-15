@@ -1,0 +1,97 @@
+{
+  "id": "lazy-loaded-image",
+  "name": "LazyLoadedImage",
+  "filePath": "React-UI-Collection/src/components/ui/images/LazyLoadedImage.tsx",
+  "exportName": "LazyLoadedImage",
+  "props": [
+    {
+      "name": "src",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "alt",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "width",
+      "type": "unknown",
+      "default": "w-full",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "height",
+      "type": "unknown",
+      "default": "h-64",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "placeholder",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "rounded",
+      "type": "unknown",
+      "default": "lg",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "objectFit",
+      "type": "unknown",
+      "default": "cover",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "threshold",
+      "type": "unknown",
+      "default": "0.1",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onLoad",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onError",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "w-full",
+    "h-full",
+    "bg-gray-300",
+    "animate-pulse",
+    "flex",
+    "items-center",
+    "justify-center",
+    "w-8",
+    "h-8",
+    "text-gray-400"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/LazyLoadedImage.template.tsx",
+  "missingDeps": []
+}

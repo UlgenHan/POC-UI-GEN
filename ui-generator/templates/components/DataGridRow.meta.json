@@ -1,0 +1,136 @@
+{
+  "id": "data-grid-row",
+  "name": "DataGridRow",
+  "filePath": "React-UI-Collection/src/components/complex-components/datagrid/DataGridRow.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "row",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "columns",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "rowKey",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onRowClick",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "rowIndex",
+      "type": "unknown",
+      "default": "0",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "sortKey",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "isSelected",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onSelect",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "pinnedColumns",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "theme",
+      "type": "unknown",
+      "default": "light",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "user",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "access",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "editing",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onEdit",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onDetailToggle",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "isDetailOpen",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "renderDetail",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "px-2",
+    "py-2",
+    "accent-blue-600",
+    "text-blue-600",
+    "hover:underline",
+    "text-xs",
+    "p-4",
+    "border-b",
+    "border-gray-200",
+    "$${rowIndex",
+    "2",
+    "0",
+    "(theme",
+    ":",
+    "dark",
+    "bg-gray-900",
+    "bg-blue-50"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/DataGridRow.template.tsx",
+  "missingDeps": []
+}

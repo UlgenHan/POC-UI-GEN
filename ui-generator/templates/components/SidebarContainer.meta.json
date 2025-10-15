@@ -1,0 +1,57 @@
+{
+  "id": "sidebar-container",
+  "name": "SidebarContainer",
+  "filePath": "React-UI-Collection/src/components/layout/containers/SidebarContainer.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "sidebar",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "sidebarWidth",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "sidebarPosition",
+      "type": "unknown",
+      "default": "left",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "gap",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "flex-1",
+    "min-w-0"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/SidebarContainer.template.tsx",
+  "missingDeps": []
+}

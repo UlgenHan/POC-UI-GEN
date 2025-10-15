@@ -1,0 +1,121 @@
+{
+  "id": "dot-stepper",
+  "name": "DotStepper",
+  "filePath": "React-UI-Collection/src/components/ui/steppers/DotStepper.tsx",
+  "exportName": "DotStepper",
+  "props": [
+    {
+      "name": "steps",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "currentStep",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onStepClick",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "allowClickThrough",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "orientation",
+      "type": "unknown",
+      "default": "horizontal",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "dotSize",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "showLabels",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "flex",
+    "items-center",
+    "flex-col",
+    "mr-4",
+    "absolute",
+    "inset-0",
+    "rounded-full",
+    "bg-blue-500",
+    "animate-ping",
+    "opacity-30",
+    "justify-center",
+    "w-1",
+    "h-1",
+    "bg-white",
+    "flex-1",
+    "py-2",
+    "text-xs",
+    "text-gray-400",
+    "mt-1",
+    "space-x-2",
+    "animate-pulse",
+    "opacity-20",
+    "space-x-px",
+    "w-0.5",
+    "h-0.5",
+    "animate-bounce",
+    "delay-100",
+    "delay-200",
+    "w-px",
+    "h-px",
+    "delay-0",
+    "delay-300",
+    "ml-1",
+    "mt-4",
+    "justify-between",
+    "text-center",
+    "px-2",
+    "mt-3",
+    "text-gray-600",
+    "space-x-1",
+    "text-sm",
+    "font-medium",
+    "isCurrent",
+    ":",
+    "isCompleted",
+    "h-full",
+    "bg-green-500",
+    "transition-all",
+    "duration-500",
+    "transition-colors",
+    "duration-200",
+    "i",
+    "currentStep"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/DotStepper.template.tsx",
+  "missingDeps": []
+}

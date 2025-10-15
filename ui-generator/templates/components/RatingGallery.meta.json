@@ -1,0 +1,105 @@
+{
+  "id": "rating-gallery",
+  "name": "RatingGallery",
+  "filePath": "React-UI-Collection/src/pages/RatingGallery.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "basic",
+      "type": "3",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "half",
+      "type": "3.5",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "colorful",
+      "type": "4",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "text",
+      "type": "2",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "compact",
+      "type": "5",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "hearts",
+      "type": "3",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "animated",
+      "type": "4",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "clickable",
+      "type": "2",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "min-h-screen",
+    "bg-gray-50",
+    "bg-white",
+    "shadow-sm",
+    "border-b",
+    "max-w-7xl",
+    "mx-auto",
+    "px-4",
+    "sm:px-6",
+    "lg:px-8",
+    "py-4",
+    "flex",
+    "items-center",
+    "justify-between",
+    "text-blue-600",
+    "hover:text-blue-800",
+    "font-medium",
+    "text-3xl",
+    "font-bold",
+    "text-gray-900",
+    "mt-2",
+    "text-gray-600",
+    "mt-1",
+    "py-8",
+    "grid",
+    "gap-8",
+    "rounded-lg",
+    "border",
+    "p-6",
+    "text-xl",
+    "font-semibold",
+    "mb-4",
+    "mb-6",
+    "flex-col",
+    "space-y-4",
+    "space-y-2",
+    "text-sm",
+    "text-gray-500",
+    "space-y-6",
+    "space-x-4",
+    "text-gray-700",
+    "max-w-md"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/RatingGallery.template.tsx",
+  "missingDeps": []
+}

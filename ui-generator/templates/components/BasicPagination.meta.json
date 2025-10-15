@@ -1,0 +1,55 @@
+{
+  "id": "basic-pagination",
+  "name": "BasicPagination",
+  "filePath": "React-UI-Collection/src/components/ui/pagination/BasicPagination.tsx",
+  "exportName": "BasicPagination",
+  "props": [
+    {
+      "name": "currentPage",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "totalPages",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onPageChange",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "flex",
+    "items-center",
+    "space-x-1",
+    "px-3",
+    "py-2",
+    "text-sm",
+    "font-medium",
+    "rounded-md",
+    "transition-colors",
+    "duration-200",
+    "currentPage",
+    "1",
+    ":",
+    "page",
+    "totalPages"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/BasicPagination.template.tsx",
+  "missingDeps": []
+}

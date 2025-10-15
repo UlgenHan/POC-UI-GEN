@@ -1,0 +1,117 @@
+{
+  "id": "card-style-comment",
+  "name": "CardStyleComment",
+  "filePath": "React-UI-Collection/src/components/ui/comments/CardStyleComment.tsx",
+  "exportName": "CardStyleComment",
+  "props": [
+    {
+      "name": "username",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "comment",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "timestamp",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "avatarUrl",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "likes",
+      "type": "unknown",
+      "default": "0",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onLike",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onReply",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "isLiked",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "flex",
+    "space-x-4",
+    "flex-shrink-0",
+    "w-12",
+    "h-12",
+    "rounded-full",
+    "object-cover",
+    "shadow-sm",
+    "bg-gradient-to-br",
+    "from-blue-400",
+    "to-purple-500",
+    "items-center",
+    "justify-center",
+    "text-white",
+    "font-semibold",
+    "text-lg",
+    "flex-1",
+    "min-w-0",
+    "justify-between",
+    "mb-2",
+    "space-x-2",
+    "text-gray-900",
+    "text-sm",
+    "text-gray-500",
+    "text-gray-700",
+    "leading-relaxed",
+    "mb-4",
+    "font-medium",
+    "px-3",
+    "py-1",
+    "hover:bg-blue-50",
+    "hover:text-blue-600",
+    "transition-all",
+    "duration-200",
+    "w-4",
+    "h-4",
+    "p-1",
+    "text-gray-400",
+    "hover:bg-gray-50",
+    "hover:text-gray-600",
+    "w-5",
+    "h-5",
+    "liked",
+    ":",
+    "${liked"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/CardStyleComment.template.tsx",
+  "missingDeps": []
+}

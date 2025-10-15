@@ -4,6 +4,48 @@
   "apiBaseUrl": "/api",
   "theme": "default",
   "componentsPath": "React-UI-Collection/src/components/ui",
-  "preserveRegions": true
+  "preserveRegions": true,
+  "fundamentalComponents": {
+    "enabled": true,
+    "components": [
+      {
+        "name": "Button",
+        "config": "ui/components/Button.json",
+        "description": "Primary button component with size variants and accessibility features"
+      },
+      {
+        "name": "Card",
+        "config": "ui/components/Card.json", 
+        "description": "Card component with various styling options and interactive capabilities"
+      },
+      {
+        "name": "Input",
+        "config": "ui/components/Input.json",
+        "description": "Form input component with validation states and accessibility features"
+      }
+    ]
+  },
+  "pages": [
+    {
+      "name": "FundamentalDemo",
+      "config": "ui/pages/fundamental-demo.page.json",
+      "description": "Interactive showcase of all fundamental components"
+    },
+    {
+      "name": "SimpleForm",
+      "config": "ui/pages/simple-form.page.json",
+      "description": "Basic form using fundamental components"
+    },
+    {
+      "name": "Billing",
+      "config": "ui/pages/billing.page.json",
+      "description": "Billing page with invoice components"
+    }
+  ],
+  "testing": {
+    "enabled": true,
+    "testPath": "ui-generator/tests",
+    "framework": "jest"
+  }
 }
 

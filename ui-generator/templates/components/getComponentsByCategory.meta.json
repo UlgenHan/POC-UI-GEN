@@ -1,0 +1,13 @@
+{
+  "id": "get-components-by-category",
+  "name": "getComponentsByCategory",
+  "filePath": "React-UI-Collection/src/modules/websiteBuilder/componentDefinitions.ts",
+  "exportName": "componentDefinitions",
+  "props": [],
+  "variants": {},
+  "tailwindClasses": [],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/getComponentsByCategory.template.tsx",
+  "missingDeps": []
+}

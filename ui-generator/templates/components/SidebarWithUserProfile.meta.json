@@ -1,0 +1,129 @@
+{
+  "id": "sidebar-with-user-profile",
+  "name": "SidebarWithUserProfile",
+  "filePath": "React-UI-Collection/src/components/layout/sidebars/SidebarWithUserProfile.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "logo",
+      "type": "'Logo'",
+      "default": "{ text: Logo",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "navItems",
+      "type": "NavItem[]",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "userProfile",
+      "type": "{",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "email",
+      "type": "string",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "avatar",
+      "type": "string",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "role",
+      "type": "string",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "status",
+      "type": "'online' | 'offline' | 'away'",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {
+    "status": [
+      "online",
+      "offline",
+      "away"
+    ],
+    "variant": [
+      "primary"
+    ]
+  },
+  "tailwindClasses": [
+    "w-4",
+    "h-4",
+    "flex",
+    "flex-col",
+    "h-full",
+    "items-center",
+    "justify-center",
+    "h-16",
+    "border-b",
+    "border-gray-200",
+    "space-x-2",
+    "h-8",
+    "w-auto",
+    "w-8",
+    "bg-blue-600",
+    "rounded-lg",
+    "text-white",
+    "font-bold",
+    "text-sm",
+    "text-xl",
+    "font-semibold",
+    "text-gray-900",
+    "p-6",
+    "text-center",
+    "relative",
+    "inline-block",
+    "mb-4",
+    "w-16",
+    "rounded-full",
+    "object-cover",
+    "mx-auto",
+    "bg-gradient-to-br",
+    "from-blue-400",
+    "to-blue-600",
+    "text-lg",
+    "mb-1",
+    "text-blue-600",
+    "font-medium",
+    "text-xs",
+    "text-gray-500",
+    "mr-1",
+    "flex-1",
+    "py-4",
+    "space-y-1",
+    "px-4",
+    "p-4",
+    "border-t",
+    "inline-flex",
+    "px-3",
+    "py-2",
+    "transition-colors",
+    "duration-200",
+    "${action.variant",
+    ":",
+    "py-3",
+    "${item.isActive"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/SidebarWithUserProfile.template.tsx",
+  "missingDeps": []
+}

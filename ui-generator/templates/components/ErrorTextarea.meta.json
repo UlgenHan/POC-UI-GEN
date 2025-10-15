@@ -1,0 +1,116 @@
+{
+  "id": "error-textarea",
+  "name": "ErrorTextarea",
+  "filePath": "React-UI-Collection/src/components/ui/textareas/ErrorTextarea.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "label",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "placeholder",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "value",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onChange",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "error",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "disabled",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "required",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "id",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "rows",
+      "type": "unknown",
+      "default": "4",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "resize",
+      "type": "unknown",
+      "default": "vertical",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "showErrorIcon",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "block",
+    "text-sm",
+    "font-medium",
+    "text-gray-700",
+    "mb-1",
+    "text-red-500",
+    "ml-1",
+    "relative",
+    "absolute",
+    "top-2",
+    "right-2",
+    "pointer-events-none",
+    "w-5",
+    "h-5",
+    "mt-1",
+    "flex",
+    "items-start",
+    "w-4",
+    "h-4",
+    "mr-1",
+    "flex-shrink-0",
+    "mt-0.5",
+    "text-red-600"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/ErrorTextarea.template.tsx",
+  "missingDeps": []
+}

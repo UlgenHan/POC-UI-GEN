@@ -1,0 +1,79 @@
+{
+  "id": "animated-pagination",
+  "name": "AnimatedPagination",
+  "filePath": "React-UI-Collection/src/components/ui/pagination/AnimatedPagination.tsx",
+  "exportName": "AnimatedPagination",
+  "props": [
+    {
+      "name": "currentPage",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "totalPages",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onPageChange",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "relative",
+    "flex",
+    "items-center",
+    "space-x-1",
+    "w-4",
+    "h-4",
+    "overflow-hidden",
+    "absolute",
+    "-bottom-6",
+    "left-1/2",
+    "transform",
+    "-translate-x-1/2",
+    "w-2",
+    "h-2",
+    "bg-blue-600",
+    "rounded-full",
+    "animate-bounce",
+    "px-4",
+    "py-2",
+    "text-sm",
+    "font-medium",
+    "rounded-md",
+    "transition-all",
+    "duration-200",
+    "currentPage",
+    "1",
+    "isAnimating",
+    ":",
+    "transition-transform",
+    "duration-300",
+    "ease-in-out",
+    "direction",
+    "page",
+    "!isAnimating",
+    "inset-0",
+    "bg-white",
+    "opacity-25",
+    "${isAnimating",
+    "totalPages"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/AnimatedPagination.template.tsx",
+  "missingDeps": []
+}

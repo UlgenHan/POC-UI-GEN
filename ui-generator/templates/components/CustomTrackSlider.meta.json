@@ -1,0 +1,76 @@
+{
+  "id": "custom-track-slider",
+  "name": "CustomTrackSlider",
+  "filePath": "React-UI-Collection/src/components/ui/sliders/CustomTrackSlider.tsx",
+  "exportName": "CustomTrackSlider",
+  "props": [
+    {
+      "name": "value",
+      "type": "unknown",
+      "default": "50",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onChange",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "min",
+      "type": "unknown",
+      "default": "0",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "max",
+      "type": "unknown",
+      "default": "100",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "step",
+      "type": "unknown",
+      "default": "1",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "disabled",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "w-full",
+    "h-4",
+    "bg-gradient-to-r",
+    "from-purple-400",
+    "to-pink-400",
+    "rounded-full",
+    "appearance-none",
+    "cursor-pointer",
+    "text-center",
+    "mt-3",
+    "text-lg",
+    "font-bold",
+    "text-purple-600"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/CustomTrackSlider.template.tsx",
+  "missingDeps": []
+}

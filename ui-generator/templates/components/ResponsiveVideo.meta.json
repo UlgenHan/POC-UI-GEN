@@ -1,0 +1,76 @@
+{
+  "id": "responsive-video",
+  "name": "ResponsiveVideo",
+  "filePath": "React-UI-Collection/src/components/ui/media/video/ResponsiveVideo.tsx",
+  "exportName": "ResponsiveVideo",
+  "props": [
+    {
+      "name": "src",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "poster",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "aspectRatio",
+      "type": "9'",
+      "default": "16:9",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "controls",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "autoplay",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "muted",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "loop",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "absolute",
+    "inset-0",
+    "w-full",
+    "h-full",
+    "object-cover",
+    "rounded-lg",
+    "shadow-md"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/ResponsiveVideo.template.tsx",
+  "missingDeps": []
+}

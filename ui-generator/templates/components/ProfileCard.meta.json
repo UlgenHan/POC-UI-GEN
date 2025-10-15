@@ -1,0 +1,115 @@
+{
+  "id": "profile-card",
+  "name": "ProfileCard",
+  "filePath": "React-UI-Collection/src/components/ui/cards/ProfileCard.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "name",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "role",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "company",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "avatar",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "bio",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "socialLinks",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "shadow",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "rounded",
+      "type": "unknown",
+      "default": "lg",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "alignment",
+      "type": "unknown",
+      "default": "center",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onClick",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "w-20",
+    "h-20",
+    "rounded-full",
+    "object-cover",
+    "border-4",
+    "border-gray-100",
+    "text-xl",
+    "font-bold",
+    "text-gray-900",
+    "mb-1",
+    "text-blue-600",
+    "font-medium",
+    "text-gray-500",
+    "text-sm",
+    "mb-4",
+    "text-gray-600",
+    "leading-relaxed",
+    "mb-6",
+    "text-gray-400",
+    "hover:text-gray-600",
+    "transition-colors",
+    "w-5",
+    "h-5",
+    "hover:text-blue-400",
+    "hover:text-blue-700",
+    "hover:text-gray-900",
+    "${alignment",
+    ":",
+    "flex",
+    "gap-3"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/ProfileCard.template.tsx",
+  "missingDeps": []
+}

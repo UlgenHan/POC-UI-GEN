@@ -1,0 +1,43 @@
+{
+  "id": "flex-spacer",
+  "name": "FlexSpacer",
+  "filePath": "React-UI-Collection/src/components/layout/flex/FlexSpacer.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "direction",
+      "type": "unknown",
+      "default": "row",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "align",
+      "type": "unknown",
+      "default": "center",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "flex-1"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/FlexSpacer.template.tsx",
+  "missingDeps": []
+}

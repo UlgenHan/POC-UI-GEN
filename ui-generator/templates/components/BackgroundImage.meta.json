@@ -1,0 +1,109 @@
+{
+  "id": "background-image",
+  "name": "BackgroundImage",
+  "filePath": "React-UI-Collection/src/components/ui/images/BackgroundImage.tsx",
+  "exportName": "BackgroundImage",
+  "props": [
+    {
+      "name": "src",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "alt",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "width",
+      "type": "unknown",
+      "default": "w-full",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "height",
+      "type": "unknown",
+      "default": "h-64",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "position",
+      "type": "unknown",
+      "default": "center",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "cover",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "repeat",
+      "type": "unknown",
+      "default": "no-repeat",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "overlay",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "overlayColor",
+      "type": "unknown",
+      "default": "bg-black",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "overlayOpacity",
+      "type": "unknown",
+      "default": "medium",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "rounded",
+      "type": "unknown",
+      "default": "lg",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "relative",
+    "z-10",
+    "h-full",
+    "flex",
+    "items-center",
+    "justify-center"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/BackgroundImage.template.tsx",
+  "missingDeps": []
+}

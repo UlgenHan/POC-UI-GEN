@@ -1,0 +1,26 @@
+{
+  "id": "use-timeline-state",
+  "name": "useTimelineState",
+  "filePath": "React-UI-Collection/src/components/complex-components/timeline-editor/useTimelineState.ts",
+  "exportName": "useTimelineState",
+  "props": [
+    {
+      "name": "type",
+      "type": "'SET_ZOOM'",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "zoom",
+      "type": "z(state.zoomLevel)",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/useTimelineState.template.tsx",
+  "missingDeps": []
+}

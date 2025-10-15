@@ -1,0 +1,71 @@
+{
+  "id": "breadcrumb-with-dropdown",
+  "name": "BreadcrumbWithDropdown",
+  "filePath": "React-UI-Collection/src/components/ui/breadcrumbs/BreadcrumbWithDropdown.tsx",
+  "exportName": "BreadcrumbWithDropdown",
+  "props": [
+    {
+      "name": "items",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "maxVisibleItems",
+      "type": "unknown",
+      "default": "3",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "inline-flex",
+    "items-center",
+    "space-x-1",
+    "md:space-x-3",
+    "w-6",
+    "h-6",
+    "text-gray-400",
+    "relative",
+    "ml-1",
+    "text-sm",
+    "font-medium",
+    "text-gray-500",
+    "hover:text-gray-700",
+    "md:ml-2",
+    "transition-colors",
+    "duration-200",
+    "absolute",
+    "top-full",
+    "left-0",
+    "mt-1",
+    "w-48",
+    "bg-white",
+    "rounded-md",
+    "shadow-lg",
+    "z-50",
+    "border",
+    "border-gray-200",
+    "py-1",
+    "block",
+    "px-4",
+    "py-2",
+    "text-gray-700",
+    "hover:bg-gray-100",
+    "hover:text-blue-600",
+    "item.isActive",
+    ":"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/BreadcrumbWithDropdown.template.tsx",
+  "missingDeps": []
+}

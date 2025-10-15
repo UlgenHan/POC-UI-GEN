@@ -1,0 +1,50 @@
+{
+  "id": "list-with-badges",
+  "name": "ListWithBadges",
+  "filePath": "React-UI-Collection/src/components/ui/lists/ListWithBadges.tsx",
+  "exportName": "ListWithBadges",
+  "props": [
+    {
+      "name": "items",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onClick",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "itemClassName",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "text-gray-900",
+    "flex",
+    "items-center",
+    "justify-between",
+    "px-4",
+    "py-3",
+    "rounded-lg",
+    "${onClick",
+    ":"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/ListWithBadges.template.tsx",
+  "missingDeps": []
+}

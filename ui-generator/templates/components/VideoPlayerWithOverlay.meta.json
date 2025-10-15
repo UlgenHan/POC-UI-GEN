@@ -1,0 +1,116 @@
+{
+  "id": "video-player-with-overlay",
+  "name": "VideoPlayerWithOverlay",
+  "filePath": "React-UI-Collection/src/components/ui/media/video/VideoPlayerWithOverlay.tsx",
+  "exportName": "VideoPlayerWithOverlay",
+  "props": [
+    {
+      "name": "src",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "poster",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "title",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "description",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "width",
+      "type": "unknown",
+      "default": "100%",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "height",
+      "type": "unknown",
+      "default": "auto",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "controls",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "muted",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "loop",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "w-full",
+    "h-full",
+    "rounded-lg",
+    "shadow-md",
+    "cursor-pointer",
+    "absolute",
+    "inset-0",
+    "bg-black",
+    "bg-opacity-40",
+    "flex",
+    "items-center",
+    "justify-center",
+    "text-center",
+    "text-white",
+    "p-6",
+    "mb-4",
+    "w-20",
+    "h-20",
+    "bg-white",
+    "bg-opacity-20",
+    "hover:bg-opacity-30",
+    "rounded-full",
+    "transition-all",
+    "duration-200",
+    "hover:scale-110",
+    "mx-auto",
+    "w-8",
+    "h-8",
+    "ml-1",
+    "text-xl",
+    "font-bold",
+    "mb-2",
+    "text-sm",
+    "opacity-90",
+    "max-w-md"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/VideoPlayerWithOverlay.template.tsx",
+  "missingDeps": []
+}

@@ -1,0 +1,47 @@
+{
+  "id": "positioned-badge",
+  "name": "PositionedBadge",
+  "filePath": "React-UI-Collection/src/components/ui/badges/PositionedBadge.tsx",
+  "exportName": "PositionedBadge",
+  "props": [
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "badge",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "position",
+      "type": "unknown",
+      "default": "top-right",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "offset",
+      "type": "unknown",
+      "default": "sm",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/PositionedBadge.template.tsx",
+  "missingDeps": []
+}

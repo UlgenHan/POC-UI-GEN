@@ -1,0 +1,111 @@
+{
+  "id": "basic-dialog",
+  "name": "BasicDialog",
+  "filePath": "React-UI-Collection/src/components/ui/dialogs/BasicDialog.tsx",
+  "exportName": "BasicDialog",
+  "props": [
+    {
+      "name": "open",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onClose",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onConfirm",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "title",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "content",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "confirmText",
+      "type": "unknown",
+      "default": "Confirm",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "cancelText",
+      "type": "unknown",
+      "default": "Cancel",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "showCancel",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "fixed",
+    "inset-0",
+    "z-50",
+    "flex",
+    "items-center",
+    "justify-center",
+    "p-4",
+    "bg-black",
+    "bg-opacity-50",
+    "p-6",
+    "text-lg",
+    "font-semibold",
+    "text-gray-900",
+    "mb-4",
+    "text-gray-600",
+    "mb-6",
+    "px-6",
+    "py-4",
+    "bg-gray-50",
+    "rounded-b-lg",
+    "justify-end",
+    "space-x-3",
+    "px-4",
+    "py-2",
+    "text-sm",
+    "font-medium",
+    "text-gray-700",
+    "bg-white",
+    "border",
+    "border-gray-300",
+    "rounded-md",
+    "hover:bg-gray-50",
+    "focus:outline-none",
+    "focus:ring-2",
+    "focus:ring-blue-500",
+    "text-white",
+    "bg-blue-600",
+    "hover:bg-blue-700"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/BasicDialog.template.tsx",
+  "missingDeps": []
+}

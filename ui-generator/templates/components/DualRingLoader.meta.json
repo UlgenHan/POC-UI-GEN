@@ -1,0 +1,37 @@
+{
+  "id": "dual-ring-loader",
+  "name": "DualRingLoader",
+  "filePath": "React-UI-Collection/src/components/ui/loaders/DualRingLoader.tsx",
+  "exportName": "DualRingLoader",
+  "props": [
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "color",
+      "type": "unknown",
+      "default": "border-blue-600",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "sr-only"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/DualRingLoader.template.tsx",
+  "missingDeps": []
+}

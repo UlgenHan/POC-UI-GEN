@@ -5,6 +5,11 @@
     "confidence": 0.9
   },
   {
+    "name": "Card",
+    "importPath": "React-UI-Collection/src/components/ui/cards/BasicCard",
+    "confidence": 0.9
+  },
+  {
     "name": "Input",
     "importPath": "React-UI-Collection/src/components/ui/inputs/BasicInput",
     "confidence": 0.9

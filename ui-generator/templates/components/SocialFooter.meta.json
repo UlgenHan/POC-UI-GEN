@@ -1,0 +1,67 @@
+{
+  "id": "social-footer",
+  "name": "SocialFooter",
+  "filePath": "React-UI-Collection/src/components/layout/footers/SocialFooter.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "socialLinks",
+      "type": "unknown",
+      "default": "[]",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "companyName",
+      "type": "unknown",
+      "default": "Your Company",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "year",
+      "type": "unknown",
+      "default": "new Date().getFullYear()",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "bgColor",
+      "type": "unknown",
+      "default": "bg-white",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "max-w-7xl",
+    "mx-auto",
+    "px-4",
+    "sm:px-6",
+    "lg:px-8",
+    "flex",
+    "flex-col",
+    "items-center",
+    "space-y-6",
+    "space-x-6",
+    "text-gray-400",
+    "hover:text-gray-600",
+    "transition-colors",
+    "duration-200",
+    "text-center",
+    "text-sm",
+    "text-gray-600"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/SocialFooter.template.tsx",
+  "missingDeps": []
+}

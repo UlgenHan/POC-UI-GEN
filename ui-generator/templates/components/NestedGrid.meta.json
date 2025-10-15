@@ -1,0 +1,55 @@
+{
+  "id": "nested-grid",
+  "name": "NestedGrid",
+  "filePath": "React-UI-Collection/src/components/layout/grid/NestedGrid.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "outerColumns",
+      "type": "unknown",
+      "default": "2",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "innerColumns",
+      "type": "unknown",
+      "default": "2",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "outerGap",
+      "type": "unknown",
+      "default": "lg",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "innerGap",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/NestedGrid.template.tsx",
+  "missingDeps": []
+}

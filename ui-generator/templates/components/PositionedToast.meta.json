@@ -1,0 +1,64 @@
+{
+  "id": "positioned-toast",
+  "name": "PositionedToast",
+  "filePath": "React-UI-Collection/src/components/ui/toasts/PositionedToast.tsx",
+  "exportName": "PositionedToast",
+  "props": [
+    {
+      "name": "message",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "variant",
+      "type": "unknown",
+      "default": "info",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "position",
+      "type": "unknown",
+      "default": "top-right",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "show",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "duration",
+      "type": "unknown",
+      "default": "4000",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onClose",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "text-sm",
+    "font-medium"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/PositionedToast.template.tsx",
+  "missingDeps": []
+}

@@ -1,0 +1,50 @@
+{
+  "id": "vertical-breadcrumb",
+  "name": "VerticalBreadcrumb",
+  "filePath": "React-UI-Collection/src/components/ui/breadcrumbs/VerticalBreadcrumb.tsx",
+  "exportName": "VerticalBreadcrumb",
+  "props": [
+    {
+      "name": "items",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "flex",
+    "flex-col",
+    "space-y-2",
+    "items-center",
+    "mr-2",
+    "w-px",
+    "h-4",
+    "bg-gray-300",
+    "w-4",
+    "text-gray-400",
+    "ml-1",
+    "mt-2",
+    "w-2",
+    "h-2",
+    "rounded-full",
+    "mr-3",
+    "item.isActive",
+    ":",
+    "text-sm",
+    "font-medium",
+    "transition-colors",
+    "duration-200"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/VerticalBreadcrumb.template.tsx",
+  "missingDeps": []
+}

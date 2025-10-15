@@ -1,0 +1,49 @@
+{
+  "id": "colorful-spinner",
+  "name": "ColorfulSpinner",
+  "filePath": "React-UI-Collection/src/components/ui/loaders/ColorfulSpinner.tsx",
+  "exportName": "ColorfulSpinner",
+  "props": [
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "variant",
+      "type": "unknown",
+      "default": "gradient",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {
+    "variant": [
+      "pulse"
+    ]
+  },
+  "tailwindClasses": [
+    "sr-only",
+    "absolute",
+    "inset-0",
+    "rounded-full",
+    "bg-gradient-to-r",
+    "from-blue-500",
+    "to-purple-500",
+    "animate-ping",
+    "opacity-75"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/ColorfulSpinner.template.tsx",
+  "missingDeps": []
+}

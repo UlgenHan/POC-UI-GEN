@@ -1,0 +1,38 @@
+{
+  "id": "column-visibility-panel",
+  "name": "ColumnVisibilityPanel",
+  "filePath": "React-UI-Collection/src/components/complex-components/datagrid/ColumnVisibilityPanel.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "columns",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onToggleColumn",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "p-2",
+    "bg-white",
+    "border",
+    "rounded",
+    "shadow-md",
+    "font-bold",
+    "mb-2",
+    "flex",
+    "items-center",
+    "space-x-2",
+    "mb-1"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/ColumnVisibilityPanel.template.tsx",
+  "missingDeps": []
+}

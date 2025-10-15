@@ -1,0 +1,177 @@
+{
+  "id": "multi-step-modal",
+  "name": "MultiStepModal",
+  "filePath": "React-UI-Collection/src/components/ui/modals/MultiStepModal.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "isOpen",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onClose",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "steps",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onComplete",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "initialStep",
+      "type": "unknown",
+      "default": "0",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "showProgress",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "allowSkipSteps",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "lg",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "id",
+      "type": "string",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "content",
+      "type": "React.ReactNode",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "isValid",
+      "type": "boolean",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "canSkip",
+      "type": "boolean",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "fixed",
+    "inset-0",
+    "bg-black",
+    "bg-opacity-50",
+    "flex",
+    "items-center",
+    "justify-center",
+    "p-4",
+    "z-50",
+    "p-6",
+    "border-b",
+    "border-gray-200",
+    "justify-between",
+    "mb-4",
+    "text-xl",
+    "font-semibold",
+    "text-gray-900",
+    "text-gray-400",
+    "hover:text-gray-600",
+    "transition-colors",
+    "w-6",
+    "h-6",
+    "w-full",
+    "bg-gray-200",
+    "rounded-full",
+    "h-2",
+    "bg-blue-600",
+    "transition-all",
+    "duration-300",
+    "w-4",
+    "h-4",
+    "overflow-y-auto",
+    "max-h-[calc(90vh-200px)]",
+    "bg-gray-50",
+    "px-6",
+    "py-4",
+    "rounded-b-lg",
+    "space-x-2",
+    "text-sm",
+    "text-gray-500",
+    "space-x-3",
+    "px-4",
+    "py-2",
+    "text-gray-600",
+    "hover:text-gray-800",
+    "text-gray-700",
+    "bg-white",
+    "border",
+    "border-gray-300",
+    "hover:bg-gray-50",
+    "rounded-lg",
+    "disabled:opacity-50",
+    "disabled:cursor-not-allowed",
+    "bg-green-600",
+    "text-white",
+    "hover:bg-green-700",
+    "hover:bg-blue-700",
+    "flex-col",
+    "text-xs",
+    "font-medium",
+    "${allowSkipSteps",
+    "completedSteps.has(index)",
+    "index",
+    "currentStep",
+    ":",
+    "w-8",
+    "h-8",
+    "mb-1",
+    "${status",
+    "status",
+    "text-center",
+    "max-w-20",
+    "truncate"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/MultiStepModal.template.tsx",
+  "missingDeps": []
+}

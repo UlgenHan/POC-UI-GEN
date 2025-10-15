@@ -1,0 +1,26 @@
+{
+  "id": "use-edit-state",
+  "name": "useEditState",
+  "filePath": "React-UI-Collection/src/components/complex-components/datagrid/useEditState.ts",
+  "exportName": "useEditState",
+  "props": [
+    {
+      "name": "rowKey",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "columnKey",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/useEditState.template.tsx",
+  "missingDeps": []
+}

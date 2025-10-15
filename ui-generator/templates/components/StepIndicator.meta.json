@@ -1,0 +1,57 @@
+{
+  "id": "step-indicator",
+  "name": "StepIndicator",
+  "filePath": "React-UI-Collection/src/modules/ecommerce/components/checkout/StepIndicator.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "number",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "label",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "active",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "completed",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "flex",
+    "items-center",
+    "w-4",
+    "h-4",
+    "w-8",
+    "h-8",
+    "rounded-full",
+    "justify-center",
+    "text-sm",
+    "font-medium",
+    "border-2",
+    "${completed",
+    ":",
+    "active",
+    "ml-3",
+    "w-16",
+    "h-0.5",
+    "mx-4"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/StepIndicator.template.tsx",
+  "missingDeps": []
+}

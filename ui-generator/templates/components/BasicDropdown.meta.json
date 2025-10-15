@@ -1,0 +1,54 @@
+{
+  "id": "basic-dropdown",
+  "name": "BasicDropdown",
+  "filePath": "React-UI-Collection/src/components/ui/menus/BasicDropdown.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "trigger",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "items",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "position",
+      "type": "unknown",
+      "default": "left",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "cursor-pointer",
+    "mr-3",
+    "flex",
+    "items-center",
+    "px-4",
+    "py-2",
+    "text-sm",
+    "text-gray-700",
+    "hover:bg-gray-100",
+    "item.disabled",
+    ":",
+    "w-full",
+    "text-left"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/BasicDropdown.template.tsx",
+  "missingDeps": []
+}

@@ -1,0 +1,58 @@
+{
+  "id": "multi-stage-progress",
+  "name": "MultiStageProgress",
+  "filePath": "React-UI-Collection/src/components/ui/progress/MultiStageProgress.tsx",
+  "exportName": "MultiStageProgress",
+  "props": [
+    {
+      "name": "stages",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "showLabels",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "showPercentages",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "w-full",
+    "font-medium",
+    "text-gray-700",
+    "text-gray-500",
+    "h-full",
+    "transition-all",
+    "duration-300",
+    "ease-out",
+    "variantClasses[stage.variant"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/MultiStageProgress.template.tsx",
+  "missingDeps": []
+}

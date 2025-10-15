@@ -1,0 +1,66 @@
+{
+  "id": "list-popover",
+  "name": "ListPopover",
+  "filePath": "React-UI-Collection/src/components/ui/popovers/ListPopover.tsx",
+  "exportName": "ListPopover",
+  "props": [
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "items",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "title",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "popoverClassName",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "cursor-pointer",
+    "px-4",
+    "py-3",
+    "border-b",
+    "border-gray-200",
+    "text-sm",
+    "font-semibold",
+    "text-gray-900",
+    "py-1",
+    "mr-3",
+    "flex-shrink-0",
+    "w-4",
+    "h-4",
+    "block",
+    "flex",
+    "items-center",
+    "py-2",
+    "${item.disabled",
+    ":"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/ListPopover.template.tsx",
+  "missingDeps": []
+}

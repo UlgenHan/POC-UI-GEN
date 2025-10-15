@@ -1,0 +1,55 @@
+{
+  "id": "pill-tag",
+  "name": "PillTag",
+  "filePath": "React-UI-Collection/src/components/ui/tags/PillTag.tsx",
+  "exportName": "PillTag",
+  "props": [
+    {
+      "name": "label",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onClick",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "variant",
+      "type": "unknown",
+      "default": "default",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {
+    "variant": [
+      "primary",
+      "success",
+      "warning",
+      "error",
+      "default"
+    ]
+  },
+  "tailwindClasses": [],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/PillTag.template.tsx",
+  "missingDeps": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": "syntax-highlighter",
+  "name": "syntaxHighlighter",
+  "filePath": "React-UI-Collection/src/modules/websiteBuilder/syntaxHighlighter.ts",
+  "exportName": "SyntaxHighlighter",
+  "props": [
+    {
+      "name": "text",
+      "type": "'\\n'",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "type",
+      "type": "'default'",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/syntaxHighlighter.template.tsx",
+  "missingDeps": []
+}

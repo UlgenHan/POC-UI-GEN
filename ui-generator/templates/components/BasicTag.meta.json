@@ -1,0 +1,40 @@
+{
+  "id": "basic-tag",
+  "name": "BasicTag",
+  "filePath": "React-UI-Collection/src/components/ui/tags/BasicTag.tsx",
+  "exportName": "BasicTag",
+  "props": [
+    {
+      "name": "label",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onClick",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/BasicTag.template.tsx",
+  "missingDeps": []
+}

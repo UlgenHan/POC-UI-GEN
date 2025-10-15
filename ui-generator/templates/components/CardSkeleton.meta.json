@@ -1,0 +1,64 @@
+{
+  "id": "card-skeleton",
+  "name": "CardSkeleton",
+  "filePath": "React-UI-Collection/src/components/ui/skeletons/CardSkeleton.tsx",
+  "exportName": "CardSkeleton",
+  "props": [
+    {
+      "name": "showImage",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "showAvatar",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "textLines",
+      "type": "unknown",
+      "default": "3",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "animated",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "space-y-3",
+    "flex",
+    "items-center",
+    "space-x-3",
+    "space-y-2",
+    "sr-only",
+    "h-4",
+    "bg-gray-300",
+    "rounded",
+    "index",
+    "textLines",
+    "-",
+    "1",
+    ":"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/CardSkeleton.template.tsx",
+  "missingDeps": []
+}

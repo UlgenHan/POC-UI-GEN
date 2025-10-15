@@ -1,0 +1,70 @@
+{
+  "id": "table-skeleton",
+  "name": "TableSkeleton",
+  "filePath": "React-UI-Collection/src/components/ui/skeletons/TableSkeleton.tsx",
+  "exportName": "TableSkeleton",
+  "props": [
+    {
+      "name": "rows",
+      "type": "unknown",
+      "default": "5",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "columns",
+      "type": "unknown",
+      "default": "4",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "showHeader",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "animated",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "overflow-hidden",
+    "border",
+    "border-gray-200",
+    "rounded-lg",
+    "bg-gray-50",
+    "px-6",
+    "py-3",
+    "border-b",
+    "grid",
+    "gap-4",
+    "divide-y",
+    "divide-gray-200",
+    "py-4",
+    "sr-only",
+    "h-4",
+    "bg-gray-300",
+    "rounded",
+    "colIndex",
+    "0",
+    ":"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/TableSkeleton.template.tsx",
+  "missingDeps": []
+}

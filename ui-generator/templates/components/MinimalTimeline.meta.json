@@ -1,0 +1,52 @@
+{
+  "id": "minimal-timeline",
+  "name": "MinimalTimeline",
+  "filePath": "React-UI-Collection/src/components/ui/timelines/MinimalTimeline.tsx",
+  "exportName": "MinimalTimeline",
+  "props": [
+    {
+      "name": "events",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "absolute",
+    "left-2",
+    "top-0",
+    "bottom-0",
+    "w-px",
+    "bg-gray-200",
+    "space-y-4",
+    "relative",
+    "flex",
+    "items-center",
+    "ml-6",
+    "flex-1",
+    "justify-between",
+    "text-sm",
+    "text-gray-400",
+    "z-10",
+    "w-4",
+    "h-4",
+    "rounded-full",
+    "border-2",
+    "event.completed",
+    ":",
+    "text-base",
+    "font-medium"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/MinimalTimeline.template.tsx",
+  "missingDeps": []
+}

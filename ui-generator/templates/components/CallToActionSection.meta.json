@@ -1,0 +1,181 @@
+{
+  "id": "call-to-action-section",
+  "name": "CallToActionSection",
+  "filePath": "React-UI-Collection/src/components/layout/sections/CallToActionSection.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "title",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "subtitle",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "description",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "primaryCTA",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "secondaryCTA",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "backgroundImage",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "backgroundVideo",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "backgroundGradient",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "backgroundColor",
+      "type": "unknown",
+      "default": "blue-600",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "textColor",
+      "type": "unknown",
+      "default": "white",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "overlay",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "lg",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "alignment",
+      "type": "unknown",
+      "default": "center",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "text",
+      "type": "string",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onClick",
+      "type": "() => void",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "absolute",
+    "inset-0",
+    "w-full",
+    "h-full",
+    "object-cover",
+    "bg-cover",
+    "bg-center",
+    "bg-no-repeat",
+    "bg-black",
+    "bg-opacity-50",
+    "relative",
+    "z-10",
+    "max-w-7xl",
+    "mx-auto",
+    "px-4",
+    "sm:px-6",
+    "lg:px-8",
+    "flex",
+    "flex-col",
+    "sm:flex-row",
+    "gap-4",
+    "justify-center",
+    "items-center",
+    "top-0",
+    "left-0",
+    "pointer-events-none",
+    "top-10",
+    "left-10",
+    "w-20",
+    "h-20",
+    "bg-white",
+    "bg-opacity-10",
+    "rounded-full",
+    "bottom-10",
+    "right-10",
+    "w-32",
+    "h-32",
+    "bg-opacity-5",
+    "top-1/2",
+    "right-20",
+    "w-16",
+    "h-16",
+    "max-w-4xl",
+    "${alignment",
+    ":",
+    "alignment",
+    "text-lg",
+    "font-medium",
+    "mb-4",
+    "textColor",
+    "text-xl",
+    "md:text-2xl",
+    "mb-10",
+    "max-w-2xl",
+    "leading-relaxed",
+    "px-8",
+    "py-4",
+    "font-semibold",
+    "rounded-lg",
+    "transition-all",
+    "duration-200",
+    "transform",
+    "hover:scale-105",
+    "border-2"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/CallToActionSection.template.tsx",
+  "missingDeps": []
+}

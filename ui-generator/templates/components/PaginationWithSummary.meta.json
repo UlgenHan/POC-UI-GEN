@@ -1,0 +1,74 @@
+{
+  "id": "pagination-with-summary",
+  "name": "PaginationWithSummary",
+  "filePath": "React-UI-Collection/src/components/ui/pagination/PaginationWithSummary.tsx",
+  "exportName": "PaginationWithSummary",
+  "props": [
+    {
+      "name": "currentPage",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "totalPages",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "totalItems",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "itemsPerPage",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onPageChange",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "flex",
+    "justify-between",
+    "items-center",
+    "text-sm",
+    "text-gray-700",
+    "font-medium",
+    "justify-center",
+    "space-x-1",
+    "text-center",
+    "text-xs",
+    "text-gray-500",
+    "px-3",
+    "py-2",
+    "rounded-md",
+    "border",
+    "transition-colors",
+    "duration-200",
+    "currentPage",
+    "1",
+    ":",
+    "page",
+    "totalPages"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/PaginationWithSummary.template.tsx",
+  "missingDeps": []
+}

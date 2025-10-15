@@ -1,0 +1,136 @@
+{
+  "id": "toast-gallery",
+  "name": "ToastGallery",
+  "filePath": "React-UI-Collection/src/pages/ToastGallery.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "basic",
+      "type": "false",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "positioned",
+      "type": "false",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "icon",
+      "type": "false",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "action",
+      "type": "false",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "stacked",
+      "type": "[]",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "animated",
+      "type": "false",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "dark",
+      "type": "false",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "progress",
+      "type": "false",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "closable",
+      "type": "false",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "autoDismiss",
+      "type": "false",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "min-h-screen",
+    "bg-gray-50",
+    "bg-white",
+    "shadow-sm",
+    "border-b",
+    "max-w-7xl",
+    "mx-auto",
+    "px-4",
+    "sm:px-6",
+    "lg:px-8",
+    "py-4",
+    "flex",
+    "items-center",
+    "justify-between",
+    "text-blue-600",
+    "hover:text-blue-800",
+    "font-medium",
+    "text-3xl",
+    "font-bold",
+    "text-gray-900",
+    "mt-2",
+    "text-gray-600",
+    "mt-1",
+    "py-8",
+    "grid",
+    "gap-8",
+    "rounded-lg",
+    "border",
+    "p-6",
+    "text-xl",
+    "font-semibold",
+    "mb-4",
+    "mb-6",
+    "flex-wrap",
+    "gap-4",
+    "py-2",
+    "bg-blue-600",
+    "text-white",
+    "rounded-md",
+    "hover:bg-blue-700",
+    "transition-colors",
+    "bg-green-600",
+    "hover:bg-green-700",
+    "bg-yellow-600",
+    "hover:bg-yellow-700",
+    "bg-purple-600",
+    "hover:bg-purple-700",
+    "bg-indigo-600",
+    "hover:bg-indigo-700",
+    "bg-gray-600",
+    "hover:bg-gray-700",
+    "bg-pink-600",
+    "hover:bg-pink-700",
+    "bg-gray-800",
+    "hover:bg-gray-900",
+    "bg-teal-600",
+    "hover:bg-teal-700",
+    "bg-red-600",
+    "hover:bg-red-700",
+    "bg-orange-600",
+    "hover:bg-orange-700"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/ToastGallery.template.tsx",
+  "missingDeps": []
+}

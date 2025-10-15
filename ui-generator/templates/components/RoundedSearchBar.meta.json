@@ -1,0 +1,62 @@
+{
+  "id": "rounded-search-bar",
+  "name": "RoundedSearchBar",
+  "filePath": "React-UI-Collection/src/components/ui/inputs/search/RoundedSearchBar.tsx",
+  "exportName": "RoundedSearchBar",
+  "props": [
+    {
+      "name": "placeholder",
+      "type": "unknown",
+      "default": "Search...",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onSearch",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onChange",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "value",
+      "type": "controlledValue",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "relative",
+    "absolute",
+    "inset-y-0",
+    "left-0",
+    "pl-4",
+    "flex",
+    "items-center",
+    "pointer-events-none"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/RoundedSearchBar.template.tsx",
+  "missingDeps": []
+}

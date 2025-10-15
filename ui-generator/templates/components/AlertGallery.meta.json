@@ -1,0 +1,97 @@
+{
+  "id": "alert-gallery",
+  "name": "AlertGallery",
+  "filePath": "React-UI-Collection/src/pages/AlertGallery.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "closable",
+      "type": "true",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "dismissable",
+      "type": "true",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "animated",
+      "type": "true",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "stacked",
+      "type": "[\r\n      { id: 1",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "type",
+      "type": "'success'",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "message",
+      "type": "'Operation completed successfully!'",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "min-h-screen",
+    "bg-gray-50",
+    "bg-white",
+    "shadow-sm",
+    "border-b",
+    "max-w-7xl",
+    "mx-auto",
+    "px-4",
+    "sm:px-6",
+    "lg:px-8",
+    "py-4",
+    "flex",
+    "items-center",
+    "justify-between",
+    "text-blue-600",
+    "hover:text-blue-800",
+    "font-medium",
+    "text-3xl",
+    "font-bold",
+    "text-gray-900",
+    "mt-2",
+    "text-gray-600",
+    "mt-1",
+    "py-2",
+    "bg-blue-600",
+    "text-white",
+    "rounded-md",
+    "hover:bg-blue-700",
+    "transition-colors",
+    "py-8",
+    "grid",
+    "gap-8",
+    "rounded-lg",
+    "border",
+    "p-6",
+    "text-xl",
+    "font-semibold",
+    "mb-4",
+    "mb-6",
+    "space-y-4",
+    "text-gray-500",
+    "italic",
+    "space-x-4",
+    "text-gray-700",
+    "px-3",
+    "border-gray-300"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/AlertGallery.template.tsx",
+  "missingDeps": []
+}

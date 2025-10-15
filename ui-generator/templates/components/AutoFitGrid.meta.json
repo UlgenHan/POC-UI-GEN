@@ -1,0 +1,48 @@
+{
+  "id": "auto-fit-grid",
+  "name": "AutoFitGrid",
+  "filePath": "React-UI-Collection/src/components/layout/grid/AutoFitGrid.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "minColumnWidth",
+      "type": "unknown",
+      "default": "250px",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "maxColumnWidth",
+      "type": "unknown",
+      "default": "1fr",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "gap",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/AutoFitGrid.template.tsx",
+  "missingDeps": []
+}

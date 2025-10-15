@@ -1,0 +1,100 @@
+{
+  "id": "animated-modal",
+  "name": "AnimatedModal",
+  "filePath": "React-UI-Collection/src/components/ui/modals/AnimatedModal.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "isOpen",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onClose",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "title",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "animation",
+      "type": "unknown",
+      "default": "scale",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "duration",
+      "type": "unknown",
+      "default": "normal",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "showCloseButton",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "closeOnOverlayClick",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "flex",
+    "items-center",
+    "justify-between",
+    "p-6",
+    "border-b",
+    "border-gray-200",
+    "text-xl",
+    "font-semibold",
+    "text-gray-900",
+    "text-gray-400",
+    "hover:text-gray-600",
+    "transition-colors",
+    "transform",
+    "hover:scale-110",
+    "active:scale-95",
+    "w-6",
+    "h-6",
+    "overflow-y-auto",
+    "max-h-[calc(90vh-120px)]"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/AnimatedModal.template.tsx",
+  "missingDeps": []
+}

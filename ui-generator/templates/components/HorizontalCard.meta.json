@@ -1,0 +1,117 @@
+{
+  "id": "horizontal-card",
+  "name": "HorizontalCard",
+  "filePath": "React-UI-Collection/src/components/ui/cards/HorizontalCard.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "title",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "description",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "image",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "imageAlt",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "imagePosition",
+      "type": "unknown",
+      "default": "left",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "imageSize",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "badge",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "badgeColor",
+      "type": "unknown",
+      "default": "blue",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onClick",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "w-full",
+    "h-full",
+    "object-cover",
+    "hover:scale-105",
+    "transition-transform",
+    "duration-200",
+    "flex-1",
+    "min-w-0",
+    "mb-2",
+    "text-xl",
+    "font-semibold",
+    "text-gray-900",
+    "text-gray-600",
+    "leading-relaxed",
+    "mb-4",
+    "flex",
+    "flex-col",
+    "space-y-4",
+    "lg:hidden",
+    "bg-white",
+    "rounded-lg",
+    "shadow-md",
+    "p-6",
+    "hover:shadow-lg",
+    "transition-shadow",
+    "${onClick",
+    ":",
+    "hidden",
+    "lg:flex",
+    "items-start",
+    "space-x-6",
+    "${imagePosition"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/HorizontalCard.template.tsx",
+  "missingDeps": []
+}

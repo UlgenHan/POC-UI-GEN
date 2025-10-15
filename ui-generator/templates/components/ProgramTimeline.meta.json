@@ -1,0 +1,49 @@
+{
+  "id": "program-timeline",
+  "name": "ProgramTimeline",
+  "filePath": "React-UI-Collection/src/components/complex-components/program-timeline/ProgramTimeline.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "tracks",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "duration",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "w-full",
+    "max-w-full",
+    "overflow-x-auto",
+    "bg-gray-50",
+    "rounded",
+    "shadow",
+    "p-4",
+    "flex",
+    "items-center",
+    "mb-2",
+    "gap-2",
+    "px-3",
+    "py-1",
+    "bg-blue-600",
+    "text-white",
+    "bg-gray-300",
+    "px-2",
+    "bg-gray-200",
+    "ml-4",
+    "text-sm",
+    "text-gray-700",
+    "relative"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/ProgramTimeline.template.tsx",
+  "missingDeps": []
+}

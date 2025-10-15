@@ -1,0 +1,48 @@
+{
+  "id": "icon-alert",
+  "name": "IconAlert",
+  "filePath": "React-UI-Collection/src/components/ui/alerts/IconAlert.tsx",
+  "exportName": "IconAlert",
+  "props": [
+    {
+      "name": "variant",
+      "type": "unknown",
+      "default": "info",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "message",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "icon",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "w-5",
+    "h-5",
+    "flex",
+    "items-start",
+    "ml-3",
+    "text-sm",
+    "font-medium"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/IconAlert.template.tsx",
+  "missingDeps": []
+}

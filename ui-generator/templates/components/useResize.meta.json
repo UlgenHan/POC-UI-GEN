@@ -1,0 +1,33 @@
+{
+  "id": "use-resize",
+  "name": "useResize",
+  "filePath": "React-UI-Collection/src/modules/websiteBuilder/useResize.ts",
+  "exportName": "useResize",
+  "props": [
+    {
+      "name": "onResize",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "minSize",
+      "type": "50",
+      "default": "{ width: 50",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "height",
+      "type": "30",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/useResize.template.tsx",
+  "missingDeps": []
+}

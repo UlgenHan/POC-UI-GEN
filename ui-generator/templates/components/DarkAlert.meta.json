@@ -1,0 +1,49 @@
+{
+  "id": "dark-alert",
+  "name": "DarkAlert",
+  "filePath": "React-UI-Collection/src/components/ui/alerts/DarkAlert.tsx",
+  "exportName": "DarkAlert",
+  "props": [
+    {
+      "name": "variant",
+      "type": "unknown",
+      "default": "info",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "message",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onClose",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "flex",
+    "items-start",
+    "justify-between",
+    "text-sm",
+    "font-medium",
+    "pr-8",
+    "w-4",
+    "h-4"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/DarkAlert.template.tsx",
+  "missingDeps": []
+}

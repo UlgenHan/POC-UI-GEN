@@ -1,0 +1,78 @@
+{
+  "id": "tag-with-avatar",
+  "name": "TagWithAvatar",
+  "filePath": "React-UI-Collection/src/components/ui/tags/TagWithAvatar.tsx",
+  "exportName": "TagWithAvatar",
+  "props": [
+    {
+      "name": "label",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "avatarSrc",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "avatarAlt",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "initials",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onClick",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "variant",
+      "type": "unknown",
+      "default": "default",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {
+    "variant": [
+      "primary",
+      "success",
+      "warning",
+      "error",
+      "default"
+    ]
+  },
+  "tailwindClasses": [
+    "w-full",
+    "h-full",
+    "object-cover"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/TagWithAvatar.template.tsx",
+  "missingDeps": []
+}

@@ -1,0 +1,42 @@
+{
+  "id": "slash-breadcrumb",
+  "name": "SlashBreadcrumb",
+  "filePath": "React-UI-Collection/src/components/ui/breadcrumbs/SlashBreadcrumb.tsx",
+  "exportName": "SlashBreadcrumb",
+  "props": [
+    {
+      "name": "items",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "inline-flex",
+    "items-center",
+    "space-x-1",
+    "md:space-x-3",
+    "mx-2",
+    "text-gray-400",
+    "font-medium",
+    "text-sm",
+    "text-gray-700",
+    "hover:text-blue-600",
+    "transition-colors",
+    "duration-200",
+    "item.isActive",
+    ":"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/SlashBreadcrumb.template.tsx",
+  "missingDeps": []
+}

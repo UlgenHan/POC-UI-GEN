@@ -1,0 +1,55 @@
+{
+  "id": "scroll-container",
+  "name": "ScrollContainer",
+  "filePath": "React-UI-Collection/src/components/layout/containers/ScrollContainer.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "height",
+      "type": "unknown",
+      "default": "64",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "maxHeight",
+      "type": "unknown",
+      "default": "none",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "padding",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "scrollbarStyle",
+      "type": "unknown",
+      "default": "default",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/ScrollContainer.template.tsx",
+  "missingDeps": []
+}

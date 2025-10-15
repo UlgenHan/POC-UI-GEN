@@ -1,0 +1,13 @@
+{
+  "id": "ecommerce-routes",
+  "name": "ecommerceRoutes",
+  "filePath": "React-UI-Collection/src/modules/ecommerce/routes.tsx",
+  "exportName": "ecommerceRoutes",
+  "props": [],
+  "variants": {},
+  "tailwindClasses": [],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/ecommerceRoutes.template.tsx",
+  "missingDeps": []
+}

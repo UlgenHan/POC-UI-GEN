@@ -1,0 +1,165 @@
+{
+  "id": "data-grid-header",
+  "name": "DataGridHeader",
+  "filePath": "React-UI-Collection/src/components/complex-components/datagrid/DataGridHeader.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "columns",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "sortKey",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "sortDirection",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onSort",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "filters",
+      "type": "unknown",
+      "default": "{",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onFilter",
+      "type": "(key: string, value: string) => void",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "filterEnabled",
+      "type": "boolean",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onResizeStart",
+      "type": "(key: string, e: React.MouseEvent) => void",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onHeaderDragStart",
+      "type": "(key: string, e: React.DragEvent) => void",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onHeaderDrop",
+      "type": "(key: string, e: React.DragEvent) => void",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onHeaderDragOver",
+      "type": "(key: string, e: React.DragEvent) => void",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "draggingKey",
+      "type": "string",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "pinnedColumns",
+      "type": "'left' | 'right' | undefined",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onSelectAll",
+      "type": "(selected: boolean) => void",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "allSelected",
+      "type": "boolean",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "theme",
+      "type": "Theme",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "user",
+      "type": "any",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "access",
+      "type": "(col: Column, user?: any) => boolean",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {
+    "pinnedColumns": [
+      "left",
+      "right"
+    ]
+  },
+  "tailwindClasses": [
+    "ml-1",
+    "text-gray-300",
+    "accent-blue-600",
+    "flex",
+    "items-center",
+    "absolute",
+    "right-0",
+    "top-0",
+    "h-full",
+    "w-2",
+    "cursor-col-resize",
+    "group-hover:bg-blue-200",
+    "mt-2",
+    "w-full",
+    "px-2",
+    "py-1",
+    "border",
+    "border-gray-200",
+    "rounded",
+    "text-xs",
+    "focus:outline-none",
+    "focus:ring-2",
+    "focus:ring-blue-500",
+    "py-2",
+    "bg-gray-50",
+    "border-b",
+    "${theme",
+    ":",
+    "relative",
+    "px-4",
+    "text-left",
+    "font-semibold",
+    "uppercase",
+    "select-none",
+    "group",
+    "text-blue-600"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/DataGridHeader.template.tsx",
+  "missingDeps": []
+}

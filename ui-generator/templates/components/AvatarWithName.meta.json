@@ -1,0 +1,98 @@
+{
+  "id": "avatar-with-name",
+  "name": "AvatarWithName",
+  "filePath": "React-UI-Collection/src/components/ui/avatars/AvatarWithName.tsx",
+  "exportName": "AvatarWithName",
+  "props": [
+    {
+      "name": "src",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "alt",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "name",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "subtitle",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "layout",
+      "type": "unknown",
+      "default": "horizontal",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "avatarPosition",
+      "type": "unknown",
+      "default": "left",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "backgroundColor",
+      "type": "unknown",
+      "default": "bg-blue-500",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "textColor",
+      "type": "unknown",
+      "default": "text-white",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {
+    "size": [
+      "xs"
+    ]
+  },
+  "tailwindClasses": [
+    "w-full",
+    "h-full",
+    "object-cover",
+    "flex",
+    "items-center",
+    "justify-center",
+    "font-medium",
+    "min-w-0",
+    "${layout",
+    ":",
+    "text-gray-500",
+    "truncate",
+    "${size"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/AvatarWithName.template.tsx",
+  "missingDeps": []
+}

@@ -1,0 +1,66 @@
+{
+  "id": "image-skeleton",
+  "name": "ImageSkeleton",
+  "filePath": "React-UI-Collection/src/components/ui/skeletons/ImageSkeleton.tsx",
+  "exportName": "ImageSkeleton",
+  "props": [
+    {
+      "name": "width",
+      "type": "unknown",
+      "default": "w-full",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "height",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "aspectRatio",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "rounded",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "showIcon",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "animated",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "w-8",
+    "h-8",
+    "text-gray-400",
+    "sr-only"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/ImageSkeleton.template.tsx",
+  "missingDeps": []
+}

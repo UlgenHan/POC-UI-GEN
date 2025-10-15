@@ -1,0 +1,85 @@
+{
+  "id": "fullscreen-modal",
+  "name": "FullscreenModal",
+  "filePath": "React-UI-Collection/src/components/ui/modals/FullscreenModal.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "isOpen",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onClose",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "title",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "showHeader",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "showCloseButton",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "backgroundColor",
+      "type": "unknown",
+      "default": "white",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "w-6",
+    "h-6",
+    "flex",
+    "items-center",
+    "justify-between",
+    "p-6",
+    "border-b",
+    "${backgroundColor",
+    ":",
+    "text-2xl",
+    "font-semibold",
+    "backgroundColor",
+    "p-2",
+    "rounded-lg",
+    "transition-colors",
+    "h-full",
+    "overflow-y-auto",
+    "${showHeader"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/FullscreenModal.template.tsx",
+  "missingDeps": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": "gradient-badge",
+  "name": "GradientBadge",
+  "filePath": "React-UI-Collection/src/components/ui/badges/GradientBadge.tsx",
+  "exportName": "GradientBadge",
+  "props": [
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "gradient",
+      "type": "unknown",
+      "default": "blue",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/GradientBadge.template.tsx",
+  "missingDeps": []
+}

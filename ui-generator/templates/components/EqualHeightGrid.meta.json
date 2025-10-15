@@ -1,0 +1,52 @@
+{
+  "id": "equal-height-grid",
+  "name": "EqualHeightGrid",
+  "filePath": "React-UI-Collection/src/components/layout/grid/EqualHeightGrid.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "columns",
+      "type": "unknown",
+      "default": "3",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "gap",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "minHeight",
+      "type": "unknown",
+      "default": "auto",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "flex",
+    "flex-col",
+    "h-full"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/EqualHeightGrid.template.tsx",
+  "missingDeps": []
+}

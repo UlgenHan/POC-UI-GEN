@@ -1,0 +1,90 @@
+{
+  "id": "disabled-slider",
+  "name": "DisabledSlider",
+  "filePath": "React-UI-Collection/src/components/ui/sliders/DisabledSlider.tsx",
+  "exportName": "DisabledSlider",
+  "props": [
+    {
+      "name": "value",
+      "type": "unknown",
+      "default": "50",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "min",
+      "type": "unknown",
+      "default": "0",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "max",
+      "type": "unknown",
+      "default": "100",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "step",
+      "type": "unknown",
+      "default": "1",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "label",
+      "type": "unknown",
+      "default": "Disabled Setting",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "reason",
+      "type": "unknown",
+      "default": "This setting is currently unavailable",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "flex",
+    "items-center",
+    "justify-between",
+    "mb-2",
+    "text-sm",
+    "font-medium",
+    "text-gray-500",
+    "text-gray-400",
+    "w-full",
+    "h-2",
+    "bg-gray-100",
+    "rounded-lg",
+    "appearance-none",
+    "cursor-not-allowed",
+    "[&::-webkit-slider-thumb]:appearance-none",
+    "[&::-webkit-slider-thumb]:h-4",
+    "[&::-webkit-slider-thumb]:w-4",
+    "[&::-webkit-slider-thumb]:rounded-full",
+    "[&::-webkit-slider-thumb]:bg-gray-300",
+    "[&::-webkit-slider-thumb]:cursor-not-allowed",
+    "[&::-webkit-slider-thumb]:border-2",
+    "[&::-webkit-slider-thumb]:border-gray-200",
+    "text-xs",
+    "mt-1",
+    "mt-2",
+    "italic"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/DisabledSlider.template.tsx",
+  "missingDeps": []
+}

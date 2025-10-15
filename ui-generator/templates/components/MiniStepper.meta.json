@@ -1,0 +1,87 @@
+{
+  "id": "mini-stepper",
+  "name": "MiniStepper",
+  "filePath": "React-UI-Collection/src/components/ui/steppers/MiniStepper.tsx",
+  "exportName": "MiniStepper",
+  "props": [
+    {
+      "name": "steps",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "currentStep",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onStepClick",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "allowClickThrough",
+      "type": "unknown",
+      "default": "false",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "variant",
+      "type": "unknown",
+      "default": "dots",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "size",
+      "type": "unknown",
+      "default": "sm",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {
+    "variant": [
+      "dots",
+      "numbers",
+      "lines"
+    ]
+  },
+  "tailwindClasses": [
+    "flex",
+    "items-center",
+    "w-2",
+    "h-2",
+    "justify-between",
+    "mb-2",
+    "mt-1",
+    "text-xs",
+    "text-gray-500",
+    "h-px",
+    "bg-gray-300",
+    "mx-1",
+    "w-1",
+    "mx-0.5",
+    "font-medium",
+    "transition-colors",
+    "duration-200",
+    "${isCurrent",
+    ":",
+    "isCompleted"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/MiniStepper.template.tsx",
+  "missingDeps": []
+}

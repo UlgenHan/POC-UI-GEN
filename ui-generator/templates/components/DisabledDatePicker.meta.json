@@ -1,0 +1,81 @@
+{
+  "id": "disabled-date-picker",
+  "name": "DisabledDatePicker",
+  "filePath": "React-UI-Collection/src/components/ui/date-pickers/DisabledDatePicker.tsx",
+  "exportName": "DisabledDatePicker",
+  "props": [
+    {
+      "name": "value",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "label",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "placeholder",
+      "type": "unknown",
+      "default": "Date not available",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "helperText",
+      "type": "unknown",
+      "default": "This field is currently disabled",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "block",
+    "text-sm",
+    "font-medium",
+    "text-gray-400",
+    "mb-2",
+    "relative",
+    "absolute",
+    "inset-y-0",
+    "left-0",
+    "pl-3",
+    "flex",
+    "items-center",
+    "pointer-events-none",
+    "w-5",
+    "h-5",
+    "text-gray-300",
+    "w-full",
+    "pl-10",
+    "pr-3",
+    "py-2",
+    "bg-gray-50",
+    "border",
+    "border-gray-200",
+    "rounded-md",
+    "shadow-sm",
+    "cursor-not-allowed",
+    "right-0",
+    "mt-2",
+    "w-4",
+    "h-4",
+    "mr-1",
+    "flex-shrink-0"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/DisabledDatePicker.template.tsx",
+  "missingDeps": []
+}

@@ -1,0 +1,44 @@
+{
+  "id": "single-line-header",
+  "name": "SingleLineHeader",
+  "filePath": "React-UI-Collection/src/components/layout/headers/SingleLineHeader.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "logo",
+      "type": "'Single'",
+      "default": "{ text: Single",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "max-w-7xl",
+    "mx-auto",
+    "px-4",
+    "sm:px-6",
+    "lg:px-8",
+    "flex",
+    "items-center",
+    "justify-between",
+    "h-12",
+    "text-lg",
+    "font-semibold",
+    "text-gray-900",
+    "hidden",
+    "md:flex",
+    "space-x-6",
+    "md:hidden",
+    "p-1",
+    "h-5",
+    "w-5",
+    "text-sm",
+    "${item.isActive",
+    ":"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/SingleLineHeader.template.tsx",
+  "missingDeps": []
+}

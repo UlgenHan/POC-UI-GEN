@@ -1,0 +1,115 @@
+{
+  "id": "framed-image",
+  "name": "FramedImage",
+  "filePath": "React-UI-Collection/src/components/ui/images/FramedImage.tsx",
+  "exportName": "FramedImage",
+  "props": [
+    {
+      "name": "src",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "alt",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "width",
+      "type": "unknown",
+      "default": "w-full",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "height",
+      "type": "unknown",
+      "default": "h-64",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "frameWidth",
+      "type": "unknown",
+      "default": "medium",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "frameColor",
+      "type": "unknown",
+      "default": "border-gray-300",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "framePadding",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "frameStyle",
+      "type": "unknown",
+      "default": "solid",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "rounded",
+      "type": "unknown",
+      "default": "lg",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "objectFit",
+      "type": "unknown",
+      "default": "cover",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "shadow",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "loading",
+      "type": "unknown",
+      "default": "lazy",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "onLoad",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onError",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/FramedImage.template.tsx",
+  "missingDeps": []
+}

@@ -1,0 +1,108 @@
+{
+  "id": "side-panel-modal",
+  "name": "SidePanelModal",
+  "filePath": "React-UI-Collection/src/components/ui/modals/SidePanelModal.tsx",
+  "exportName": "default",
+  "props": [
+    {
+      "name": "isOpen",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "onClose",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "title",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "position",
+      "type": "unknown",
+      "default": "right",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "width",
+      "type": "unknown",
+      "default": "md",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "showOverlay",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "showCloseButton",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "closeOnOverlayClick",
+      "type": "unknown",
+      "default": "true",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "flex",
+    "items-center",
+    "justify-between",
+    "p-6",
+    "border-b",
+    "border-gray-200",
+    "text-xl",
+    "font-semibold",
+    "text-gray-900",
+    "text-gray-400",
+    "hover:text-gray-600",
+    "transition-colors",
+    "w-6",
+    "h-6",
+    "md:hidden",
+    "justify-center",
+    "py-2",
+    "bg-gray-50",
+    "w-12",
+    "h-1",
+    "bg-gray-300",
+    "rounded-full",
+    "overflow-y-auto",
+    "flex-1",
+    "${title",
+    "showCloseButton",
+    ":"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/SidePanelModal.template.tsx",
+  "missingDeps": []
+}

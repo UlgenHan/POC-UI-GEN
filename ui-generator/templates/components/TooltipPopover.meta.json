@@ -1,0 +1,63 @@
+{
+  "id": "tooltip-popover",
+  "name": "TooltipPopover",
+  "filePath": "React-UI-Collection/src/components/ui/popovers/TooltipPopover.tsx",
+  "exportName": "TooltipPopover",
+  "props": [
+    {
+      "name": "children",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "content",
+      "type": "unknown",
+      "required": true,
+      "description": ""
+    },
+    {
+      "name": "position",
+      "type": "unknown",
+      "default": "top",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "trigger",
+      "type": "unknown",
+      "default": "hover",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "delay",
+      "type": "unknown",
+      "default": "300",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    },
+    {
+      "name": "popoverClassName",
+      "type": "unknown",
+      "default": "",
+      "required": false,
+      "description": ""
+    }
+  ],
+  "variants": {},
+  "tailwindClasses": [
+    "cursor-pointer"
+  ],
+  "description": "",
+  "tags": [],
+  "templatePath": "ui-generator/templates/components/TooltipPopover.template.tsx",
+  "missingDeps": []
+}
